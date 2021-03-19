@@ -1,7 +1,7 @@
 import React, { Component, ReactElement } from 'react'
 
 import { Content } from '@neikan/rc-lib'
-import About from '@common/About'
+import About from '@app/components/About'
 
 import '@neikan/rc-lib/dist/styles/styles.min.css'
 export default class App extends Component {

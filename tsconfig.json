@@ -33,11 +33,10 @@
     "typeRoots": [ "./src/types", "./node_modules/@types"],
     "paths": {
       "@app/*": ["*"],
-      "@common/*": ["common/*"],
-      "@common": ["common"],
+      "@components/*": ["components/*"],
+      "@components": ["components"],
       "@consts/*": ["consts/*"],
       "@consts": ["consts"],
-      "@store":  ["store/*"],
       "@types":  ["types/*"],
       "@utils/*": ["utils/*"],
       "@utils": ["utils/*"],
@@ -47,6 +46,7 @@
   },
   "exclude": [
     "node_modules",
+    "webpack",
     "dist"
   ],
   "include": [

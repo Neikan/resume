@@ -1,7 +1,7 @@
 const path = require('path');
 
 const { ts, miniCss, css, postCss, sass } = require('./loaders');
-const paths = require('./paths');
+const alias = require('./alias');
 const plugins = require('./plugins');
 
 const TerserPlugin = require('terser-webpack-plugin');
@@ -20,7 +20,7 @@ const config = {
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
-    alias: { ...paths }
+    alias
   },
   module: {
     rules: [
