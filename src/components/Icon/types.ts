@@ -1,14 +1,14 @@
-export type IconSize = 'x1' | 'x1.5' | 'x2' | 'x2.5' | 'x3'
-export type IconForm = 'round' | 'square'
-export type IconType = 'regular' | 'solid'
+export type TIconSize = 'x1' | 'x1h' | 'x2' | 'x2h' | 'x3'
+export type TIconForm = 'round' | 'square'
+export type TIconType = 'regular' | 'inverted'
 
 export interface IIconProps {
   color?: string
   classes?: string
-  form?: IconForm
+  form?: TIconForm
   onClick?: () => void
-  size?: IconSize
+  size?: TIconSize
   title?: string
-  type?: IconType
+  type?: TIconType
   withoutFill?: boolean
 }

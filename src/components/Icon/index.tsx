@@ -24,7 +24,7 @@ export const Icon: FC<IProps> = ({
     borderColor: cssColor,
     fill: withoutFill ? undefined : cssColor
   }
-  const typeStyle = type === 'solid' && { backgroundColor: cssColor, fill: 'var(--light)' }
+  const typeStyle = type === 'inverted' && { backgroundColor: cssColor, fill: 'var(--light)' }
 
   return (
     <span
