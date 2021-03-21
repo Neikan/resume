@@ -1,6 +1,6 @@
 const path = require('path');
 
-const { ts, miniCss, css, postCss, sass } = require('./loaders');
+const { babel, css, miniCss, postCss, sass, svg, ts } = require('./loaders');
 const alias = require('./alias');
 const plugins = require('./plugins');
 
@@ -26,12 +26,20 @@ const config = {
     rules: [
       {
         test: /\.ts(x)?$/,
-        use: [ts],
+        use: [babel],
         exclude: '/node_modules/'
+      },
+      {
+        test: /\.png|svg$/,
+        loader: 'url-loader',
       },
       {
         test: /\.(sa|sc|c)ss$/,
         use: [miniCss, css, postCss, sass]
+      },
+      {
+        test: /\.svg$/,
+        use: [svg]
       }
     ]
   },

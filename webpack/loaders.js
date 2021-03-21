@@ -1,23 +1,38 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const loaders = {
-  ts: {
-    loader: require.resolve('ts-loader')
+  babel: {
+    loader: require.resolve('babel-loader'),
+    options: {
+      plugins: [
+        [
+          require.resolve('babel-plugin-named-asset-import'),
+          {
+            loaderMap: {
+              svg: {
+                ReactComponent:
+                  '@svgr/webpack?-prettier,-svgo![path]'
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+
+  css: {
+    loader: require.resolve('css-loader'),
+    options: {
+      url: false
+    }
   },
 
   miniCss: {
     loader: MiniCssExtractPlugin.loader
   },
 
-  css: {
-    loader: 'css-loader',
-    options: {
-      url: false
-    }
-  },
-
   postCss: {
-    loader: 'postcss-loader',
+    loader: require.resolve('postcss-loader'),
     options: {
       postcssOptions: {
         plugins: [['autoprefixer']]
@@ -26,7 +41,11 @@ const loaders = {
   },
 
   sass: {
-    loader: 'sass-loader'
+    loader: require.resolve('sass-loader')
+  },
+
+  svg: {
+    loader: require.resolve('@svgr/webpack')
   }
 };
 

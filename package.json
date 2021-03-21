@@ -36,6 +36,11 @@
     "react-i18next": "11.8.10"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "7.13.0",
+    "@babel/plugin-syntax-dynamic-import": "7.8.3",
+    "@babel/preset-react": "7.12.13",
+    "@babel/preset-typescript": "7.13.0",
+    "@svgr/webpack": "5.5.0",
     "@types/classnames": "2.2.11",
     "@types/react": "17.0.2",
     "@types/react-dom": "17.0.1",
@@ -43,6 +48,9 @@
     "@typescript-eslint/eslint-plugin": "4.15.2",
     "@typescript-eslint/parser": "4.15.2",
     "autoprefixer": "10.2.4",
+    "babel-core": "6.26.3",
+    "babel-loader": "8.2.2",
+    "babel-plugin-named-asset-import": "0.3.7",
     "clean-webpack-plugin": "3.0.0",
     "copy-webpack-plugin": "^7.0.0",
     "css-loader": "5.0.2",
@@ -74,8 +82,8 @@
     "prettier-standard": "16.4.1",
     "sass-loader": "11.0.1",
     "terser-webpack-plugin": "5.1.1",
-    "ts-loader": "8.0.17",
     "typescript": "4.1.5",
+    "url-loader": "^4.1.1",
     "webpack": "5.26.2",
     "webpack-cli": "4.5.0",
     "webpack-dev-server": "3.11.2"
