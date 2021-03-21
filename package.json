@@ -1,0 +1,103 @@
+{
+  "name": "resume",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Resume for Eugene \"Neikan\" Sladkov",
+  "author": "Eugene \"Neikan\" Sladkov <sladkov.e.m@outlook.com>",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "browserslist": [
+    ">1%",
+    "last 1 version",
+    "Firefox ESR",
+    "not dead"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack/webpack.prod.js",
+    "start": "webpack serve --config webpack/webpack.dev.js",
+    "lint": "eslint --ext=ts,tsx src",
+    "format": "prettier-standard 'src/**/*.{ts,tsx}' --write"
+  },
+  "dependencies": {
+    "@neikan/rc-lib": "0.0.8",
+    "classnames": "2.2.6",
+    "i18next": "^19.9.2",
+    "i18next-browser-languagedetector": "6.0.1",
+    "i18next-fetch-backend": "3.0.0",
+    "i18next-intervalplural-postprocessor": "3.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-i18next": "11.8.10"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "7.13.0",
+    "@babel/plugin-syntax-dynamic-import": "7.8.3",
+    "@babel/preset-react": "7.12.13",
+    "@babel/preset-typescript": "7.13.0",
+    "@svgr/webpack": "5.5.0",
+    "@types/classnames": "2.2.11",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.1",
+    "@types/webpack": "4.41.26",
+    "@typescript-eslint/eslint-plugin": "4.15.2",
+    "@typescript-eslint/parser": "4.15.2",
+    "autoprefixer": "10.2.4",
+    "babel-core": "6.26.3",
+    "babel-loader": "8.2.2",
+    "babel-plugin-named-asset-import": "0.3.7",
+    "clean-webpack-plugin": "3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "5.0.2",
+    "eslint": "7.20.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-config-prettier-standard": "4.0.1",
+    "eslint-config-react-app": "6.0.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-config-standard-with-typescript": "20.0.0",
+    "eslint-plugin-flowtype": "5.3.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-standard": "5.0.0",
+    "html-webpack-plugin": "5.2.0",
+    "husky": "5.1.1",
+    "lint-staged": "10.5.4",
+    "mini-css-extract-plugin": "1.3.8",
+    "node-sass": "5.0.0",
+    "postcss": "8.2.6",
+    "postcss-loader": "5.0.0",
+    "postcss-nested": "5.0.3",
+    "prettier": "2.2.1",
+    "prettier-config-standard": "4.0.0",
+    "prettier-standard": "16.4.1",
+    "sass-loader": "11.0.1",
+    "terser-webpack-plugin": "5.1.1",
+    "typescript": "4.1.5",
+    "url-loader": "^4.1.1",
+    "webpack": "5.26.2",
+    "webpack-cli": "4.5.0",
+    "webpack-dev-server": "3.11.2"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "prettier-standard",
+      "eslint --ext=ts,tsx"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run lint"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "ES2018",
+    "lib": [
+      "ES6",
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "noEmit": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": false,
+    "typeRoots": [ "./src/types", "./node_modules/@types"],
+    "paths": {
+      "@app/*": ["*"],
+      "@components/*": ["components/*"],
+      "@components": ["components"],
+      "@consts/*": ["consts/*"],
+      "@consts": ["consts"],
+      "@types":  ["types/*"],
+      "@utils/*": ["utils/*"],
+      "@utils": ["utils/*"],
+      "@views/*": ["views/*"],
+      "@views": ["views/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "webpack",
+    "dist"
+  ],
+  "include": [
+    "src"
+  ]
+}
