@@ -32,7 +32,6 @@
     "isolatedModules": false,
     "typeRoots": [ "./src/types", "./node_modules/@types"],
     "paths": {
-      "@app/*": ["*"],
       "@components/*": ["components/*"],
       "@components": ["components"],
       "@consts/*": ["consts/*"],
