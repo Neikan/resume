@@ -1,1 +1,1 @@
-<p>Resume Eugene &lt:Neikan&gt: Sladkov</p>
+<p>Resume Eugene &ltNeikan&gt Sladkov</p>
