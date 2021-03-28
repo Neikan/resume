@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  min-width: $wm;
   margin: 0;
   padding: 0;
 
@@ -16,6 +17,16 @@ body {
   font-size: 0.875rem;
   font-weight: normal;
   line-height: 1.125rem;
+}
+
+.body-light {
+  background-color: var(--light);
+  color: var(--grey);
+}
+
+.body-dark {
+  background-color: var(--grey);
+  color: var(--light);
 }
 
 img {

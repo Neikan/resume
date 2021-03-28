@@ -31,74 +31,49 @@ import {
 } from '@components/icons'
 
 const iconProps: IRCLIconProps = {
-  size: 'x3'
+  size: 'x3',
+  classes: 'grid-item'
 }
 
-const elements1 = [
+const technologies = [
   <IconReact key='' { ...iconProps } />,
   <IconRedux key='' { ...iconProps } />,
   <IconSASS key='' { ...iconProps } />,
   <IconSwagger key='' { ...iconProps } />,
   <IconStorybook key='' { ...iconProps } />,
-  <IconStyleguidist key='' { ...iconProps } />
-]
-
-const elements2 = [
+  <IconStyleguidist key='' { ...iconProps } />,
   <IconCordova key='' { ...iconProps } />,
   <IconCSS key='' { ...iconProps } />,
   <IconEnzyme key='' { ...iconProps } />,
   <IconFigma key='' { ...iconProps } />,
   <IconTS key='' { ...iconProps } />,
-  <IconWebStorm key='' { ...iconProps } />
-]
-
-const elements3 = [
+  <IconWebStorm key='' { ...iconProps } />,
   <IconGit key='' { ...iconProps } />,
   <IconGulp key='' { ...iconProps } />,
   <IconHTML key='' { ...iconProps } />,
   <IconJest key='' { ...iconProps } />,
   <IconWebpack key='' { ...iconProps } />,
-  <IconReactRouter key='' { ...iconProps } />
-]
-
-const elements4 = [
+  <IconReactRouter key='' { ...iconProps } />,
   <IconJS key='' { ...iconProps } />,
   <IconLess key='' { ...iconProps } />,
   <IconPhotoshop key='' { ...iconProps } />,
   <IconPostman key='' { ...iconProps } />,
   <IconZeplin key='' { ...iconProps } />,
-  <IconVSCode key='' { ...iconProps } />
-]
-
-const elements5 = [
+  <IconVSCode key='' { ...iconProps } />,
   <IconBabel key='' { ...iconProps } />,
   <IconSQL key='' { ...iconProps } />
 ]
 
-const renderIcons = (icon: ReactElement): ReactElement => <>{icon}</>
+const renderIcon = (icon: ReactElement): ReactElement => <>{icon}</>
 
 // Добавить джиру, бейскемп, тфс
 export const Technologies: FC = () => {
   return (
     <>
       <h2>Technologies</h2>
-      <div className='d-flex flex-column'>
-        <div className='d-flex align-items-center'>
-          {elements1.map(renderIcons)}
-        </div>
-        <div className='d-flex align-items-center'>
-          {elements2.map(renderIcons)}
-        </div>
-        <div className='d-flex align-items-center'>
-          {elements3.map(renderIcons)}
-        </div>
-        <div className='d-flex align-items-center'>
-          {elements4.map(renderIcons)}
-        </div>
-        <div className='d-flex align-items-center'>
-          {elements5.map(renderIcons)}
-        </div>
+      <div className='grid-5 grid-center'>
+        {technologies.map(renderIcon)}
       </div>
-      </>
+    </>
   )
 }

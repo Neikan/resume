@@ -9,7 +9,7 @@ import { About, Technologies } from '@components'
 export default class App extends Component {
   public render (): ReactElement {
     return (
-      <Content classes='m-8'>
+      <Content classes='content d-flex flex-column mt-6 mx-auto p-6'>
         <About />
         <Technologies />
       </Content>

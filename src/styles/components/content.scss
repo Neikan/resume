@@ -1,0 +1,20 @@
+.content {
+  min-width: $wm;
+  max-width: $wt;
+
+  box-shadow:
+    0 8px 16px rgba(110, 120, 130, 0.12),
+    0 -8px 16px rgba(110, 120, 130, 0.12);
+}
+
+@media (min-width: $wt) {
+  .content {
+    max-width: $wd;
+  }
+}
+
+@media (min-width: $wd) {
+  .content {
+    max-width: $wd;
+  }
+}
