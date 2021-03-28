@@ -1,10 +1,12 @@
 import React, { FC } from 'react'
 
+import { Technology } from '@consts'
+
 import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
 import { ReactComponent as IconCSSSVG } from './icon-css.svg'
 
 export const IconCSS: FC<IProps> = ({ ...restProps }) => (
-  <Icon {...restProps} >
+  <Icon title={Technology.CSS} {...restProps} >
     <IconCSSSVG />
   </Icon>
 )

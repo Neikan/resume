@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 import { IAboutProps as IProps } from './types'
 
-const About: FC<IProps> = (props) => {
+export const About: FC<IProps> = (props) => {
   const { classes = '' } = props
   const { t } = useTranslation()
 
@@ -14,5 +14,3 @@ const About: FC<IProps> = (props) => {
     </div>
   )
 }
-
-export default About

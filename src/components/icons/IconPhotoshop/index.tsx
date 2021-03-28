@@ -1,10 +1,12 @@
 import React, { FC } from 'react'
 
+import { Technology } from '@consts'
+
 import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
 import { ReactComponent as IconPhotoshopSVG } from './icon-photoshop.svg'
 
 export const IconPhotoshop: FC<IProps> = ({ ...restProps }) => (
-  <Icon {...restProps} >
+  <Icon title={Technology.PHOTOSHOP} {...restProps} >
     <IconPhotoshopSVG />
   </Icon>
 )

@@ -1,4 +1,3 @@
 export * from './About'
-
-export * from './Icon'
-export * from './icons/IconReact'
+export * from './Technologies'
+export * from './icons'
