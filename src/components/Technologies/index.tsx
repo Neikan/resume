@@ -71,7 +71,7 @@ export const Technologies: FC = () => {
   return (
     <>
       <h2>Technologies</h2>
-      <div className='grid-5 grid-center'>
+      <div className='grid-5 grid-g-4 grid-center'>
         {technologies.map(renderIcon)}
       </div>
     </>
