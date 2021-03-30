@@ -9,16 +9,24 @@ html {
 }
 
 body {
+  min-width: $wm;
   margin: 0;
   padding: 0;
 
   font-family: $font-main;
-  font-size: 13px;
+  font-size: 0.875rem;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 1.125rem;
+}
 
-  color: $light;
-  background-color: $grey;
+.body-light {
+  background-color: var(--light);
+  color: var(--grey);
+}
+
+.body-dark {
+  background-color: var(--grey);
+  color: var(--light);
 }
 
 img {

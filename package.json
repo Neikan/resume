@@ -25,7 +25,7 @@
     "format": "prettier-standard 'src/**/*.{ts,tsx}' --write"
   },
   "dependencies": {
-    "@neikan/rc-lib": "0.0.12",
+    "@neikan/rc-lib": "0.0.15",
     "classnames": "2.2.6",
     "i18next": "^19.9.2",
     "i18next-browser-languagedetector": "6.0.1",

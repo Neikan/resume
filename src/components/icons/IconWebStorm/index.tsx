@@ -1,10 +1,12 @@
 import React, { FC } from 'react'
 
+import { Technology } from '@consts'
+
 import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
 import { ReactComponent as IconWebStormSVG } from './icon-webstorm.svg'
 
 export const IconWebStorm: FC<IProps> = ({ ...restProps }) => (
-  <Icon {...restProps}>
+  <Icon title={Technology.WEBSTORM} withoutFill {...restProps}>
     <IconWebStormSVG />
   </Icon>
 )

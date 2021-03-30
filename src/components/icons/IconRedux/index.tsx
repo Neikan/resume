@@ -1,10 +1,12 @@
 import React, { FC } from 'react'
 
+import { Technology } from '@consts'
+
 import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
 import { ReactComponent as IconReduxSVG } from './icon-redux.svg'
 
 export const IconRedux: FC<IProps> = ({ ...restProps }) => (
-  <Icon {...restProps} >
+  <Icon title={Technology.REDUX} {...restProps} >
     <IconReduxSVG />
   </Icon>
 )

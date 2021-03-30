@@ -1,10 +1,12 @@
 import React, { FC } from 'react'
 
+import { Technology } from '@consts'
+
 import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
 import { ReactComponent as IconGitSVG } from './icon-git.svg'
 
 export const IconGit: FC<IProps> = ({ ...restProps }) => (
-  <Icon {...restProps} >
+  <Icon title={Technology.GIT} {...restProps} >
     <IconGitSVG />
   </Icon>
 )
