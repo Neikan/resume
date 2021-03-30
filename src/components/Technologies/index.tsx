@@ -1,4 +1,3 @@
-import cn from 'classnames'
 import React, { FC } from 'react'
 
 import { IRCLIconProps } from '@neikan/rc-lib'
@@ -31,8 +30,6 @@ import {
   IconZeplin
 } from '@components/icons'
 
-import styles from './Technologies.module.css'
-
 const iconProps: IRCLIconProps = {
   size: 'x2h',
   classes: 'grid-item'
@@ -41,9 +38,9 @@ const iconProps: IRCLIconProps = {
 // Добавить джиру, бейскемп, тфс
 export const Technologies: FC = () => {
   return (
-    <>
+    <div className='wrapper-left mt-6'>
       <h3>Technologies and skills</h3>
-      <div className={cn(styles.wrapper, 'grid-4 grid-g-4 grid-center mb-4')}>
+      <div className='grid-4 grid-g-4 grid-center mb-4'>
         <IconTS { ...iconProps } />
         <IconJS { ...iconProps } />
         <IconReact { ...iconProps } />
@@ -53,36 +50,36 @@ export const Technologies: FC = () => {
         <IconGit { ...iconProps } />
         <IconSQL { ...iconProps } />
       </div>
-      <div className={cn(styles.wrapper, 'grid-4 grid-g-4 grid-center mb-4')}>
+      <div className='grid-4 grid-g-4 grid-center mb-4'>
         <IconHTML { ...iconProps } />
         <IconCSS { ...iconProps } />
         <IconLess { ...iconProps } />
         <IconSASS { ...iconProps } />
       </div>
-      <div className={cn(styles.wrapper, 'grid-4 grid-g-4 grid-center mb-4')}>
+      <div className='grid-4 grid-g-4 grid-center mb-4'>
         <IconFigma { ...iconProps } />
         <IconPhotoshop { ...iconProps } />
         <IconZeplin { ...iconProps } />
       </div>
-      <div className={cn(styles.wrapper, 'grid-4 grid-g-4 grid-center mb-4')}>
+      <div className='grid-4 grid-g-4 grid-center mb-4'>
         <IconSwagger { ...iconProps } />
         <IconPostman { ...iconProps } />
         <IconEnzyme { ...iconProps } />
         <IconJest { ...iconProps } />
       </div>
-      <div className={cn(styles.wrapper, 'grid-4 grid-g-4 grid-center mb-4')}>
+      <div className='grid-4 grid-g-4 grid-center mb-4'>
         <IconWebpack { ...iconProps } />
         <IconGulp { ...iconProps } />
         <IconBabel { ...iconProps } />
       </div>
-      <div className={cn(styles.wrapper, 'grid-4 grid-g-4 grid-center mb-4')}>
+      <div className='grid-4 grid-g-4 grid-center mb-4'>
         <IconStorybook { ...iconProps } />
         <IconStyleguidist { ...iconProps } />
       </div>
-      <div className={cn(styles.wrapper, 'grid-4 grid-g-4 grid-center mb-4')}>
+      <div className='grid-4 grid-g-4 grid-center mb-4'>
         <IconVSCode { ...iconProps } />
         <IconWebStorm { ...iconProps } />
       </div>
-    </>
+    </div>
   )
 }

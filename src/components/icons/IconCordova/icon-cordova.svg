@@ -26,7 +26,11 @@
     </g>
   </g>
   <defs>
-    <linearGradient id="paint0_linear" x1="5292.99" y1="3295.4" x2="2384.42" y2="119.463" gradientUnits="userSpaceOnUse">
+    <linearGradient id="paint00_linear" x1="5292.99" y1="3295.4" x2="2384.42" y2="119.463" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ACACAC"/>
+      <stop offset="1" stop-color="#E9E9E9"/>
+    </linearGradient>
+    <linearGradient id="paint0_linear">
       <stop stop-color="#ACACAC"/>
       <stop offset="1" stop-color="#E9E9E9"/>
     </linearGradient>

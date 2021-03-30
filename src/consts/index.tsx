@@ -36,3 +36,13 @@ export enum Technology {
   WEBSTORM = 'WebStorm',
   ZEPLIN = 'Zeplin'
 }
+
+export enum Contact {
+  GITHUB = '',
+  GITLAB = '',
+  LINKEDIN = '',
+  MAIL = 'sladkov.e.m@outlook.com',
+  PHONE = '+79188900075',
+  TELEGRAM = '@Neikein',
+  WAKATIME = 'Wakatime'
+}
