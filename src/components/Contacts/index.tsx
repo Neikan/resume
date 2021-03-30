@@ -42,7 +42,7 @@ export const Contacts: FC = () => (
           <a className='mr-4' href='https://gitlab.com/Neikan' target='blank2'>
             <IconGitLab size='x1h' />
           </a>
-          <a className='mr-4' href='https://www.linkedin.com/in/neikan/' target='blank4'>
+          <a className='mr-4' href='https://www.linkedin.com/in/neikan' target='blank4'>
             <IconLinkedIn size='x1h' />
           </a>
         </li>

@@ -38,11 +38,11 @@ export enum Technology {
 }
 
 export enum Contact {
-  GITHUB = '',
-  GITLAB = '',
-  LINKEDIN = '',
+  GITHUB = 'https://github.com/Neikan',
+  GITLAB = 'https://gitlab.com/Neikan',
+  LINKEDIN = 'https://www.linkedin.com/in/neikan',
   MAIL = 'sladkov.e.m@outlook.com',
   PHONE = '+79188900075',
   TELEGRAM = '@Neikein',
-  WAKATIME = 'Wakatime'
+  WAKATIME = 'https://wakatime.com/@Neikan'
 }
