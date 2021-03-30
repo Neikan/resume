@@ -39,7 +39,7 @@ const iconProps: IRCLIconProps = {
 export const Technologies: FC = () => {
   return (
     <div className='wrapper-left mt-6'>
-      <h3>Technologies and skills</h3>
+      <h3 className='mb-4'>Technologies and skills</h3>
       <div className='grid-4 grid-g-4 grid-center mb-4'>
         <IconTS { ...iconProps } />
         <IconJS { ...iconProps } />

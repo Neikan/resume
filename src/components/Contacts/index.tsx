@@ -12,7 +12,7 @@ import {
 
 export const Contacts: FC = () => (
   <div className='wrapper-left d-flex flex-column mt-6'>
-      <h3>Contacts</h3>
+      <h3 className='mb-4'>Contacts</h3>
       <ul className='lisn my-0'>
         <li className='mb-4'>
           <a className='d-flex align-items-center t-gray' href='mailto:sladkov.e.m@outlook.com?subject="Job invitation"'>
