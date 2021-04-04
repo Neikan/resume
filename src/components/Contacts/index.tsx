@@ -14,7 +14,7 @@ export const Contacts: FC = () => (
   <div className='wrapper-left d-flex flex-column mt-6'>
       <h3 className='mb-4'>Contacts</h3>
       <ul className='lisn my-0'>
-        <li className='mb-4'>
+        <li className='mb-4 mr-auto'>
           <a className='d-flex align-items-center t-gray' href='mailto:sladkov.e.m@outlook.com?subject="Job invitation"'>
             <IconMail classes='mr-4' size='x1h' />
             sladkov.e.m@outlook.com
@@ -27,19 +27,19 @@ export const Contacts: FC = () => (
           </a>
         </li>
         <li className='mb-4'>
-          <a className='d-flex align-items-center t-gray' href='tg:https://t.me/Neikein'>
+          <a className='d-flex align-items-center t-gray' href='tg:https://t.me/NeikaN_N'>
             <IconTelegram classes='mr-4' size='x1h' />
-            @Neikein
+            @NeikaN_N
           </a>
         </li>
         <li className='d-flex'>
-          <a className='mr-4' href='https://wakatime.com/@Neikan' target='blank3'>
+          <a className='mr-4' href='https://wakatime.com/@Neikan' target='blank1'>
             <IconWakatime size='x1h' />
           </a>
-          <a className='mr-4' href='https://github.com/Neikan' target='blank1'>
+          <a className='mr-4' href='https://github.com/Neikan' target='blank2'>
             <IconGitHub size='x1h' />
           </a>
-          <a className='mr-4' href='https://gitlab.com/Neikan' target='blank2'>
+          <a className='mr-4' href='https://gitlab.com/Neikan' target='blank3'>
             <IconGitLab size='x1h' />
           </a>
           <a className='mr-4' href='https://www.linkedin.com/in/neikan' target='blank4'>
