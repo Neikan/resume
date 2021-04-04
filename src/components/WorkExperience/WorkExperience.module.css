@@ -1,0 +1,19 @@
+.timeline {
+  width: 0.5rem;
+  height: 30rem;
+}
+
+
+.info {
+  height: 5rem;
+  /* width: 15rem; */
+}
+
+.info_m {
+  margin-bottom: 5rem;
+}
+
+.info_b {
+  margin-top: 5rem;
+}
+
