@@ -6,7 +6,7 @@ body {
   font-family: $font-main;
   font-size: 0.875rem;
   font-weight: normal;
-  line-height: 1.125rem;
+  line-height: 1.25rem;
 }
 
 .body-light {
@@ -17,4 +17,8 @@ body {
 .body-dark {
   background-color: var(--grey);
   color: var(--light);
+}
+
+.heught {
+  height: 256px;
 }

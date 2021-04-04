@@ -1,3 +1,5 @@
 export * from './About'
+export * from './Contacts'
 export * from './Technologies'
+export * from './WorkExperience'
 export * from './icons'
