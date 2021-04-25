@@ -18,7 +18,7 @@ export const About: FC<IProps> = (props) => {
         {t('about:intro')}
         <WorkExperience />
       </div>
-
+      <div>Ыть</div>
     </div>
   )
 }
