@@ -1,8 +1,5 @@
-import { IJobBlock } from '@types'
-
-export type TJobBlockSide = 'left' | 'right'
+import { IJobBlockExtended } from '@types'
 
 export interface IJobBlockProps {
-  job: IJobBlock
-  side?: TJobBlockSide
+  job: IJobBlockExtended
 }

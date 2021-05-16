@@ -1,6 +1,6 @@
-import { TJobBlockSide } from '../JobBlock/types'
+import { JobBlockSide } from '@consts'
 
 export interface IJobPeriodProps {
   period: string
-  side?: TJobBlockSide
+  side?: JobBlockSide
 }

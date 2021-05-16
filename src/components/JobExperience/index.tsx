@@ -1,25 +1,38 @@
 import cn from 'classnames'
-import React, { FC } from 'react'
+import React, { FC, ReactElement } from 'react'
 
-import { Jobs } from '@consts'
+import { JobBlockSide, JOBS } from '@consts'
 
 import { JobBlock } from './components/JobBlock'
 
+import { IJobBlock, IJobBlockExtended } from '@types'
+
 import styles from './JobExperience.module.css'
 
+const renderJobBlock = (job: IJobBlockExtended): ReactElement => <JobBlock job={job} />
+
+const getBranch = (array: IJobBlockExtended[], job: IJobBlock, side: JobBlockSide): void => {
+  array.push({ ...job, side })
+}
+
 export const JobExperience: FC = () => {
+  const LEFT_BRANCHES: IJobBlockExtended[] = []
+  const RIGHT_BRANCHES: IJobBlockExtended[] = []
+
+  JOBS.forEach((job, index) => {
+    index % 2
+      ? getBranch(RIGHT_BRANCHES, job, JobBlockSide.RIGHT)
+      : getBranch(LEFT_BRANCHES, job, JobBlockSide.LEFT)
+  })
+
   return (
-    <div className='d-flex mt-4 mx-auto flex-grow-1'>
+    <div className='d-flex mt-4 mx-auto'>
       <div>
-        <JobBlock job={Jobs[2020]} />
-        <JobBlock job={Jobs[2012]} />
-        <JobBlock job={Jobs['2011H1']} />
+        {LEFT_BRANCHES.map(renderJobBlock)}
       </div>
       <div className={cn(styles.timeline, 'bg-primary-300')} />
       <div>
-        <JobBlock job={Jobs[2016]} side='right' />
-        <JobBlock job={Jobs['2011H2']} side='right' />
-        <JobBlock job={Jobs[2009]} side='right' />
+        {RIGHT_BRANCHES.map(renderJobBlock)}
       </div>
     </div>
   )

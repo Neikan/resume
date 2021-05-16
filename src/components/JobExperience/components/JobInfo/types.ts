@@ -1,7 +1,7 @@
-import { TJobBlockSide } from '../JobBlock/types'
+import { JobBlockSide } from '@consts'
 
 export interface IJobInfoProps {
   company: string
   position: string
-  side: TJobBlockSide
+  side: JobBlockSide
 }

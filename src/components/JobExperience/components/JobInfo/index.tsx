@@ -1,10 +1,11 @@
 import cn from 'classnames'
 import React, { FC } from 'react'
 
-import { IJobInfoProps as IProps } from './types'
-import { TJobBlockSide } from '../JobBlock/types'
+import { JobBlockSide } from '@consts'
 
-const getClasses = (side: TJobBlockSide): string => cn(
+import { IJobInfoProps as IProps } from './types'
+
+const getClasses = (side: JobBlockSide): string => cn(
   'd-flex flex-column mt-3',
   side === 'right' ? 'pl-4' : 'pr-4'
 )
