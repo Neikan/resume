@@ -3,17 +3,18 @@
   height: 30rem;
 }
 
-
 .info {
   height: 5rem;
-  /* width: 15rem; */
 }
 
-.info_m {
+.info_left {
   margin-bottom: 5rem;
 }
 
-.info_b {
+.info_right {
   margin-top: 5rem;
 }
 
+.period {
+  border-bottom: 4px solid var(--primary-300);
+}

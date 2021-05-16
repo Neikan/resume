@@ -32,15 +32,14 @@
     "isolatedModules": false,
     "typeRoots": [ "./src/types", "./node_modules/@types"],
     "paths": {
-      "@components/*": ["components/*"],
       "@components": ["components"],
-      "@consts/*": ["consts/*"],
+      "@components/*": ["components/*"],
       "@consts": ["consts"],
       "@types":  ["types"],
-      "@utils/*": ["utils/*"],
       "@utils": ["utils/*"],
-      "@views/*": ["views/*"],
-      "@views": ["views/*"]
+      "@utils/*": ["utils/*"],
+      "@views": ["views/*"],
+      "@views/*": ["views/*"]
     }
   },
   "exclude": [
