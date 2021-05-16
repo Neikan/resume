@@ -9,7 +9,7 @@ import { IJobBlock, IJobBlockExtended } from '@types'
 
 import styles from './JobExperience.module.css'
 
-const renderJobBlock = (job: IJobBlockExtended): ReactElement => <JobBlock job={job} />
+const renderJobBlock = (job: IJobBlockExtended): ReactElement => <JobBlock key={job.period} job={job} />
 
 const getBranch = (array: IJobBlockExtended[], job: IJobBlock, side: JobBlockSide): void => {
   array.push({ ...job, side })
