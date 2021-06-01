@@ -1,5 +1,3 @@
-import { WithTranslation } from 'react-i18next'
-
-export interface IAboutProps extends WithTranslation {
+export interface IAboutProps {
   classes?: string
 }

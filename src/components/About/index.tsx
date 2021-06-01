@@ -5,7 +5,7 @@ import { Contacts, JobExperience } from '@components'
 
 import { IAboutProps as IProps } from './types'
 
-export const About: FC<IProps> = (props) => {
+export const About: FC<IProps> = () => {
   const { t } = useTranslation()
 
   return (
@@ -15,7 +15,7 @@ export const About: FC<IProps> = (props) => {
         <Contacts />
       </div>
       <div className='d-flex flex-column flex-grow-1'>
-        {/* {t('about:intro')} */}
+        {t('about:intro')}
         <JobExperience />
       </div>
     </div>
