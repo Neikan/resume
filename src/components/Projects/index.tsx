@@ -60,14 +60,14 @@ const PROJECTS = [
   {
     name: 'Cinemaddict',
     description: 'Cinema app for your favorite movies',
-    technologies: 'Vanilla JavaScript (ES6), Webpack',
+    technologies: 'JavaScript (ES6), Webpack',
     type: 'Training',
     url: 'https://github.com/Neikan/htmlacademy-cinemaddict'
   },
   {
     name: 'Keksobooking',
     description: 'A simple "booking"-like app prototype',
-    technologies: 'Vanilla JavaScript (ES5)',
+    technologies: 'JavaScript (ES5)',
     type: 'Training',
     url: 'https://github.com/Neikan/htmlacademy-keksobooking'
   },
