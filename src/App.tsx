@@ -6,6 +6,8 @@ import { Content } from '@neikan/rc-lib'
 
 import { About, Technologies } from '@components'
 import { Certificates } from '@components/Certificates'
+import { Education } from '@components/Education'
+import { Projects } from '@components/Projects'
 
 export default class App extends Component {
   public render (): ReactElement {
@@ -13,8 +15,14 @@ export default class App extends Component {
       <Content classes='content height-full-vh osh-y d-flex flex-column mt-6 mx-auto p-6'>
         <About />
         <div className='d-flex'>
-          <Technologies />
-          <Certificates />
+          <div>
+            <Technologies />
+            <Education />
+          </div>
+          <div>
+            <Projects />
+            <Certificates />
+          </div>
         </div>
       </Content>
     )
