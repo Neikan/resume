@@ -2,8 +2,6 @@ import React, { Component, ReactElement } from 'react'
 
 import '@neikan/rc-lib/dist/styles/styles.min.css'
 
-import { Content } from '@neikan/rc-lib'
-
 import {
   About,
   Certificates,
@@ -17,7 +15,7 @@ import {
 export default class App extends Component {
   public render (): ReactElement {
     return (
-      <Content classes='content'>
+      <div className='content'>
         <div className='content__info'>
           <About />
           <div className='content__details'>
@@ -33,7 +31,7 @@ export default class App extends Component {
             </div>
           </div>
         </div>
-      </Content>
+      </div>
     )
   }
 }

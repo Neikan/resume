@@ -14,6 +14,11 @@ import {
 
 import { IContact } from './types'
 
+export enum ContactType {
+  ADDITIONAL = 'ADDITIONAL',
+  MAIN = 'MAIN'
+}
+
 const commonIconProps: IRCLIconProps = {
   size: 'x1h'
 }

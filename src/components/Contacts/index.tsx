@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 
-import { MainContacts } from './MainContacts'
-import { AdditionalContacts } from './AdditionalContacts'
+import { MainContacts } from './components/MainContacts'
+import { AdditionalContacts } from './components/AdditionalContacts'
 
 export const Contacts: FC = () => (
   <section className='constacts'>

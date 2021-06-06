@@ -17,22 +17,23 @@
   margin-bottom: 0;
 }
 
-.contacts__main-element {
+.contacts__additional-element {
+  display: flex;
+}
+
+.contacts__contact {
   margin-bottom: $space-4;
 }
 
-.contacts__main-link {
+.contacts__link--main {
   display: flex;
   align-items: center;
 
   @include link("gray");
 }
 
-.contacts__additional-element {
-  display: flex;
-}
 
-.contacts__additional-link {
+.contacts__link--additional {
   margin-right: $space-4;
 }
 
