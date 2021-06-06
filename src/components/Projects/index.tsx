@@ -89,26 +89,29 @@ const PROJECTS = [
 
 export const Projects: FC = () => {
   return (
-    <table>
-      <thead>
-        <tr>
-          {HEADINGS.map((heading) => (
-            <th key={heading} title={heading}>{heading}</th>
-          ))}
-        </tr>
-      </thead>
-      <tbody>
-        {PROJECTS.map(({ name, description, technologies, type, url }) => {
-          return (
-            <tr key={name}>
-              <td><a href={url}>{name}</a></td>
-              <td>{type}</td>
-              <td>{description}</td>
-              <td>{technologies}</td>
-            </tr>
-          )
-        })}
-      </tbody>
-    </table>
+    <section className='projects'>
+      <h3 className='mb-4'>Projects</h3>
+      <table>
+        <thead>
+          <tr>
+            {HEADINGS.map((heading) => (
+              <th key={heading} title={heading}>{heading}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {PROJECTS.map(({ name, description, technologies, type, url }) => {
+            return (
+              <tr key={name}>
+                <td><a href={url}>{name}</a></td>
+                <td>{type}</td>
+                <td>{description}</td>
+                <td>{technologies}</td>
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+    </section>
   )
 }

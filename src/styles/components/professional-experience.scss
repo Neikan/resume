@@ -1,0 +1,35 @@
+.professional-experience {
+  margin-top: $space-6;
+}
+
+.professional-experience__title {
+  margin-bottom: $space-4;
+}
+
+.professional-experience__branches {
+  display: flex;
+  justify-content: center;
+  margin-top: $space-4;
+}
+
+.professional-experience__timeline {
+  width: 0.5rem;
+  height: 30rem;
+  background: var(--primary-300);
+}
+
+.professional-experience__info {
+  height: 5rem;
+}
+
+.professional-experience__info_left {
+  margin-bottom: 5rem;
+}
+
+.professional-experience__info_right {
+  margin-top: 5rem;
+}
+
+.professional-experience__period {
+  border-bottom: 4px solid var(--primary-300);
+}

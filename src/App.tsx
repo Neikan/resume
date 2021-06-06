@@ -9,7 +9,7 @@ import {
   Certificates,
   Contacts,
   Education,
-  JobExperience,
+  ProfessionalExperience,
   Projects,
   Technologies
 } from '@components'
@@ -25,8 +25,8 @@ export default class App extends Component {
             <Technologies />
             <Education />
           </div>
-          <div>
-            <JobExperience />
+          <div className='ml-6'>
+            <ProfessionalExperience />
             <Projects />
             <Certificates />
           </div>
