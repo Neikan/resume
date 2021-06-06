@@ -1,23 +1,19 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { Contacts, JobExperience } from '@components'
-
 import { IAboutProps as IProps } from './types'
 
 export const About: FC<IProps> = () => {
   const { t } = useTranslation()
 
   return (
-    <div className='d-flex'>
+    <section className='about'>
       <div>
-        <img src='img/foto/me.png' alt='photo of Eugene' className='contacts__photo' />
-        <Contacts />
+        <img src='img/foto/me.png' alt='photo of Eugene' className='about__photo' />
       </div>
-      <div className='d-flex flex-column flex-grow-1'>
+      <p className='about__intro'>
         {t('about:intro')}
-        <JobExperience />
-      </div>
-    </div>
+      </p>
+    </section>
   )
 }

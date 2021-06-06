@@ -11,12 +11,6 @@
   margin-bottom: $space-4;
 }
 
-.contacts__photo {
-  display: block;
-  min-width: $width-container-left;
-  height: $height-photo;
-}
-
 .contacts__list {
   @include lisn();
   margin-top: 0;

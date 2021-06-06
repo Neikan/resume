@@ -22,6 +22,10 @@ body {
 :root {
   --module: #{$module};
 
-  --width-container-left: #{width-container-left};
-  --height-avatar: #{--height-avatar};
+  --space-1: #{$space-1};
+  --space-2: #{$space-2};
+  --space-3: #{$space-3};
+  --space-4: #{$space-4};
+  --space-5: #{$space-5};
+  --space-6: #{$space-6};
 }

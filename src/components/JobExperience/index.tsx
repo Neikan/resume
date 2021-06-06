@@ -26,14 +26,17 @@ export const JobExperience: FC = () => {
   })
 
   return (
-    <div className='d-flex mt-4 mx-auto'>
-      <div>
-        {LEFT_BRANCHES.map(renderJobBlock)}
+    <section>
+      <h3 className='mb-4'>Work experience</h3>
+      <div className='d-flex mt-4 mx-auto'>
+        <div>
+          {LEFT_BRANCHES.map(renderJobBlock)}
+        </div>
+        <div className={cn(styles.timeline, 'bg-primary-300')} />
+        <div>
+          {RIGHT_BRANCHES.map(renderJobBlock)}
+        </div>
       </div>
-      <div className={cn(styles.timeline, 'bg-primary-300')} />
-      <div>
-        {RIGHT_BRANCHES.map(renderJobBlock)}
-      </div>
-    </div>
+    </section>
   )
 }
