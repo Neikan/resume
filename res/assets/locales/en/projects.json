@@ -1,0 +1,7 @@
+{
+  "type": {
+    "commercial": "Commercial",
+    "private": "Private",
+    "training": "Training"
+  }
+}

@@ -5,9 +5,11 @@ export const Languages = {
 
 export const NS = [
   'about',
-  'common'
+  'common',
+  'projects'
 ]
 
 export enum LinkTarget {
-  CONTACTS = 'blank10'
+  CERTIFICATES = 'blank10',
+  CONTACTS = 'blank20'
 }

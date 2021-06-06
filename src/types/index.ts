@@ -1,4 +1,5 @@
 import { ExperienceBlockSide } from '@consts/experience'
+import { ProjectType } from '@consts/projects'
 
 export interface IExperienceBlock {
   company: string
@@ -23,4 +24,12 @@ export interface ICourseByYear {
 export interface ICourse {
   title: string
   url?: string
+}
+
+export interface IProject {
+  name: string
+  description: string
+  technologies: string
+  type: ProjectType
+  url: string
 }

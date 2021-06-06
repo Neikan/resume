@@ -6,10 +6,15 @@ import { ExperienceBlock } from './components/ExperienceBlock'
 
 import { IExperienceBlock, IExperienceBlockExtended } from '@types'
 
-const renderExperienceBlock = (Experience: IExperienceBlockExtended): ReactElement => <ExperienceBlock key={Experience.period} experience={Experience} />
+const renderExperienceBlock = (Experience: IExperienceBlockExtended): ReactElement =>
+  <ExperienceBlock key={Experience.period} experience={Experience} />
 
-const getBranch = (array: IExperienceBlockExtended[], Experience: IExperienceBlock, side: ExperienceBlockSide): void => {
-  array.push({ ...Experience, side })
+const getBranch = (
+  array: IExperienceBlockExtended[],
+  experience: IExperienceBlock,
+  side: ExperienceBlockSide
+): void => {
+  array.push({ ...experience, side })
 }
 
 export const ProfessionalExperience: FC = () => {
