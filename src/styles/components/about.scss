@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+}
+
+.about__photo {
+  width: $width-container-left;
+  height: $height-photo;
+}
+
+.about__intro {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: $space-6;
+}

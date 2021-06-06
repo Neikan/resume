@@ -38,8 +38,8 @@ const iconProps: IRCLIconProps = {
 // Добавить джиру, бейскемп, тфс
 export const Technologies: FC = () => {
   return (
-    <div className='wrapper-left mt-6 mr-6'>
-      <h3 className='mb-4'>Technologies and skills</h3>
+    <section className='technologies'>
+      <h3 className='technologies__title'>Technologies and skills</h3>
       <div className='grid-4 grid-g-4 grid-center-x mb-4'>
         <IconTS { ...iconProps } />
         <IconJS { ...iconProps } />
@@ -80,6 +80,6 @@ export const Technologies: FC = () => {
         <IconVSCode { ...iconProps } />
         <IconWebStorm { ...iconProps } />
       </div>
-    </div>
+    </section>
   )
 }

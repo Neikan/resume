@@ -1,0 +1,25 @@
+.education {
+  margin-top: $space-6;
+  width: $width-container-left;
+}
+
+.education__title {
+  margin-bottom: $space-4;
+}
+
+.education__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.education__info-university,
+.education__info-faculty,
+.education__info-speciality {
+  color: var(--primary-500);
+  font-weight: 600;
+}
+
+.education__info-faculty,
+.education__info-speciality {
+  margin-top: $space-4;
+}

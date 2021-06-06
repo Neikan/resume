@@ -1,13 +1,13 @@
-import { JobBlockSide } from '@consts'
+import { ExperienceBlockSide } from '@consts'
 
-export interface IJobBlock {
+export interface IExperienceBlock {
   company: string
   period: string
   position: string
 }
 
-export interface IJobBlockExtended extends IJobBlock {
-  side: JobBlockSide
+export interface IExperienceBlockExtended extends IExperienceBlock {
+  side: ExperienceBlockSide
 }
 
 export interface ICertificate {

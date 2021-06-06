@@ -4,17 +4,34 @@ import '@neikan/rc-lib/dist/styles/styles.min.css'
 
 import { Content } from '@neikan/rc-lib'
 
-import { About, Technologies } from '@components'
-import { Certificates } from '@components/Certificates'
+import {
+  About,
+  Certificates,
+  Contacts,
+  Education,
+  ProfessionalExperience,
+  Projects,
+  Technologies
+} from '@components'
 
 export default class App extends Component {
   public render (): ReactElement {
     return (
-      <Content classes='content height-full-vh osh-y d-flex flex-column mt-6 mx-auto p-6'>
-        <About />
-        <div className='d-flex'>
-          <Technologies />
-          <Certificates />
+      <Content classes='content'>
+        <div className='content__info'>
+          <About />
+          <div className='content__details'>
+            <div>
+              <Contacts />
+              <Technologies />
+              <Education />
+            </div>
+            <div className='content__details--right'>
+              <ProfessionalExperience />
+              <Projects />
+              <Certificates />
+            </div>
+          </div>
         </div>
       </Content>
     )

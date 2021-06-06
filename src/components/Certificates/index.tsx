@@ -46,11 +46,11 @@ const renderCertificates = ({ coursesByYear, resourse }: ICertificate): ReactEle
 
 export const Certificates: FC = () => {
   return (
-    <div>
-      <h3 className='mb-4'>Certificates</h3>
-      <ul className='lisn'>
+    <section className='certificates'>
+      <h3 className='certificates__title'>Courses, trainings and certificates</h3>
+      <ul className='certificates__list'>
         {CERTIFICATES.map(renderCertificates)}
       </ul>
-    </div>
+    </section>
   )
 }
