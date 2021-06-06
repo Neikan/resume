@@ -2,14 +2,34 @@
   min-width: $wm;
   max-width: $wt;
 
-  height: calc(100vh - calc((var(--space-6) * 2)));
-
-  margin-top: $space-6;
-  margin-bottom: $space-6;
+  margin: $space-6 auto;
+  padding: $space-6;
 
   box-shadow:
     0 8px 16px rgba(110, 120, 130, 0.12),
     0 -8px 16px rgba(110, 120, 130, 0.12);
+}
+
+.content__info {
+  display: flex;
+  flex-direction: column;
+
+  height: calc(100vh - calc((var(--space-6) * 4)));
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.content__details {
+  display: flex;
+}
+
+.content__details--right {
+  margin-left: $space-6;
 }
 
 @media (min-width: $wt) {

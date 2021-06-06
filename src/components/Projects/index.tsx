@@ -90,7 +90,7 @@ const PROJECTS = [
 export const Projects: FC = () => {
   return (
     <section className='projects'>
-      <h3 className='mb-4'>Projects</h3>
+      <h3 className='projects__title'>Projects</h3>
       <table>
         <thead>
           <tr>

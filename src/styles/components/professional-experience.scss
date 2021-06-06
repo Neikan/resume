@@ -22,14 +22,18 @@
   height: 5rem;
 }
 
-.professional-experience__info_left {
-  margin-bottom: 5rem;
-}
-
-.professional-experience__info_right {
-  margin-top: 5rem;
-}
-
 .professional-experience__period {
+  color: var(--primary-400);
+  font-weight: 600;
   border-bottom: 4px solid var(--primary-300);
+}
+
+.professional-experience__period--left {
+  margin-bottom: 5rem;
+  padding-right: $space-4;
+}
+
+.professional-experience__period--right {
+  margin-top: 5rem;
+  padding-left: $space-4;
 }

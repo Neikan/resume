@@ -1,16 +1,16 @@
 import cn from 'classnames'
 import React, { FC } from 'react'
 
-import { JobBlockSide } from '@consts'
+import { ExperienceBlockSide } from '@consts'
 
-import { IJobInfoProps as IProps } from './types'
+import { IExperienceInfoProps as IProps } from './types'
 
-const getClasses = (side: JobBlockSide): string => cn(
+const getClasses = (side: ExperienceBlockSide): string => cn(
   'd-flex flex-column mt-3',
   side === 'right' ? 'pl-4' : 'pr-4'
 )
 
-export const JobInfo: FC<IProps> = ({ company, position, side }) => (
+export const ExperienceInfo: FC<IProps> = ({ company, position, side }) => (
   <div className={getClasses(side)}>
     <span className='fw-500'>{company}</span>
     <span>{position}</span>

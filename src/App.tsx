@@ -17,18 +17,20 @@ import {
 export default class App extends Component {
   public render (): ReactElement {
     return (
-      <Content classes='content osh-y d-flex flex-column mx-auto p-6'>
-        <About />
-        <div className='d-flex'>
-          <div>
-            <Contacts />
-            <Technologies />
-            <Education />
-          </div>
-          <div className='ml-6'>
-            <ProfessionalExperience />
-            <Projects />
-            <Certificates />
+      <Content classes='content'>
+        <div className='content__info'>
+          <About />
+          <div className='content__details'>
+            <div>
+              <Contacts />
+              <Technologies />
+              <Education />
+            </div>
+            <div className='content__details--right'>
+              <ProfessionalExperience />
+              <Projects />
+              <Certificates />
+            </div>
           </div>
         </div>
       </Content>

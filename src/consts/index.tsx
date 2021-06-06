@@ -1,4 +1,4 @@
-import { ICertificate, IJobBlock } from '@types'
+import { ICertificate, IExperienceBlock } from '@types'
 
 export const Languages = {
   EN: 'en',
@@ -49,7 +49,7 @@ export enum Contact {
   WAKATIME = 'https://wakatime.com/@Neikan'
 }
 
-export const JOBS: IJobBlock[] = [
+export const EXPERIENCES: IExperienceBlock[] = [
   {
     period: 'March 2020 – present',
     company: 'Individual Entrepreneur | Freelance',
@@ -82,7 +82,7 @@ export const JOBS: IJobBlock[] = [
   }
 ]
 
-export enum JobBlockSide {
+export enum ExperienceBlockSide {
   LEFT = 'left',
   RIGHT = 'right'
 }
