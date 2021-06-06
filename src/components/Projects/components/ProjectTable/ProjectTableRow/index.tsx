@@ -12,7 +12,7 @@ export const ProjectTableRow: FC<IProps> = ({ project: { name, description, tech
     <tr key={name}>
       <td><a className='projects__link' href={url}>{name}</a></td>
       <td>{t(ProjectTypeTranslation[type])}</td>
-      <td>{description}</td>
+      <td>{t(description)}</td>
       <td>{technologies}</td>
     </tr>
   )
