@@ -6,8 +6,10 @@ import { ContactType } from '@components/Contacts/consts'
 import { IContactProps as IProps } from './types'
 
 export const Contact: FC<IProps> = ({ contact: { icon, title, url }, target, type } : IProps) => {
+  const key = uuidv4()
+
   const renderMainContact = (): ReactElement => (
-    <li className='contacts__contact' key={uuidv4()}>
+    <li key={key} className='contacts__contact'>
       <a className='contacts__link--main' href={url}>
         {icon}
         {title}
@@ -16,12 +18,10 @@ export const Contact: FC<IProps> = ({ contact: { icon, title, url }, target, typ
   )
 
   const renderAdditionalContact = (): ReactElement => (
-    <a key={uuidv4()} className='contacts__link--additional' href={url} target={target} title={title}>
+    <a key={key} className='contacts__link--additional' href={url} target={target} title={title}>
       {icon}
     </a>
   )
 
-  return type === ContactType.MAIN
-    ? renderMainContact()
-    : renderAdditionalContact()
+  return type === ContactType.MAIN ? renderMainContact() : renderAdditionalContact()
 }
