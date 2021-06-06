@@ -6,6 +6,7 @@ export const Languages = {
 export const NS = [
   'about',
   'common',
+  'education',
   'projects'
 ]
 
