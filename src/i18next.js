@@ -5,7 +5,7 @@ import Backend from 'i18next-fetch-backend'
 import intervalPlural from 'i18next-intervalplural-postprocessor'
 import LanguageDetector from 'i18next-browser-languagedetector'
 
-import { Languages, NS } from '@consts'
+import { Languages, NS } from '@consts/common'
 
 i18n
   .use(Backend)

@@ -1,6 +1,6 @@
 import React, { FC, ReactElement } from 'react'
 
-import { ExperienceBlockSide, EXPERIENCES } from '@consts'
+import { ExperienceBlockSide, EXPERIENCES } from '@consts/experience'
 
 import { ExperienceBlock } from './components/ExperienceBlock'
 

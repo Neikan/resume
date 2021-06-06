@@ -1,7 +1,7 @@
 import cn from 'classnames'
 import React, { FC, ReactElement } from 'react'
 
-import { CERTIFICATES } from '@consts'
+import { CERTIFICATES } from '@consts/certificates'
 
 import { ICertificate, ICourse, ICourseByYear } from '@types'
 

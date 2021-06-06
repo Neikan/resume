@@ -1,4 +1,4 @@
-import { ContactType } from '@components/Contacts/consts'
+import { ContactType } from '@consts/contacts'
 
 import { IContact } from '@components/Contacts/types'
 

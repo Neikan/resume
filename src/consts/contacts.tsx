@@ -12,7 +12,7 @@ import {
   IconWakatime
 } from '@components/icons'
 
-import { IContact } from './types'
+import { IContact } from '../components/Contacts/types'
 
 export enum ContactType {
   ADDITIONAL = 'ADDITIONAL',

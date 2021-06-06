@@ -1,8 +1,8 @@
-import { LinkTarget } from '@consts'
 import React, { FC } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
-import { ADDITIONAL_CONTACTS, ContactType } from '../../consts'
+import { LinkTarget } from '@consts/common'
+import { ADDITIONAL_CONTACTS, ContactType } from '@consts/contacts'
 
 import { Contact } from '../Contact'
 

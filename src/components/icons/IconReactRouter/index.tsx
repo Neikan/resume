@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 
-import { Technology } from '@consts'
+import { Technology } from '@consts/technologies'
 
 import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
 import { ReactComponent as IconReactRouterSVG } from './icon-react-router.svg'
