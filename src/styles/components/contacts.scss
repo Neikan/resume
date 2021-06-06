@@ -1,0 +1,47 @@
+@import "../mixins/decorations";
+
+.constacts {
+  width: $width-container-left;
+  display: flex;
+  flex-direction: column;
+  margin-top: $space-6;
+}
+
+.contact__title {
+  margin-bottom: $space-4;
+}
+
+.contacts__photo {
+  display: block;
+  min-width: $width-container-left;
+  height: $height-photo;
+}
+
+.contacts__list {
+  @include lisn();
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contacts__main-element {
+  margin-bottom: $space-4;
+}
+
+.contacts__main-link {
+  display: flex;
+  align-items: center;
+
+  @include link("gray");
+}
+
+.contacts__additional-element {
+  display: flex;
+}
+
+.contacts__additional-link {
+  margin-right: $space-4;
+}
+
+.contacts__icon {
+  margin-right: $space-4;
+}

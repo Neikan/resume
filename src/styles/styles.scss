@@ -1,8 +1,11 @@
 @import "variables/main";
+@import "variables/spacing.scss";
 
 @import "scaffolding/font-face";
 @import "scaffolding/global";
 @import "scaffolding/visually-hidden";
 
+@import "components/about";
+@import "components/contacts";
 @import "components/content";
 @import "components/wrappers";

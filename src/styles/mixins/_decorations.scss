@@ -1,0 +1,30 @@
+@mixin lisn {
+  list-style: none;
+  padding-left: 0;
+}
+
+@mixin link($name) {
+  color: var(--#{$name}-500);
+
+  & svg {
+    fill: var(--#{$name}-500);
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--#{$name}-600);
+  }
+
+  &:hover svg,
+  &:focus svg {
+    fill: var(--#{$name}-600);
+  }
+
+  &:active {
+    color: var(--#{$name}-800);
+  }
+
+  &:active svg {
+    fill: var(--#{$name}-800);
+  }
+}

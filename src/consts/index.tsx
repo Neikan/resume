@@ -211,3 +211,7 @@ export const CERTIFICATES: ICertificate[] = [
     ]
   }
 ]
+
+export enum LinkTarget {
+  CONTACTS = 'blank10'
+}

@@ -11,7 +11,7 @@ export const About: FC<IProps> = () => {
   return (
     <div className='d-flex'>
       <div>
-        <img src='img/foto/me.png' width='256px' height='256px' alt='foto' className='mr-6' />
+        <img src='img/foto/me.png' alt='photo of Eugene' className='contacts__photo' />
         <Contacts />
       </div>
       <div className='d-flex flex-column flex-grow-1'>

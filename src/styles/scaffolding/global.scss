@@ -19,6 +19,9 @@ body {
   color: var(--light);
 }
 
-.heught {
-  height: 256px;
+:root {
+  --module: #{$module};
+
+  --width-container-left: #{width-container-left};
+  --height-avatar: #{--height-avatar};
 }
