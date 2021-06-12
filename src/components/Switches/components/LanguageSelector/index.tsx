@@ -22,7 +22,7 @@ export const LanguageSelector: FC = () => {
       classes='switches__language'
       name='languageToggle'
       onChange={handleChangeLanguage(newLanguage)}
-      value={i18n.language === Languages.EN}
+      value={isEn}
     />
   )
 }

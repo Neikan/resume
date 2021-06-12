@@ -1,4 +1,4 @@
-export const STORAGE_LANGUAGE_KEY = 'i18n.lang'
+export const STORAGE_LANGUAGE_KEY = 'i18nextLng'
 
 export const Languages = {
   EN: 'en',
