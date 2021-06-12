@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { ProjectTypeTranslation } from '@consts/translations'
+import { ProjectTypeTranslation } from '@consts/projects'
 
 import { IProjectTableRowProps as IProps } from './types'
 

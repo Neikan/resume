@@ -8,6 +8,7 @@ export const NS = [
   'certificates',
   'common',
   'education',
+  'experience',
   'projects'
 ]
 

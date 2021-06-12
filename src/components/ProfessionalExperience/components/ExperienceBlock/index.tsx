@@ -1,5 +1,6 @@
 import cn from 'classnames'
 import React, { FC } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import { ExperienceBlockSide } from '@consts/experience'
 
@@ -15,9 +16,13 @@ const getClasses = (side: ExperienceBlockSide): string => cn(
     : 'professional-experience__block--right'
 )
 
-export const ExperienceBlock: FC<IProps> = ({ experience: { period, company, position, side } }) => (
-  <div className={getClasses(side)}>
-    <ExperiencePeriod period={period} side={side} />
-    <ExperienceInfo company={company} position={position} side={side} />
-  </div>
-)
+export const ExperienceBlock: FC<IProps> = ({ experience: { period, company, position, side } }) => {
+  const { t } = useTranslation()
+
+  return (
+    <div className={getClasses(side)}>
+      <ExperiencePeriod period={t(period)} side={side} />
+      <ExperienceInfo company={t(company)} position={t(position)} side={side} />
+    </div>
+  )
+}

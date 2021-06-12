@@ -7,33 +7,33 @@ export enum ExperienceBlockSide {
 
 export const EXPERIENCES: IExperienceBlock[] = [
   {
-    period: 'March 2020 – present',
-    company: 'Individual Entrepreneur | Freelance',
-    position: 'Frontend-developer'
+    period: 'experience:experience.free.period',
+    company: 'experience:experience.free.company',
+    position: 'experience:experience.free.position'
   },
   {
-    period: 'April 2016 – March 2020',
-    company: 'LLC “TerraLink Development”',
-    position: 'QA'
+    period: 'experience:experience.tl.period',
+    company: 'experience:experience.tl.company',
+    position: 'experience:experience.tl.position'
   },
   {
-    period: 'March 2012 – April 2016',
-    company: 'LLC “General Computers”',
-    position: 'Consulting engineer'
+    period: 'experience:experience.gc.period',
+    company: 'experience:experience.gc.company',
+    position: 'experience:experience.gc.position'
   },
   {
-    period: 'August 2011 – March 2012',
-    company: 'SRI “Mechanics and Applied Mathematics of Vorovich I.I.”',
-    position: 'Engineer'
+    period: 'experience:experience.sri.period',
+    company: 'experience:experience.sri.company',
+    position: 'experience:experience.sri.position'
   },
   {
-    period: 'May 2011 – August 2011',
-    company: 'JSC “Gloria Jeans”',
-    position: 'Engineer-analyst'
+    period: 'experience:experience.gj.period',
+    company: 'experience:experience.gj.company',
+    position: 'experience:experience.gj.position'
   },
   {
-    period: 'April 2009 – March 2011',
-    company: 'CJSC “ALL Group”',
-    position: 'Network administrator'
+    period: 'experience:experience.ga.period',
+    company: 'experience:experience.ga.company',
+    position: 'experience:experience.ga.position'
   }
 ]

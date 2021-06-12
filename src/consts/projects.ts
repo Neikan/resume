@@ -92,3 +92,9 @@ export const PROJECTS: IProject[] = [
     url: 'https://github.com/Neikan/htmlacademy-sedona'
   }
 ]
+
+export const ProjectTypeTranslation = {
+  [ProjectType.COMMERCIAL]: 'projects:type.commercial',
+  [ProjectType.PRIVATE]: 'projects:type.private',
+  [ProjectType.TRAINING]: 'projects:type.training'
+}
