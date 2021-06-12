@@ -1,7 +1,9 @@
 import React, { FC } from 'react'
 
-import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
+import { Icon } from '@components/Icon'
 import { ReactComponent as IconLinkedInSVG } from './icon-linkedin.svg'
+
+import { IIconProps as IProps } from '@components/Icon/types'
 
 export const IconLinkedIn: FC<IProps> = ({ ...restProps }) => (
   <Icon {...restProps} >

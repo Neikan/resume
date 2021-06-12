@@ -2,8 +2,10 @@ import React, { FC } from 'react'
 
 import { Technology } from '@consts/technologies'
 
-import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
+import { Icon } from '@components/Icon'
 import { ReactComponent as IconSASSSVG } from './icon-sass.svg'
+
+import { IIconProps as IProps } from '@components/Icon/types'
 
 export const IconSASS: FC<IProps> = ({ ...restProps }) => (
   <Icon title={Technology.SASS} {...restProps} >

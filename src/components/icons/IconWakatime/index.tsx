@@ -1,10 +1,12 @@
 import React, { FC } from 'react'
 
-import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
+import { Icon } from '@components/Icon'
 import { ReactComponent as IconWakatimeSVG } from './icon-wakatime.svg'
 
-export const IconWakatime: FC<IProps> = ({ color = 'dark', ...restProps }) => (
-  <Icon color={color} {...restProps} >
+import { IIconProps as IProps } from '@components/Icon/types'
+
+export const IconWakatime: FC<IProps> = ({ ...restProps }) => (
+  <Icon {...restProps} >
     <IconWakatimeSVG />
   </Icon>
 )

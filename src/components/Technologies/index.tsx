@@ -1,6 +1,5 @@
 import React, { FC } from 'react'
 
-import { IRCLIconProps } from '@neikan/rc-lib'
 import {
   IconBabel,
   IconCordova,
@@ -30,7 +29,9 @@ import {
   IconZeplin
 } from '@components/icons'
 
-const iconProps: IRCLIconProps = {
+import { IIconProps } from '@components/Icon/types'
+
+const iconProps: IIconProps = {
   size: 'x2h'
 }
 
