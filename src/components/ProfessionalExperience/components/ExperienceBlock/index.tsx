@@ -9,8 +9,6 @@ import { ExperiencePeriod } from '../ExperiencePeriod'
 
 import { IExperienceBlockProps as IProps } from './types'
 
-const { t } = useTranslation()
-
 const getClasses = (side: ExperienceBlockSide): string => cn(
   'professional-experience__block',
   side === ExperienceBlockSide.LEFT
@@ -18,9 +16,13 @@ const getClasses = (side: ExperienceBlockSide): string => cn(
     : 'professional-experience__block--right'
 )
 
-export const ExperienceBlock: FC<IProps> = ({ experience: { period, company, position, side } }) => (
-  <div className={getClasses(side)}>
-    <ExperiencePeriod period={t(period)} side={side} />
-    <ExperienceInfo company={t(company)} position={t(position)} side={side} />
-  </div>
-)
+export const ExperienceBlock: FC<IProps> = ({ experience: { period, company, position, side } }) => {
+  const { t } = useTranslation()
+
+  return (
+    <div className={getClasses(side)}>
+      <ExperiencePeriod period={t(period)} side={side} />
+      <ExperienceInfo company={t(company)} position={t(position)} side={side} />
+    </div>
+  )
+}

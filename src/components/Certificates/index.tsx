@@ -6,15 +6,17 @@ import { CERTIFICATES } from '@consts/certificates'
 
 import { CoursesByResourse } from './components/CoursesByResourse'
 
-const { t } = useTranslation()
+export const Certificates: FC = () => {
+  const { t } = useTranslation()
 
-export const Certificates: FC = () => (
-  <section className='certificates'>
-    <h3 className='certificates__title'>{t('certificates:title')}</h3>
-    <ul className='certificates__list'>
-      {CERTIFICATES.map((course) =>
-        <CoursesByResourse key={uuidv4()} course={course} />
-      )}
-    </ul>
-  </section>
-)
+  return (
+    <section className='certificates'>
+      <h3 className='certificates__title'>{t('certificates:title')}</h3>
+      <ul className='certificates__list'>
+        {CERTIFICATES.map((course) =>
+          <CoursesByResourse key={uuidv4()} course={course} />
+        )}
+      </ul>
+    </section>
+  )
+}

@@ -9,7 +9,7 @@ import { ICourseByYearProps as IProps } from './types'
 export const CourseByYear: FC<IProps> = ({ course: { year, courses } }) => {
   return (
     <li key={year} className='certificates__year'>
-      <span>{year}г.: </span>
+      <span>{year}:</span>
       <ul className='certificates__year-list'>
         {courses.map((course: ICourse) => <Course key={uuidv4()} course={course} />)}
       </ul>

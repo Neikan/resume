@@ -4,9 +4,9 @@ import { useTranslation } from 'react-i18next'
 
 import { HEADINGS } from '@consts/projects'
 
-const { t } = useTranslation()
-
 const renderTh = (heading: string): ReactElement => {
+  const { t } = useTranslation()
+
   const translatedHeading = t(heading)
 
   return (
