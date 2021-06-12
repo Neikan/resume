@@ -9,6 +9,7 @@ import {
   Education,
   ProfessionalExperience,
   Projects,
+  Switches,
   Technologies
 } from '@components'
 
@@ -31,6 +32,7 @@ export default class App extends Component {
             </div>
           </div>
         </div>
+        <Switches />
       </div>
     )
   }
