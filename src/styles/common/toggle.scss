@@ -11,10 +11,7 @@
 }
 
 .toggle--on,
-.toggle--on:focus {
-  background: var(--primary-100);
-}
-
+.toggle--on:focus,
 .toggle--off,
 .toggle--off:focus {
   background: var(--gray-100);
@@ -28,19 +25,20 @@
   display: block;
   width: 20px;
   height: 20px;
+
+  border: 1px solid var(--gray-100);
   border-radius: 50%;
 
   transition: right ease var(--transition-time-base);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5);
 }
 
 .toggle--on::before {
   right: 0;
-  background-color: var(--primary-500);
-  box-shadow: 0px 2px 4px rgba(25, 30, 36, 0.15);
+  background-image: url(../img/icons/icon-flag-en.svg);
 }
 
 .toggle--off::before {
   right: calc(34px - 20px);
-  background-color: var(--light);
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+  background-image: url(../img/icons/icon-flag-ru.svg);
 }

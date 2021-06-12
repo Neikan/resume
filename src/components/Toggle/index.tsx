@@ -5,6 +5,8 @@ import { IToggleProps as IProps } from './types'
 
 export const Toggle: FC<IProps> = ({
   classes,
+  iconOn,
+  iconOff,
   name,
   onChange,
   value
@@ -25,6 +27,8 @@ export const Toggle: FC<IProps> = ({
         onChange={onChange}
         type='checkbox'
       />
+      {iconOn && value ? iconOn : null}
+      {iconOff && !value ? iconOff : null}
     </label>
   )
 }
