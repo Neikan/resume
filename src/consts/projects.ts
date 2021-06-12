@@ -1,10 +1,10 @@
 import { IProject } from '@types'
 
 export const HEADINGS = [
-  'Name',
-  'Type',
-  'Description',
-  'Technologies'
+  'projects:headings.title',
+  'projects:headings.type',
+  'projects:headings.description',
+  'projects:headings.technologies'
 ]
 
 export enum ProjectType {
