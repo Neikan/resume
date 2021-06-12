@@ -1,3 +1,21 @@
 {
-  "title": "Courses, trainings and certificates"
+  "title": "Courses, trainings and certificates",
+  "courses": {
+    "ha-js3": "React. Development of Complex Front-end Applications",
+    "ha-js2": "JavaScript. Client Application Architecture (prev: Professional JavaScript, Level 2)",
+    "ha-html2": "HTML & CSS. Responsive layout and automation (prev: Professional HTML & CSS, Level 2)",
+    "ha-js1": "JavaScript. Professional development of web interfaces (prev: Professional JavaScript, Level 1)",
+    "ha-html1": "HTML and CSS. Professional website layout (prev: Professional HTML & CSS, Level 1)",
+    "st-java": "Java programming for QA",
+    "st-nlo": "FLF: find, localize and file a bug",
+    "st-begin": "Intensive beginner QA",
+    "m-pr": "Managing Projects with Microsoft Project 2013",
+    "m-pr-serv": "Managing Project and Portfolios with Project Server 2013",
+    "m-win7": "Windows 7 and Office 2010, Deployment",
+    "m-win8": "Configuring Windows 8.1",
+    "m-365": "Administering Office 365 for Small Business",
+    "sl-c#": "C#. Tutorial",
+    "sl-js": "JavaScript. Tutorial",
+    "sl-sql": "SQL. Fundamentals"
+  }
 }

@@ -8,23 +8,23 @@ export const CERTIFICATES: ICertificate[] = [
         year: 2020,
         courses: [
           {
-            title: 'React. Development of Complex Front-end Applications',
+            title: 'certificates:courses.ha-js3',
             url: 'https://assets.htmlacademy.ru/certificates/intensive/147/1264031.pdf'
           },
           {
-            title: 'Professional JavaScript, Level 2',
+            title: 'certificates:courses.ha-js2',
             url: 'https://assets.htmlacademy.ru/certificates/intensive/145/1264031.pdf'
           },
           {
-            title: 'Professional HTML & CSS, Level 2',
+            title: 'certificates:courses.ha-html2',
             url: 'https://assets.htmlacademy.ru/certificates/intensive/157/1264031.pdf'
           },
           {
-            title: 'Professional JavaScript, Level 1',
+            title: 'certificates:courses.ha-js1',
             url: 'https://assets.htmlacademy.ru/certificates/intensive/123/1264031.pdf'
           },
           {
-            title: 'Professional HTML & CSS, Level 1',
+            title: 'certificates:courses.ha-html1',
             url: 'https://assets.htmlacademy.ru/certificates/intensive/155/1264031.pdf'
           }
         ]
@@ -39,7 +39,7 @@ export const CERTIFICATES: ICertificate[] = [
         year: 2019,
         courses: [
           {
-            title: 'Программирование на Java для тестировщиков',
+            title: 'certificates:courses.st-java',
             url: 'http://cert.software-testing.ru/programming/1/sladkov.pdf'
           }
         ]
@@ -48,7 +48,7 @@ export const CERTIFICATES: ICertificate[] = [
         year: 2016,
         courses: [
           {
-            title: 'НЛО: найти, локализовать и оформить ошибку',
+            title: 'certificates:courses.st-nlo',
             url: 'http://cert.software-testing.ru/nlo/sladkov.pdf'
           }
         ]
@@ -57,7 +57,7 @@ export const CERTIFICATES: ICertificate[] = [
         year: 2015,
         courses: [
           {
-            title: 'Интенсив для начинающих тестировщиков',
+            title: 'certificates:courses.st-begin',
             url: 'http://cert.software-testing.ru/int/sladkov.pdf'
           }
         ]
@@ -72,10 +72,10 @@ export const CERTIFICATES: ICertificate[] = [
         year: 2015,
         courses: [
           {
-            title: 'Managing Projects with Microsoft Project 2013'
+            title: 'certificates:courses.m-pr'
           },
           {
-            title: 'Managing Project and Portfolios with Project Server 2013'
+            title: 'certificates:courses.m-pr-serv'
           }
         ]
       },
@@ -83,7 +83,7 @@ export const CERTIFICATES: ICertificate[] = [
         year: 2014,
         courses: [
           {
-            title: 'Windows 7 and Office 2010, Deployment'
+            title: 'certificates:courses.m-win7'
           }
         ]
       },
@@ -91,10 +91,10 @@ export const CERTIFICATES: ICertificate[] = [
         year: 2013,
         courses: [
           {
-            title: 'Configuring Windows 8.1'
+            title: 'certificates:courses.m-win8'
           },
           {
-            title: 'Administering Office 365 for Small Business'
+            title: 'certificates:courses.m-365'
           }
         ]
       }
@@ -108,15 +108,15 @@ export const CERTIFICATES: ICertificate[] = [
         year: 2017,
         courses: [
           {
-            title: 'C# Tutorial title',
+            title: 'certificates:courses.sl-c#',
             url: 'https://www.sololearn.com/Certificate/1080-3359650/pdf/'
           },
           {
-            title: 'JavaScript Tutorial title',
+            title: 'certificates:courses.sl-js',
             url: 'https://www.sololearn.com/Certificate/1024-3359650/pdf/'
           },
           {
-            title: 'SQL Fundamentals title',
+            title: 'certificates:courses.sl-sql',
             url: 'https://www.sololearn.com/Certificate/1060-3359650/pdf/'
           }
         ]
