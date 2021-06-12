@@ -9,7 +9,7 @@
 }
 
 .certificates__list {
-  @include lisn();
+  @extend .lisn;
 }
 
 .certificates__resourse {
@@ -24,7 +24,7 @@
 }
 
 .certificates__resourse-list {
-  @include lisn();
+  @extend .lisn;
   margin-top: $space-5;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .certificates__year-list {
-  @include lisn();
+  @extend .lisn;
   margin-top: $space-5;
   margin-bottom: $space-4;
   margin-left: $space-4;

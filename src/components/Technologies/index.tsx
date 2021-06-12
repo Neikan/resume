@@ -31,8 +31,7 @@ import {
 } from '@components/icons'
 
 const iconProps: IRCLIconProps = {
-  size: 'x2h',
-  classes: 'grid-item'
+  size: 'x2h'
 }
 
 // Добавить джиру, бейскемп, тфс
@@ -40,7 +39,7 @@ export const Technologies: FC = () => {
   return (
     <section className='technologies'>
       <h3 className='technologies__title'>Technologies and skills</h3>
-      <div className='grid-4 grid-g-4 grid-center-x mb-4'>
+      <div className='technologies__block'>
         <IconTS { ...iconProps } />
         <IconJS { ...iconProps } />
         <IconReact { ...iconProps } />
@@ -50,33 +49,31 @@ export const Technologies: FC = () => {
         <IconGit { ...iconProps } />
         <IconSQL { ...iconProps } />
       </div>
-      <div className='grid-4 grid-g-4 grid-center-x mb-4'>
+      <div className='technologies__block'>
         <IconHTML { ...iconProps } />
         <IconCSS { ...iconProps } />
         <IconLess { ...iconProps } />
         <IconSASS { ...iconProps } />
-      </div>
-      <div className='grid-4 grid-g-4 grid-center-y mb-4'>
         <IconFigma { ...iconProps } />
         <IconPhotoshop { ...iconProps } />
         <IconZeplin { ...iconProps } />
       </div>
-      <div className='grid-4 grid-g-4 grid-center-y mb-4'>
+      <div className='technologies__block'>
         <IconSwagger { ...iconProps } />
         <IconPostman { ...iconProps } />
         <IconEnzyme { ...iconProps } />
         <IconJest { ...iconProps } />
       </div>
-      <div className='grid-4 grid-g-4 grid-center-y mb-4'>
+      <div className='technologies__block'>
         <IconWebpack { ...iconProps } />
         <IconGulp { ...iconProps } />
         <IconBabel { ...iconProps } />
       </div>
-      <div className='grid-4 grid-g-4 grid-center-y mb-4'>
+      <div className='technologies__block'>
         <IconStorybook { ...iconProps } />
         <IconStyleguidist { ...iconProps } />
       </div>
-      <div className='grid-4 grid-g-4 grid-center-y mb-4'>
+      <div className='technologies__block'>
         <IconVSCode { ...iconProps } />
         <IconWebStorm { ...iconProps } />
       </div>

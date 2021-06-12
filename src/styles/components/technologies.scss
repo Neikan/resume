@@ -6,3 +6,16 @@
 .technologies__title {
   margin-bottom: $space-4;
 }
+
+.technologies__block {
+  box-sizing: border-box;
+  display: grid;
+  min-height: 0;
+  min-width: 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  justify-self: center;
+  width: 100%;
+  margin-bottom: $space-4;
+}
