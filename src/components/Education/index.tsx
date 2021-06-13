@@ -16,18 +16,14 @@ export const Education: FC = () => {
           <span className='education__subtitle'>
             {t('education:faculty.title')}
           </span>
-          <span>
-            {t('education:faculty.description')}
-          </span>
+          {t('education:faculty.description')}
         </span>
 
         <span className='education__detailes'>
           <span className='education__subtitle'>
             {t('education:speciality.title')}
           </span>
-          <span>
-            {t('education:speciality.description')}
-          </span>
+          {t('education:speciality.description')}
         </span>
       </p>
     </section>
