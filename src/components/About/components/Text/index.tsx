@@ -6,6 +6,10 @@ import {
   IconIonic,
   IconKotlin,
   IconNextJS,
+  IconReact,
+  IconRedux,
+  IconSASS,
+  IconTS,
   IconVue
 } from '@components/icons'
 
@@ -21,6 +25,15 @@ export const Text: FC = () => {
         {t('about:intro.name-3')}
       </span>
       <span className='about__text'>{t('about:intro.path')}</span>
+      <span className='about__text'>
+        {t('about:intro.stack')}
+        <span className='about__stack'>
+          <IconTS />
+          <IconReact />
+          <IconRedux />
+          <IconSASS />
+        </span>
+      </span>
       <span className='about__text'>{t('about:intro.future')}</span>
       <span className='about__text'>
         {t('about:intro.interests')}

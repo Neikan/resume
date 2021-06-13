@@ -15,15 +15,17 @@
   text-decoration: line-through;
 }
 
-.about__interests {
-  @extend .mt-4;
+.about__stack {
+  @extend .mt-4, .grid;
 
-  box-sizing: border-box;
-  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 10rem;
+}
+
+.about__interests {
+  @extend .mt-4, .grid;
+
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  justify-self: center;
   width: 12.5rem;
 }
 
