@@ -20,7 +20,7 @@ export default class App extends Component {
         <div className='content__info'>
           <About />
           <div className='content__details'>
-            <div>
+            <div className='content__details--left'>
               <Contacts />
               <Technologies />
               <Education />
@@ -28,9 +28,9 @@ export default class App extends Component {
             <div className='content__details--right'>
               <ProfessionalExperience />
               <Projects />
-              <Certificates />
             </div>
           </div>
+          <Certificates />
         </div>
         <Switches />
       </div>

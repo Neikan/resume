@@ -1,6 +1,6 @@
 .technologies {
-  margin-top: $space-6;
   width: $wt-container-left;
+  margin-bottom: $space-6;
 }
 
 .technologies__title {
@@ -11,4 +11,26 @@
   @extend .grid;
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: $space-4;
+}
+
+@media (min-width: $wt) {
+  .technologies {
+    width: auto;
+    margin-left: $space-6;
+  }
+
+  .technologies__block {
+    grid-template-columns: 2.5rem, 1fr;
+  }
+}
+
+@media (min-width: $wd) {
+  .technologies {
+    width: $wt-container-left;
+    margin-left: 0;
+  }
+
+  .technologies__block {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
