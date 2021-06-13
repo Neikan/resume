@@ -33,8 +33,12 @@
 
   .content__details--left {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: $space-6;
     grid-template-columns: $wt-container-left auto;
+  }
+
+  .content__education {
+    grid-column: 1/2;
   }
 }
 

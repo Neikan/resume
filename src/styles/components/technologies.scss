@@ -15,17 +15,18 @@
 @media (min-width: $wt) {
   .technologies {
     width: auto;
-    margin-left: $space-6;
+    margin-bottom: 0;
   }
 
-  // .technologies__block {
-  //   grid-template-columns: 2.5rem, 1fr;
-  // }
+  .technologies__block {
+    grid-template-columns: repeat(7, 1fr);
+  }
 }
 
 @media (min-width: $wd) {
   .technologies {
     width: $wt-container-left;
+    margin-bottom: $space-6;
     margin-left: 0;
   }
 
