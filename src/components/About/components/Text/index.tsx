@@ -18,13 +18,22 @@ export const Text: FC = () => {
 
   return (
     <p>
-      <span className='about__text'>{t('about:intro.welcome')}</span>
+      <span>
+        {t('about:intro.welcome')}
+      </span>
+
       <span className='about__text'>
         {t('about:intro.name-1')}
-        <span className='about__text--through'>{t('about:intro.name-2')}</span>
+        <span className='about__text--through'>
+          {t('about:intro.name-2')}
+        </span>
         {t('about:intro.name-3')}
       </span>
-      <span className='about__text'>{t('about:intro.path')}</span>
+
+      <span className='about__text'>
+        {t('about:intro.path')}
+      </span>
+
       <span className='about__text'>
         {t('about:intro.stack')}
         <span className='about__stack'>
@@ -34,7 +43,11 @@ export const Text: FC = () => {
           <IconSASS />
         </span>
       </span>
-      <span className='about__text'>{t('about:intro.future')}</span>
+
+      <span className='about__text'>
+        {t('about:intro.future')}
+      </span>
+
       <span className='about__text'>
         {t('about:intro.interests')}
         <span className='about__interests'>

@@ -1,14 +1,13 @@
 .about__photo {
-  @extend .mr-4;
-
   width: 8rem;
   height: 8rem;
   float: left;
+  margin-right: $space-4;
 }
 
 .about__text {
   display: block;
-  margin-bottom: $space-4;
+  margin-top: $space-4;
 }
 
 .about__text--through {
@@ -16,17 +15,19 @@
 }
 
 .about__stack {
-  @extend .mt-4, .grid;
+  @extend .grid;
 
   grid-template-columns: repeat(4, 1fr);
   width: 10rem;
+  margin-top: $space-4;
 }
 
 .about__interests {
-  @extend .mt-4, .grid;
+  @extend .grid;
 
   grid-template-columns: repeat(5, 1fr);
   width: 12.5rem;
+  margin-top: $space-4;
 }
 
 @media (min-width: $wt) {
@@ -38,7 +39,6 @@
     min-width: $wt-container-left;
     height: $ht-photo;
     float: none;
-
     margin-right: $space-6;
     margin-bottom: $space-6;
   }
