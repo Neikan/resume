@@ -1,6 +1,5 @@
 .technologies {
-  margin-top: $space-6;
-  width: $wt-container-left;
+  margin-bottom: $space-6;
 }
 
 .technologies__title {
@@ -8,14 +7,101 @@
 }
 
 .technologies__block {
-  box-sizing: border-box;
-  display: grid;
-  min-height: 0;
-  min-width: 0;
+  @extend .grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  justify-self: center;
-  width: 100%;
-  margin-bottom: $space-4;
+}
+
+@media (min-width: $wm-sm) {
+  .technologies__block {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (min-width: $wm-md) {
+  .technologies__block {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (min-width: $wm-lg) {
+  .technologies__block {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (min-width: $wm-lg) {
+  .technologies__block {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (min-width: $wm-xl) {
+  .technologies__block {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+@media (min-width: $wm-xxl) {
+  .technologies__block {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+
+@media (min-width: $wt) {
+  .technologies {
+    margin-bottom: 0;
+  }
+
+  .technologies__block {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (min-width: $wt-sm) {
+  .technologies__block {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+@media (min-width: $wt-md) {
+  .technologies__block {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+
+@media (min-width: $wt-lg) {
+  .technologies__block {
+    grid-template-columns: repeat(10, 1fr);
+  }
+}
+
+@media (min-width: $wt-xl) {
+  .technologies__block {
+    grid-template-columns: repeat(11, 1fr);
+  }
+}
+
+@media (min-width: $wt-xxl) {
+  .technologies__block {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+@media (min-width: $wt-xxl) {
+  .technologies__block {
+    grid-template-columns: repeat(13, 1fr);
+  }
+}
+
+
+@media (min-width: $wd) {
+  .technologies {
+    width: $wt-container-left;
+    margin-bottom: $space-6;
+    margin-left: 0;
+  }
+
+  .technologies__block {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

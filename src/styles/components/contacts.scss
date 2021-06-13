@@ -4,7 +4,7 @@
   width: $wt-container-left;
   display: flex;
   flex-direction: column;
-  margin-top: $space-6;
+  margin-bottom: $space-6;
 }
 
 .contact__title {
@@ -39,4 +39,10 @@
 
 .contacts__icon {
   margin-right: $space-4;
+}
+
+@media (min-width: $wd) {
+  .constacts {
+    margin-bottom: $space-6;
+  }
 }

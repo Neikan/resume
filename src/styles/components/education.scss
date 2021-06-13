@@ -1,6 +1,6 @@
 .education {
-  margin-top: $space-6;
-  width: $wt-container-left;
+  width: 100%;
+  margin-bottom: $space-6;
 }
 
 .education__title {
@@ -8,18 +8,34 @@
 }
 
 .education__info {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-row-gap: 1rem;
 }
 
-.education__info-university,
-.education__info-faculty,
-.education__info-speciality {
+.education__details {
+  display: grid;
+  grid-template-columns: max-content;
+}
+
+.education__subtitle {
   color: var(--primary-400);
   font-weight: 600;
 }
 
-.education__info-faculty,
-.education__info-speciality {
-  margin-top: $space-4;
+@media (min-width: $wt) {
+  .education__info {
+    grid-template-columns: $wt-container-left auto $wt-container-left;
+    grid-column-gap: $space-6;
+  }
+}
+
+@media (min-width: $wd) {
+  .education {
+    width: $wt-container-left;
+    margin-bottom: $space-6;
+  }
+
+  .education__info {
+    grid-template-columns: $wt-container-left;
+  }
 }

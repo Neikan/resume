@@ -1,30 +1,37 @@
-.about__photo {
-  @extend .mr-4;
+.about {
+  margin-bottom: $space-6;
+}
 
+.about__photo {
   width: 8rem;
   height: 8rem;
   float: left;
+  margin-right: $space-4;
 }
 
 .about__text {
   display: block;
-  margin-bottom: $space-4;
+  margin-top: $space-4;
 }
 
 .about__text--through {
   text-decoration: line-through;
 }
 
-.about__interests {
-  @extend .mt-4;
+.about__stack {
+  @extend .grid;
 
-  box-sizing: border-box;
-  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 10rem;
+  margin-top: $space-4;
+}
+
+.about__interests {
+  @extend .grid;
+
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  justify-self: center;
   width: 12.5rem;
+  margin-top: $space-4;
 }
 
 @media (min-width: $wt) {
@@ -36,7 +43,6 @@
     min-width: $wt-container-left;
     height: $ht-photo;
     float: none;
-
     margin-right: $space-6;
     margin-bottom: $space-6;
   }

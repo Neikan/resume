@@ -52,8 +52,6 @@ export const Technologies: FC = () => {
         <IconCordova { ...iconProps } />
         <IconGit { ...iconProps } />
         <IconSQL { ...iconProps } />
-      </div>
-      <div className='technologies__block'>
         <IconHTML { ...iconProps } />
         <IconCSS { ...iconProps } />
         <IconLess { ...iconProps } />
@@ -61,23 +59,15 @@ export const Technologies: FC = () => {
         <IconFigma { ...iconProps } />
         <IconPhotoshop { ...iconProps } />
         <IconZeplin { ...iconProps } />
-      </div>
-      <div className='technologies__block'>
         <IconSwagger { ...iconProps } />
         <IconPostman { ...iconProps } />
         <IconEnzyme { ...iconProps } />
         <IconJest { ...iconProps } />
-      </div>
-      <div className='technologies__block'>
         <IconWebpack { ...iconProps } />
         <IconGulp { ...iconProps } />
         <IconBabel { ...iconProps } />
-      </div>
-      <div className='technologies__block'>
         <IconStorybook { ...iconProps } />
         <IconStyleguidist { ...iconProps } />
-      </div>
-      <div className='technologies__block'>
         <IconVSCode { ...iconProps } />
         <IconWebStorm { ...iconProps } />
       </div>
