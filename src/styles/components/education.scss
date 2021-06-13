@@ -24,8 +24,7 @@
 
 @media (min-width: $wt) {
   .education__info {
-    grid-template-columns:
-      $wt-container-left auto $wt-container-left;
+    grid-template-columns: $wt-container-left auto $wt-container-left;
     grid-column-gap: $space-6;
   }
 }
