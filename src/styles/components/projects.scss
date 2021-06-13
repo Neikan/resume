@@ -5,3 +5,44 @@
 .projects__title {
   margin-bottom: $space-4;
 }
+
+.projects__table {
+  border-collapse: collapse;
+
+  tr {
+    border-bottom: 1px solid var(--primary-200);
+  }
+
+  thead > tr > th {
+    padding: $space-3;
+    padding-top: 0;
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+
+  tbody > tr > td {
+    padding: $space-3;
+    line-height: $space-4;
+    font-size: 0.75rem;
+
+    &:first-child {
+      padding-left: 0;
+      font-size: 0.875rem;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.projects__headings {
+  color: var(--primary-400);
+  text-align: left;
+}
+
+.projects__link {
+  @include link("gray");
+}

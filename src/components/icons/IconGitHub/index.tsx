@@ -1,12 +1,12 @@
 import React, { FC } from 'react'
 
-import { Contact } from '@consts'
-
-import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
+import { Icon } from '@components/Icon'
 import { ReactComponent as IconGitHubSVG } from './icon-github.svg'
 
-export const IconGitHub: FC<IProps> = ({ color = 'dark', ...restProps }) => (
-  <Icon color={color} title={Contact.GITHUB} {...restProps} >
+import { IIconProps as IProps } from '@components/Icon/types'
+
+export const IconGitHub: FC<IProps> = ({ ...restProps }) => (
+  <Icon {...restProps} >
     <IconGitHubSVG />
   </Icon>
 )

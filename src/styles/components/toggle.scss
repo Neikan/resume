@@ -1,0 +1,44 @@
+.toggle {
+  position: relative;
+  display: block;
+  width: 34px;
+  height: 14px;
+
+  border-radius: 7px;
+
+  cursor: pointer;
+  @extend .tap-none;
+}
+
+.toggle--on,
+.toggle--on:focus,
+.toggle--off,
+.toggle--off:focus {
+  background: var(--gray-100);
+}
+
+.toggle::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+
+  display: block;
+  width: 20px;
+  height: 20px;
+
+  border: 1px solid var(--gray-100);
+  border-radius: 50%;
+
+  transition: right ease var(--transition-time-base);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.toggle--on::before {
+  right: 0;
+  background-image: url(../img/icons/icon-flag-en.svg);
+}
+
+.toggle--off::before {
+  right: calc(34px - 20px);
+  background-image: url(../img/icons/icon-flag-ru.svg);
+}

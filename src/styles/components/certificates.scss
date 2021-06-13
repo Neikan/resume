@@ -9,5 +9,36 @@
 }
 
 .certificates__list {
-  @include lisn();
+  @extend .lisn;
+}
+
+.certificates__resourse {
+  display: flex;
+  margin-top: $space-4;
+}
+
+.certificates__resourse-title {
+  min-width: 8.125rem;
+  font-weight: 600;
+  color: var(--primary-400);
+}
+
+.certificates__resourse-list {
+  @extend .lisn;
+  margin-top: $space-5;
+}
+
+.certificates__year {
+  display: flex;
+}
+
+.certificates__year-list {
+  @extend .lisn;
+  margin-top: $space-5;
+  margin-bottom: $space-4;
+  margin-left: $space-4;
+}
+
+.certificates__course {
+  @include link("gray");
 }

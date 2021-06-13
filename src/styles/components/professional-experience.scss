@@ -18,9 +18,33 @@
   background: var(--primary-300);
 }
 
-.professional-experience__info {
+.professional-experience__block {
   height: 5rem;
 }
+
+.professional-experience__block--left {
+  margin-bottom: 5rem;
+  text-align: right;
+}
+
+.professional-experience__block--right {
+  margin-top: 5rem;
+}
+
+.professional-experience__info {
+  display: flex;
+  flex-direction: column;
+  margin-top: $space-3;
+}
+
+.professional-experience__info--left {
+  padding-right: $space-4;
+}
+
+.professional-experience__info--right {
+  padding-left: $space-4;
+}
+
 
 .professional-experience__period {
   color: var(--primary-400);

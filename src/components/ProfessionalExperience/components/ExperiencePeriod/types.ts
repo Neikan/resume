@@ -1,4 +1,4 @@
-import { ExperienceBlockSide } from '@consts'
+import { ExperienceBlockSide } from '@consts/experience'
 
 export interface IExperiencePeriodProps {
   period: string

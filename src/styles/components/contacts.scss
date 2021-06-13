@@ -1,7 +1,7 @@
 @import "../mixins/decorations";
 
 .constacts {
-  width: $width-container-left;
+  width: $wt-container-left;
   display: flex;
   flex-direction: column;
   margin-top: $space-6;
@@ -12,27 +12,28 @@
 }
 
 .contacts__list {
-  @include lisn();
+  @extend .lisn;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.contacts__main-element {
-  margin-bottom: $space-4;
-}
-
-.contacts__main-link {
-  display: flex;
-  align-items: center;
-
-  @include link("gray");
 }
 
 .contacts__additional-element {
   display: flex;
 }
 
-.contacts__additional-link {
+.contacts__contact {
+  margin-bottom: $space-4;
+}
+
+.contacts__link--main {
+  display: flex;
+  align-items: center;
+
+  @include link("gray");
+}
+
+
+.contacts__link--additional {
   margin-right: $space-4;
 }
 

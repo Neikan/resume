@@ -1,15 +1,43 @@
-.about {
-  display: flex;
-}
-
 .about__photo {
-  width: $width-container-left;
-  height: $height-photo;
+  @extend .mr-4;
+
+  width: 8rem;
+  height: 8rem;
+  float: left;
 }
 
-.about__intro {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  margin-left: $space-6;
+.about__text {
+  display: block;
+  margin-bottom: $space-4;
+}
+
+.about__text--through {
+  text-decoration: line-through;
+}
+
+.about__interests {
+  @extend .mt-4;
+
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  justify-self: center;
+  width: 12.5rem;
+}
+
+@media (min-width: $wt) {
+  .about {
+    display: flex;
+  }
+
+  .about__photo {
+    min-width: $wt-container-left;
+    height: $ht-photo;
+    float: none;
+
+    margin-right: $space-6;
+    margin-bottom: $space-6;
+  }
 }

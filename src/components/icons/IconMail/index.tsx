@@ -1,12 +1,12 @@
 import React, { FC } from 'react'
 
-import { Contact } from '@consts'
-
-import { Icon, IRCLIconProps as IProps } from '@neikan/rc-lib'
+import { Icon } from '@components/Icon'
 import { ReactComponent as IconMailSVG } from './icon-mail.svg'
 
+import { IIconProps as IProps } from '@components/Icon/types'
+
 export const IconMail: FC<IProps> = ({ ...restProps }) => (
-  <Icon title={Contact.MAIL} {...restProps} >
+  <Icon {...restProps} >
     <IconMailSVG />
   </Icon>
 )

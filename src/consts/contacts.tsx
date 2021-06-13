@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { IRCLIconProps } from '@neikan/rc-lib'
-
 import {
   IconGitHub,
   IconGitLab,
@@ -12,15 +10,16 @@ import {
   IconWakatime
 } from '@components/icons'
 
-import { IContact } from './types'
+import { IIconProps } from '@components/Icon/types'
+import { IContact } from '../components/Contacts/types'
 
-const commonIconProps: IRCLIconProps = {
-  size: 'x1h'
+export enum ContactType {
+  ADDITIONAL = 'ADDITIONAL',
+  MAIN = 'MAIN'
 }
 
-const mainContactIconProps: IRCLIconProps = {
-  ...commonIconProps,
-  classes: 'contacts__icon'
+const mainContactIconProps: IIconProps = {
+   classes: 'contacts__icon'
 }
 
 export const MAIN_CONTACTS: IContact[] = [
@@ -43,22 +42,22 @@ export const MAIN_CONTACTS: IContact[] = [
 
 export const ADDITIONAL_CONTACTS: IContact[] = [
   {
-    icon: <IconWakatime { ...commonIconProps } />,
+    icon: <IconWakatime />,
     title: 'Wakatime',
     url: 'https://wakatime.com/@Neikan'
   },
   {
-    icon: <IconGitHub { ...commonIconProps } />,
+    icon: <IconGitHub />,
     title: 'GitHub',
     url: 'https://github.com/Neikan'
   },
   {
-    icon: <IconGitLab { ...commonIconProps } />,
+    icon: <IconGitLab />,
     title: 'GitLab',
     url: 'https://gitlab.com/Neikan'
   },
   {
-    icon: <IconLinkedIn { ...commonIconProps } />,
+    icon: <IconLinkedIn />,
     title: 'LinkedIn',
     url: 'https://www.linkedin.com/in/neikan'
   }

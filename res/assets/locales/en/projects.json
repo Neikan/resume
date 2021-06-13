@@ -1,0 +1,27 @@
+{
+  "title": "Projects",
+  "description": {
+    "dF": "Legally significant Electronic document management system",
+    "dFM": "Mobile client for docuForce",
+    "rmk": "Electronic Storage System",
+    "fl": "Library for common frontend components",
+    "rclib": "My pet-project: library for common frontend components",
+    "resume": "The resource you are currently on :)",
+    "whatToWatch": "The app for an online cinema with the ability to authorize, rate, comment and watch movies",
+    "cinemaddict": "The app for forming lists of movies: favorites, watched, planned for watching",
+    "keksobooking": "The simple “booking”-like app prototype",
+    "catEnergy": "The responsive app prototype to help you find the right nutrition for your cat",
+    "sedona": "Business card site for a city in Arizona"
+  },
+  "headings": {
+    "title": "Title",
+    "type": "Type",
+    "description": "Description",
+    "technologies": "Technologies"
+  },
+  "type": {
+    "commercial": "Commercial",
+    "private": "Private",
+    "training": "Training"
+  }
+}

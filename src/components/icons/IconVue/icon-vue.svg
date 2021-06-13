@@ -1,0 +1,12 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#vue)">
+    <path d="M12.7988 1H15.9985L7.99925 14.7987L0 1H6.11942L7.99925 4.1997L9.83907 1H12.7988Z" fill="#41B883"/>
+    <path d="M0 1L7.99925 14.7987L15.9985 1H12.7988L7.99925 9.27922L3.1597 1H0Z" fill="#41B883"/>
+    <path d="M3.15973 1L7.99927 9.31922L12.7988 1H9.8391L7.99927 4.1997L6.11945 1H3.15973Z" fill="#35495E"/>
+  </g>
+  <defs>
+    <clipPath id="vue">
+      <rect width="16" height="13.8112" fill="white" transform="translate(0 1)"/>
+    </clipPath>
+  </defs>
+</svg>

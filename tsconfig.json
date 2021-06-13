@@ -35,6 +35,7 @@
       "@components": ["components"],
       "@components/*": ["components/*"],
       "@consts": ["consts"],
+      "@consts/*": ["consts/*"],
       "@types":  ["types"],
       "@utils": ["utils/*"],
       "@utils/*": ["utils/*"],

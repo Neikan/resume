@@ -1,14 +1,17 @@
 import cn from 'classnames'
 import React, { FC } from 'react'
 
+import { ExperienceBlockSide } from '@consts/experience'
+
 import { IExperiencePeriodProps as IProps } from './types'
 
-const getClasses = (side = 'left'): string => {
+const getClasses = (side = ExperienceBlockSide.LEFT): string => {
   return cn(
     'professional-experience__period',
-    side === 'right'
-      ? 'professional-experience__period--right'
-      : 'professional-experience__period--left'
+    side === ExperienceBlockSide.LEFT
+      ? 'professional-experience__period--left'
+      : 'professional-experience__period--right'
+
   )
 }
 

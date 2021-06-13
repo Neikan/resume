@@ -1,0 +1,24 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <path d="M8.03315 0L0 8.44787V16L8.02163 7.96429L16 0H8.03315Z" fill="url(#kotlin0)"/>
+  <path d="M0 16L8.02163 7.96442L16 16H0Z" fill="url(#kotlin1)"/>
+  <path d="M0 0H8.03315L0 8.44787V0Z" fill="url(#kotlin2)"/>
+  <defs>
+    <linearGradient id="kotlin0" x1="-2.69376" y1="14.7104" x2="12.1951" y2="-0.178561" gradientUnits="userSpaceOnUse">
+      <stop offset="0.108" stop-color="#C757BC"/>
+      <stop offset="0.173" stop-color="#CD5CA9"/>
+      <stop offset="0.492" stop-color="#E8744F"/>
+      <stop offset="0.716" stop-color="#F88316"/>
+      <stop offset="0.823" stop-color="#FF8900"/>
+    </linearGradient>
+    <linearGradient id="kotlin1" x1="5.1063" y1="18.8867" x2="12.3634" y2="11.6296" gradientUnits="userSpaceOnUse">
+      <stop offset="0.296" stop-color="#00AFFF"/>
+      <stop offset="0.694" stop-color="#5282FF"/>
+      <stop offset="1" stop-color="#945DFF"/>
+    </linearGradient>
+    <linearGradient id="kotlin2" x1="-12.0578" y1="291.46" x2="323.515" y2="-27.6466" gradientUnits="userSpaceOnUse">
+      <stop offset="0.296" stop-color="#00AFFF"/>
+      <stop offset="0.694" stop-color="#5282FF"/>
+      <stop offset="1" stop-color="#945DFF"/>
+    </linearGradient>
+  </defs>
+</svg>
