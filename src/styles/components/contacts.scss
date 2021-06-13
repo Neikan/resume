@@ -41,13 +41,6 @@
   margin-right: $space-4;
 }
 
-@media (min-width: $wt) {
-  .constacts {
-    margin-bottom: 0;
-  }
-
-}
-
 @media (min-width: $wd) {
   .constacts {
     margin-bottom: $space-6;
