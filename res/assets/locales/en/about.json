@@ -1,3 +1,12 @@
 {
-  "intro": "Hello! My name is Eugene and I'm Batman! No, not yet!) Now is frontend-developer!"
+  "intro": {
+    "welcome": "Hello, world!",
+    "name-1": "My name is Eugene and I'm ",
+    "name-2": "Batman!",
+    "name-3": " :) frontend-developer from Saint-Perersburg!",
+    "path": "My path to frontend development was very long and thorny, but I did it!",
+    "future": "And now I try not to dwell on what I've already achieved, therefore I'm constantly learning something new in order to further develop in the chosen path.",
+    "interests": "At the moment I'm interested in:"
+  },
+  "photo": "photo of Eugene"
 }

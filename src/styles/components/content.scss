@@ -3,8 +3,9 @@
   min-width: $wm;
   max-width: $wt;
 
-  margin: $space-6 auto;
-  padding: $space-6;
+  @extend .my-6;
+  @extend .mx-auto;
+  @extend .p-6;
 
   box-shadow:
     0 8px 16px rgba(110, 120, 130, 0.12),

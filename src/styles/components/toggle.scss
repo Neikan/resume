@@ -7,7 +7,7 @@
   border-radius: 7px;
 
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
+  @extend .tap-none;
 }
 
 .toggle--on,

@@ -1,3 +1,5 @@
+import { IIconProps } from '@components/Icon/types'
+
 export const STORAGE_LANGUAGE_KEY = 'i18nextLng'
 
 export const Languages = {
@@ -17,4 +19,8 @@ export const NS = [
 export enum LinkTarget {
   CERTIFICATES = 'blank10',
   CONTACTS = 'blank20'
+}
+
+export const commonIconProps: IIconProps = {
+  size: 'x1h'
 }
