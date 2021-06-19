@@ -17,19 +17,23 @@
   top: 0;
   right: 0;
   left: auto;
-  width: 0.5rem;
+  width: $all-timeline-tree;
   height: 100%;
-  border-left: 0.5rem solid var(--primary-300);
-}
-
-.professional-experience__block:not(:last-child) {
-  height: 6rem;
+  background: var(--primary-300);
 }
 
 .professional-experience__block--left,
 .professional-experience__block--right {
   margin-bottom: $space-4;
   text-align: right;
+}
+
+.professional-experience__block--left {
+  height: $wm-experience-block;
+}
+
+.professional-experience__block--right:not(:last-child) {
+  height: $wm-experience-block;
 }
 
 .professional-experience__info {
@@ -46,7 +50,7 @@
 .professional-experience__period {
   color: var(--primary-400);
   font-weight: 600;
-  border-bottom: 4px solid var(--primary-300);
+  border-bottom: $all-timeline-branch solid var(--primary-300);
 }
 
 .professional-experience__period--left,
@@ -56,36 +60,25 @@
 
 @media (min-width: $wm-xl) {
   .professional-experience__branches {
-    display: flex;
-    justify-content: center;
-    margin-top: $space-4;
+    display: grid;
+    grid-column-gap: $all-timeline-tree;
+    grid-template-columns: 50% 50%;
+    padding-right: 0;
   }
 
-  .professional-experience {
-    margin-bottom: $space-6;
+  .professional-experience__branches::after {
+    right: 50%;
+    left: 50%;
   }
 
-  .professional-experience__title {
-    margin-bottom: $space-4;
-  }
-
-  .professional-experience__branches {
-    display: flex;
-    justify-content: center;
-    margin-top: $space-4;
-  }
-
-  .professional-experience__block {
-    height: 5rem;
-  }
-
-  .professional-experience__block--left {
-    margin-bottom: 5rem;
-    text-align: right;
+  .professional-experience__block--left:not(:last-child) {
+    margin-bottom: $wm-xl-experience-block;
   }
 
   .professional-experience__block--right {
-    margin-top: 5rem;
+    text-align: left;
+    margin-top: $wm-xl-experience-block;
+    margin-bottom: 0;
   }
 
   .professional-experience__info {
@@ -100,22 +93,15 @@
 
   .professional-experience__info--right {
     padding-left: $space-4;
-  }
-
-
-  .professional-experience__period {
-    color: var(--primary-400);
-    font-weight: 600;
-    border-bottom: 4px solid var(--primary-300);
+    padding-right: 0;
   }
 
   .professional-experience__period--left {
-    margin-bottom: 5rem;
     padding-right: $space-4;
   }
 
   .professional-experience__period--right {
-    margin-top: 5rem;
     padding-left: $space-4;
+    padding-right: 0;
   }
 }
