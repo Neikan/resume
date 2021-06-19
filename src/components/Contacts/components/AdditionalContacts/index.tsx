@@ -7,7 +7,7 @@ import { ADDITIONAL_CONTACTS, ContactType } from '@consts/contacts'
 import { Contact } from '../Contact'
 
 export const AdditionalContacts: FC = () => (
-  <li key={uuidv4()} className='contacts__additional-element'>
+  <li key={uuidv4()} className='contacts__item--additional'>
     {ADDITIONAL_CONTACTS.map((contact, index) => {
       const target = `${LinkTarget.CONTACTS}${index}`
 

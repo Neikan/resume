@@ -9,8 +9,8 @@ export const Contact: FC<IProps> = ({ contact: { icon, title, url }, target, typ
   const key = uuidv4()
 
   const renderMainContact = (): ReactElement => (
-    <li key={key} className='contacts__contact'>
-      <a className='contacts__link--main' href={url}>
+    <li key={key} className='contacts__item'>
+      <a className='contacts__item-link--main' href={url}>
         {icon}
         {title}
       </a>
@@ -18,7 +18,7 @@ export const Contact: FC<IProps> = ({ contact: { icon, title, url }, target, typ
   )
 
   const renderAdditionalContact = (): ReactElement => (
-    <a key={key} className='contacts__link--additional' href={url} target={target} title={title}>
+    <a key={key} className='contacts__item-link--additional' href={url} target={target} title={title}>
       {icon}
     </a>
   )
