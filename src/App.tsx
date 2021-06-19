@@ -1,7 +1,5 @@
 import React, { Component, ReactElement } from 'react'
 
-import '@neikan/rc-lib/dist/styles/styles.min.css'
-
 import {
   About,
   Certificates,

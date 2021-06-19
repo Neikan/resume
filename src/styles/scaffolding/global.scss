@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   min-width: $wm;
   margin: 0;
@@ -17,6 +27,18 @@ body {
 .body-dark {
   background-color: var(--grey);
   color: var(--light);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
 :root {

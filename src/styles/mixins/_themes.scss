@@ -1,0 +1,8 @@
+@mixin make-theme($colors, $name) {
+  .theme-#{$name} {
+    @each $theme-colors, $value in $colors {
+      --#{$theme-colors}: #{$value};
+      --#{$theme-colors}-rgb: #{HexToRGB($value)};
+    }
+  }
+}
