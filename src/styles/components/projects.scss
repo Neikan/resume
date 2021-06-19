@@ -45,6 +45,24 @@
   font-size: 0.875rem;
 }
 
+.projects__type {
+  padding: 0 $space-2;
+  color: var(--gray-600);
+  border-radius: $space-2;
+}
+
+.projects__type--commercial {
+  background-color: var(--success-100);
+}
+
+.projects__type--private {
+  background-color: var(--warning-100);
+}
+
+.projects__type--training {
+  background-color: var(--danger-100);
+}
+
 @media (min-width: $wm-xl) {
   .projects__title {
     margin-bottom: $space-4;
