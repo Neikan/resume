@@ -7,13 +7,13 @@
   color: var(--#{$name}-500);
   transition: var(--transition-time-base);
 
-  &:hover,
-  &:focus {
+  &[href]:hover,
+  &[href]:focus {
     color: var(--#{$name}-600);
     text-decoration: underline;
   }
 
-  &:active {
+  &[href]:active {
     color: var(--#{$name}-800);
   }
 }
