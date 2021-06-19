@@ -25,9 +25,7 @@ import {
   IconSQL,
   IconSwagger,
   IconTS,
-  IconVSCode,
   IconWebpack,
-  IconWebStorm,
   IconZeplin
 } from '@components/icons'
 
@@ -69,8 +67,6 @@ export const Technologies: FC = () => {
         <IconBabel { ...iconProps } />
         <IconStorybook { ...iconProps } />
         <IconStyleguidist { ...iconProps } />
-        <IconVSCode { ...iconProps } />
-        <IconWebStorm { ...iconProps } />
       </div>
     </section>
   )

@@ -28,9 +28,7 @@ export enum Technology {
   SVELTE = 'Svelte',
   SWAGGER = 'Swagger',
   TYPESCRIPT = 'TypeScript',
-  VSCODE = 'VSCode',
   VUE = 'Vue.js',
   WEBPACK = 'Webpack',
-  WEBSTORM = 'WebStorm',
   ZEPLIN = 'Zeplin'
 }
