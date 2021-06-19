@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
+import { v4 as uuidv4 } from 'uuid'
 
 import { ProjectTypeTranslation } from '@consts/projects'
 
@@ -9,7 +10,7 @@ export const ProjectTableRow: FC<IProps> = ({ project: { name, description, tech
   const { t } = useTranslation()
 
   return (
-    <tr key={name}>
+    <tr key={uuidv4()}>
       <td><a className='projects__link' href={url}>{name}</a></td>
       <td>{t(ProjectTypeTranslation[type])}</td>
       <td>{t(description)}</td>

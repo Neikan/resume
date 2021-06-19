@@ -7,28 +7,29 @@
 }
 
 .professional-experience__branches {
-  display: flex;
-  justify-content: center;
-  margin-top: $space-4;
+  position: relative;
+  padding-right: $space-2;
 }
 
-.professional-experience__timeline {
+.professional-experience__branches::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  left: auto;
   width: 0.5rem;
-  height: 30rem;
-  background: var(--primary-300);
+  height: 100%;
+  border-left: 0.5rem solid var(--primary-300);
 }
 
-.professional-experience__block {
-  height: 5rem;
+.professional-experience__block:not(:last-child) {
+  height: 6rem;
 }
 
-.professional-experience__block--left {
-  margin-bottom: 5rem;
-  text-align: right;
-}
-
+.professional-experience__block--left,
 .professional-experience__block--right {
-  margin-top: 5rem;
+  margin-bottom: $space-4;
+  text-align: right;
 }
 
 .professional-experience__info {
@@ -37,14 +38,10 @@
   margin-top: $space-3;
 }
 
-.professional-experience__info--left {
+.professional-experience__info--left,
+.professional-experience__info--right {
   padding-right: $space-4;
 }
-
-.professional-experience__info--right {
-  padding-left: $space-4;
-}
-
 
 .professional-experience__period {
   color: var(--primary-400);
@@ -52,12 +49,73 @@
   border-bottom: 4px solid var(--primary-300);
 }
 
-.professional-experience__period--left {
-  margin-bottom: 5rem;
+.professional-experience__period--left,
+.professional-experience__period--right {
   padding-right: $space-4;
 }
 
-.professional-experience__period--right {
-  margin-top: 5rem;
-  padding-left: $space-4;
+@media (min-width: $wm-xl) {
+  .professional-experience__branches {
+    display: flex;
+    justify-content: center;
+    margin-top: $space-4;
+  }
+
+  .professional-experience {
+    margin-bottom: $space-6;
+  }
+
+  .professional-experience__title {
+    margin-bottom: $space-4;
+  }
+
+  .professional-experience__branches {
+    display: flex;
+    justify-content: center;
+    margin-top: $space-4;
+  }
+
+  .professional-experience__block {
+    height: 5rem;
+  }
+
+  .professional-experience__block--left {
+    margin-bottom: 5rem;
+    text-align: right;
+  }
+
+  .professional-experience__block--right {
+    margin-top: 5rem;
+  }
+
+  .professional-experience__info {
+    display: flex;
+    flex-direction: column;
+    margin-top: $space-3;
+  }
+
+  .professional-experience__info--left {
+    padding-right: $space-4;
+  }
+
+  .professional-experience__info--right {
+    padding-left: $space-4;
+  }
+
+
+  .professional-experience__period {
+    color: var(--primary-400);
+    font-weight: 600;
+    border-bottom: 4px solid var(--primary-300);
+  }
+
+  .professional-experience__period--left {
+    margin-bottom: 5rem;
+    padding-right: $space-4;
+  }
+
+  .professional-experience__period--right {
+    margin-top: 5rem;
+    padding-left: $space-4;
+  }
 }
