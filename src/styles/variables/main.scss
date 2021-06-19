@@ -1,11 +1,5 @@
-/**
- * List of variables
- */
 $module: 8px;
 
-/**
- *  Vieport sizes
- */
 $wm: 320px;
 $wm-sm: 384px;
 $wm-md: 478px;
@@ -21,14 +15,10 @@ $wt-xxl: 1152px;
 $wt-xxxl: 1216px;
 $wd: 1280px;
 
-/**
- * Colors
- */
 $light: #FFFFFF;
 $dark: #000000;
 $grey: #333333;
 
-/**
- * Fonts
- */
 $font-main: "Open Sans", "Arial", sans-serif;
+
+$transition-time-base: 300ms;
