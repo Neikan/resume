@@ -18,7 +18,8 @@ export const NS = [
 
 export enum LinkTarget {
   CERTIFICATES = 'blank10',
-  CONTACTS = 'blank20'
+  CONTACTS = 'blank20',
+  PROJECTS = 'blank30',
 }
 
 export const commonIconProps: IIconProps = {

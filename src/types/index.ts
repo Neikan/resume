@@ -31,5 +31,5 @@ export interface IProject {
   description: string
   technologies: string
   type: ProjectType
-  url: string
+  url?: string
 }
