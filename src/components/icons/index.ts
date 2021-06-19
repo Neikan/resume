@@ -1,5 +1,7 @@
 export * from './IconAngular'
 export * from './IconBabel'
+export * from './IconBatman'
+export * from './IconBatmanNo'
 export * from './IconCSS'
 export * from './IconCordova'
 export * from './IconEnzyme'

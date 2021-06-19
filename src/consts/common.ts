@@ -25,3 +25,7 @@ export enum LinkTarget {
 export const commonIconProps: IIconProps = {
   size: 'x1h'
 }
+
+export enum CommonTitles {
+  BATMAN = 'Batman'
+}

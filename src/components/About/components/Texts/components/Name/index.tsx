@@ -6,21 +6,21 @@ export const Name: FC = () => {
 
   return (
     <span className='about__text'>
-      {t('about:intro.name-1-1')}
+      {t('about:intro.name-is')}
       <span className='about__text--primary'>
-        {t('about:intro.name-1-2')}
+        {t('about:intro.name-name')}
       </span>
-      {t('about:intro.name-1-3')}
+      {t('about:intro.name-and')}
       <span className='about__text--through'>
-        {t('about:intro.name-2')}
+        {t('about:intro.name-batman')}
       </span>
-      {t('about:intro.name-3-1')}
+      {t('about:intro.name-smile')}
       <span className='about__text--primary'>
-        {t('about:intro.name-3-2')}
+        {t('about:intro.name-f-dev')}
       </span>
-      {t('about:intro.name-3-3')}
+      {t('about:intro.name-city-1')}
       &#8209;
-      {t('about:intro.name-3-4')}
+      {t('about:intro.name-city-2')}
     </span>
   )
 }
