@@ -1,13 +1,12 @@
 .toggle {
+  @extend .tap-none;
+
   position: relative;
   display: block;
   width: 34px;
   height: 14px;
-
   border-radius: 7px;
-
   cursor: pointer;
-  @extend .tap-none;
 }
 
 .toggle--on,

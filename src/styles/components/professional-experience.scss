@@ -58,7 +58,7 @@
   padding-right: $space-4;
 }
 
-@media (min-width: $wm-xl) {
+@media (min-width: $wm-md) {
   .professional-experience__branches {
     display: grid;
     grid-column-gap: $all-timeline-tree;
@@ -72,12 +72,12 @@
   }
 
   .professional-experience__block--left:not(:last-child) {
-    margin-bottom: $wm-xl-experience-block;
+    margin-bottom: $wm-md-experience-block;
   }
 
   .professional-experience__block--right {
     text-align: left;
-    margin-top: $wm-xl-experience-block;
+    margin-top: $wm-md-experience-block;
     margin-bottom: 0;
   }
 

@@ -25,6 +25,7 @@
 
 .certificates__resourse-list {
   @extend .lisn;
+
   margin-top: $space-5;
 }
 
@@ -34,6 +35,7 @@
 
 .certificates__year-list {
   @extend .lisn;
+  
   margin-top: $space-5;
   margin-bottom: $space-4;
   margin-left: $space-4;

@@ -42,6 +42,7 @@
 
 .projects__item-link {
   @include link("primary");
+
   font-size: 0.875rem;
 }
 
@@ -63,7 +64,7 @@
   background-color: var(--danger-100);
 }
 
-@media (min-width: $wm-xl) {
+@media (min-width: $wm-md) {
   .projects__title {
     margin-bottom: $space-4;
   }
@@ -95,6 +96,7 @@
 
   .projects__item-link {
     @include link("gray");
+    
     font-size: 0.875rem;
   }
 }

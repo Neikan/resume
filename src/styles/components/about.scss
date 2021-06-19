@@ -7,6 +7,7 @@
   height: 8rem;
   float: left;
   margin-right: $space-4;
+  margin-bottom: $space-4;
 }
 
 .about__text {
@@ -21,16 +22,14 @@
 .about__stack {
   @extend .grid;
 
-  grid-template-columns: repeat(4, 1fr);
-  width: 10rem;
+  grid-template-columns: repeat(auto-fill, minmax($all-icon__size--x1h, 1fr));
   margin-top: $space-4;
 }
 
 .about__interests {
   @extend .grid;
 
-  grid-template-columns: repeat(7, 1fr);
-  width: 12.5rem;
+  grid-template-columns: repeat(auto-fill, minmax($all-icon__size--x1h, 1fr));
   margin-top: $space-4;
 }
 
