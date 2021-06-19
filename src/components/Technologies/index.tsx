@@ -10,6 +10,7 @@ import {
   IconGit,
   IconGulp,
   IconHTML,
+  IconJava,
   IconJest,
   IconJS,
   IconLess,
@@ -36,7 +37,6 @@ const iconProps: IIconProps = {
   size: 'x2h'
 }
 
-// Добавить джиру, бейскемп, тфс
 export const Technologies: FC = () => {
   const { t } = useTranslation()
 
@@ -46,6 +46,7 @@ export const Technologies: FC = () => {
       <div className='technologies__block'>
         <IconTS { ...iconProps } />
         <IconJS { ...iconProps } />
+        <IconJava { ...iconProps } />
         <IconReact { ...iconProps } />
         <IconReactRouter { ...iconProps } />
         <IconRedux { ...iconProps } />

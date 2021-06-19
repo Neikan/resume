@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import {
+  IconAngular,
   IconGraphQL,
   IconIonic,
   IconKotlin,
@@ -9,6 +10,7 @@ import {
   IconReact,
   IconRedux,
   IconSASS,
+  IconSvelte,
   IconTS,
   IconVue
 } from '@components/icons'
@@ -53,6 +55,8 @@ export const Text: FC = () => {
         <span className='about__interests'>
           <IconNextJS />
           <IconVue />
+          <IconAngular />
+          <IconSvelte />
           <IconGraphQL />
           <IconIonic />
           <IconKotlin />

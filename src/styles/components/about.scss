@@ -29,7 +29,7 @@
 .about__interests {
   @extend .grid;
 
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   width: 12.5rem;
   margin-top: $space-4;
 }
