@@ -1,34 +1,31 @@
-/**
- * List of variables
- */
 $module: 8px;
 
-/**
- *  Vieport sizes
- */
 $wm: 320px;
-$wm-sm: 384px;
-$wm-md: 478px;
-$wm-lg: 512px;
-$wm-xl: 640px;
-$wm-xxl: 704px;
+$wm-md: 640px;
 $wt: 768px;
-$wt-sm: 896px;
-$wt-md: 960px;
-$wt-lg: 1024px;
-$wt-xl: 1088px;
-$wt-xxl: 1152px;
-$wt-xxxl: 1216px;
 $wd: 1280px;
 
-/**
- * Colors
- */
+$wm-photo: 8rem;
+$wm-experience-block: 6rem;
+$wm-md-experience-block: 5rem;
+
+$wt-certificates__resourse-title: 8.5rem;
+$wt-container-left: 16rem;
+$ht-photo: $wt-container-left;
+
+$all-timeline-tree: 8px;
+$all-timeline-branch: 4px;
+$all-icon__size--x1: 1rem;
+$all-icon__size--x1h: 1.5rem;
+$all-icon__size--x2h: 2.5rem;
+
 $light: #FFFFFF;
 $dark: #000000;
 $grey: #333333;
 
-/**
- * Fonts
- */
 $font-main: "Open Sans", "Arial", sans-serif;
+
+$fs-base: 0.875rem;
+$fs-sm: 0.75rem;
+
+$transition-time-base: 300ms;

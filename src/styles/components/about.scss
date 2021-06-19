@@ -7,6 +7,12 @@
   height: 8rem;
   float: left;
   margin-right: $space-4;
+  margin-bottom: $space-4;
+}
+
+.about__welcome {
+  color: var(--primary-400);
+  font-weight: 600;
 }
 
 .about__text {
@@ -14,23 +20,31 @@
   margin-top: $space-4;
 }
 
+.about__text--primary {
+  color: var(--primary-500);
+}
+
 .about__text--through {
+  color: var(--gray-500);
   text-decoration: line-through;
+}
+
+.about__text--success {
+  color: var(--success-500);
+  font-weight: 600;
 }
 
 .about__stack {
   @extend .grid;
 
-  grid-template-columns: repeat(4, 1fr);
-  width: 10rem;
+  grid-template-columns: repeat(auto-fill, minmax($all-icon__size--x1h, 1fr));
   margin-top: $space-4;
 }
 
 .about__interests {
   @extend .grid;
 
-  grid-template-columns: repeat(5, 1fr);
-  width: 12.5rem;
+  grid-template-columns: repeat(auto-fill, minmax($all-icon__size--x1h, 1fr));
   margin-top: $space-4;
 }
 

@@ -1,11 +1,11 @@
 import React, { FC } from 'react'
 
 import { Photo } from './components/Photo'
-import { Text } from './components/Text'
+import { Texts } from './components/Texts'
 
 export const About: FC = () => (
   <section className='about'>
     <Photo />
-    <Text />
+    <Texts />
   </section>
 )

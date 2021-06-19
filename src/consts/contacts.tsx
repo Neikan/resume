@@ -19,7 +19,7 @@ export enum ContactType {
 }
 
 const mainContactIconProps: IIconProps = {
-   classes: 'contacts__icon'
+   classes: 'contacts__item-icon'
 }
 
 export const MAIN_CONTACTS: IContact[] = [

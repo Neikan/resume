@@ -5,26 +5,15 @@
 
 @mixin link($name) {
   color: var(--#{$name}-500);
+  transition: var(--transition-time-base);
 
-  & svg {
-    fill: var(--#{$name}-500);
-  }
-
-  &:hover,
-  &:focus {
+  &[href]:hover,
+  &[href]:focus {
     color: var(--#{$name}-600);
+    text-decoration: underline;
   }
 
-  &:hover svg,
-  &:focus svg {
-    fill: var(--#{$name}-600);
-  }
-
-  &:active {
+  &[href]:active {
     color: var(--#{$name}-800);
-  }
-
-  &:active svg {
-    fill: var(--#{$name}-800);
   }
 }

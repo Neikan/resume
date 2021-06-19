@@ -8,9 +8,9 @@ export const HEADINGS = [
 ]
 
 export enum ProjectType {
-  COMMERCIAL = 'COMMERCIAL',
-  PRIVATE = 'PRIVATE',
-  TRAINING = 'TRAINING',
+  COMMERCIAL = 'commercial',
+  PRIVATE = 'private',
+  TRAINING = 'training',
 }
 
 export const PROJECTS: IProject[] = [
@@ -25,8 +25,7 @@ export const PROJECTS: IProject[] = [
     name: 'docuForce Mobile',
     description: 'projects:description:dFM',
     technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
-    type: ProjectType.COMMERCIAL,
-    url: ''
+    type: ProjectType.COMMERCIAL
   },
   {
     name: 'RM-Keeper',

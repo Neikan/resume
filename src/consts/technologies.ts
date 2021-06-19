@@ -1,4 +1,5 @@
 export enum Technology {
+  ANGULAR = 'Angular',
   BABEL = 'Babel',
   CORDOVA = 'Apache Cordova',
   CSS = 'CSS',
@@ -8,6 +9,7 @@ export enum Technology {
   GRAPHQL = 'GraphQL',
   GULP = 'Gulp',
   HTML = 'HTML',
+  JAVA = 'Java',
   JAVASCRIPT = 'JavaScript',
   JEST = 'Jest',
   IONIC = 'Ionic Framework',
@@ -21,13 +23,12 @@ export enum Technology {
   REDUX = 'Redux',
   SASS = 'SASS',
   SQL = 'SQL',
-  SWAGGER = 'Swagger',
   STORYBOOK = 'Storybook',
   STYLEGUIDIST = 'Styleguidist',
+  SVELTE = 'Svelte',
+  SWAGGER = 'Swagger',
   TYPESCRIPT = 'TypeScript',
-  VSCODE = 'VSCode',
   VUE = 'Vue.js',
   WEBPACK = 'Webpack',
-  WEBSTORM = 'WebStorm',
   ZEPLIN = 'Zeplin'
 }

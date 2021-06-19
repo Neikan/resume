@@ -2,8 +2,6 @@
 
 .constacts {
   width: $wt-container-left;
-  display: flex;
-  flex-direction: column;
   margin-bottom: $space-6;
 }
 
@@ -13,31 +11,32 @@
 
 .contacts__list {
   @extend .lisn;
-  margin-top: 0;
-  margin-bottom: 0;
+
+  margin: 0;
 }
 
-.contacts__additional-element {
-  display: flex;
-}
-
-.contacts__contact {
+.contacts__item {
   margin-bottom: $space-4;
 }
 
-.contacts__link--main {
+
+.contacts__item--additional {
+  display: flex;
+}
+
+.contacts__item-link--main {
+  @include link("gray");
+
   display: flex;
   align-items: center;
-
-  @include link("gray");
 }
 
 
-.contacts__link--additional {
+.contacts__item-link--additional {
   margin-right: $space-4;
 }
 
-.contacts__icon {
+.contacts__item-icon {
   margin-right: $space-4;
 }
 

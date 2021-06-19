@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
+  grid-column-gap: $space-4;
+  grid-row-gap: $space-4;
   justify-self: center;
 }

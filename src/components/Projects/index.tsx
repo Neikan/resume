@@ -1,7 +1,8 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { ProjectTable } from './components/ProjectTable'
+import { ProjectsHeadings } from './components/ProjectsHeadings'
+import { ProjectsList } from './components/ProjectsList'
 
 export const Projects: FC = () => {
   const { t } = useTranslation()
@@ -9,7 +10,10 @@ export const Projects: FC = () => {
   return (
     <section className='projects'>
       <h3 className='projects__title'>{t('projects:title')}</h3>
-      <ProjectTable />
+      <ul className='projects__list'>
+        <ProjectsHeadings />
+        <ProjectsList />
+      </ul>
     </section>
   )
 }

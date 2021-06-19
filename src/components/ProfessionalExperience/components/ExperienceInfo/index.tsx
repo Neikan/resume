@@ -15,6 +15,6 @@ const getClasses = (side: ExperienceBlockSide): string => cn(
 export const ExperienceInfo: FC<IProps> = ({ company, position, side }) => (
   <div className={getClasses(side)}>
     <span className='fw-500'>{company}</span>
-    <span>{position}</span>
+    <span className='professional-experience__position'>{position}</span>
   </div>
 )

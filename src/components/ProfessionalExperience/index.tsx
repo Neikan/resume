@@ -1,5 +1,6 @@
 import React, { FC, ReactElement } from 'react'
 import { useTranslation } from 'react-i18next'
+import { v4 as uuidv4 } from 'uuid'
 
 import { ExperienceBlockSide, EXPERIENCES } from '@consts/experience'
 
@@ -7,8 +8,8 @@ import { ExperienceBlock } from './components/ExperienceBlock'
 
 import { IExperienceBlock, IExperienceBlockExtended } from '@types'
 
-const renderExperienceBlock = (Experience: IExperienceBlockExtended): ReactElement =>
-  <ExperienceBlock key={Experience.period} experience={Experience} />
+const renderExperienceBlock = (experience: IExperienceBlockExtended): ReactElement =>
+  <ExperienceBlock key={uuidv4()} experience={experience} />
 
 const getBranch = (
   array: IExperienceBlockExtended[],
@@ -37,7 +38,6 @@ export const ProfessionalExperience: FC = () => {
         <div>
           {LEFT_BRANCHES.map(renderExperienceBlock)}
         </div>
-        <div className='professional-experience__timeline' />
         <div>
           {RIGHT_BRANCHES.map(renderExperienceBlock)}
         </div>

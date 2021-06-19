@@ -1,9 +1,14 @@
 {
   "intro": {
     "welcome": "Hello, world!",
-    "name-1": "My name is Eugene and I'm ",
+    "name-1-1": "My name is",
+    "name-1-2": " Eugene",
+    "name-1-3": " and I'm ",
     "name-2": "Batman!",
-    "name-3": " :) frontend-developer from Saint-Perersburg!",
+    "name-3-1": " :)",
+    "name-3-2": " frontend-developer",
+    "name-3-3": " from Saint",
+    "name-3-4": "Perersburg!",
     "path": "My path to frontend development was very long and thorny, but I did it!",
     "stack": "My main tech stack:",
     "future": "And now I try not to dwell on what I've already achieved, therefore I'm constantly learning something new in order to further develop in the chosen path.",
