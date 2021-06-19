@@ -7,10 +7,6 @@
   color: var(--#{$name}-500);
   transition: var(--transition-time-base);
 
-  & svg {
-    fill: var(--#{$name}-500);
-  }
-
   &:hover,
   &:focus {
     color: var(--#{$name}-600);
