@@ -25,10 +25,6 @@
   & span:nth-child(4) {
     grid-column: 1 / 3;
   }
-
-  & span:nth-child(4) {
-    color: var(--gray-500);
-  }
 }
 
 .projects__item:not(:last-child) {
@@ -42,6 +38,10 @@
 .projects__item--info {
   padding: $space-3 0;
   font-size: $fs-sm;
+
+  & span:nth-child(4) {
+    color: var(--gray-500);
+  }
 }
 
 .projects__item-link {
@@ -99,10 +99,15 @@
     }
   }
 
+  .projects__item--info {
+    & span:nth-child(4) {
+      color: inherit;
+    }
+  }
+
   .projects__item-link {
     @include link("gray");
 
     font-weight: 400;
-    font-size: $fs-sm;
   }
 }
