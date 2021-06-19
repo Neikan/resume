@@ -40,26 +40,26 @@
   font-size: 0.75rem;
 }
 
-.projects__link {
+.projects__item-link {
   @include link("primary");
   font-size: 0.875rem;
 }
 
-.projects__type {
+.projects__item-type {
   padding: 0 $space-2;
   color: var(--gray-600);
   border-radius: $space-2;
 }
 
-.projects__type--commercial {
+.projects__item-type--commercial {
   background-color: var(--success-100);
 }
 
-.projects__type--private {
+.projects__item-type--private {
   background-color: var(--warning-100);
 }
 
-.projects__type--training {
+.projects__item-type--training {
   background-color: var(--danger-100);
 }
 

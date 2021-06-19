@@ -12,7 +12,7 @@ export const ProjectsList: FC = () => {
     <>
       {PROJECTS.map(({ name, description, technologies, type, url }) => (
         <li key={uuidv4()} className='projects__item projects__item--info'>
-          <a className='projects__link' href={url}>{name}</a>
+          <a className='projects__item-link' href={url}>{name}</a>
           <ProjectType text={t(ProjectTypeTranslation[type])} type={type} />
           <span>{t(description)}</span>
           <span>{technologies}</span>
