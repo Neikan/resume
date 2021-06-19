@@ -29,11 +29,11 @@
 }
 
 .professional-experience__block--left {
-  height: $wm-experience-block;
+  min-height: $wm-experience-block;
 }
 
 .professional-experience__block--right:not(:last-child) {
-  height: $wm-experience-block;
+  min-height: $wm-experience-block;
 }
 
 .professional-experience__info {
@@ -56,6 +56,10 @@
 .professional-experience__period--left,
 .professional-experience__period--right {
   padding-right: $space-4;
+}
+
+.professional-experience__position {
+  color: var(--gray-500);
 }
 
 @media (min-width: $wm-md) {

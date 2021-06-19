@@ -1,46 +1,68 @@
 @import "../mixins/decorations";
 
-// .certificates {
-//   margin-top: $space-6;
-// }
-
 .certificates__title {
   margin-bottom: $space-4;
 }
 
 .certificates__list {
   @extend .lisn;
+
+  display: grid;
+  grid-row-gap: $space-4;
+  margin: 0;
 }
 
 .certificates__resourse {
-  display: flex;
-  margin-top: $space-4;
+  display: grid;
+  grid-row-gap: $space-2;
+}
+
+.certificates__resourse:not(:last-child) {
+  padding-bottom: $space-4;
+  border-bottom: 1px solid var(--primary-200);
 }
 
 .certificates__resourse-title {
-  min-width: 8.125rem;
   font-weight: 600;
   color: var(--primary-400);
 }
 
 .certificates__resourse-list {
   @extend .lisn;
-
-  margin-top: $space-5;
 }
 
 .certificates__year {
-  display: flex;
+  display: grid;
+  grid-column-gap: $space-4;
+  grid-template-columns: min-content auto;
 }
 
 .certificates__year-list {
   @extend .lisn;
-  
+
+  display: grid;
+  grid-row-gap: $space-2;
   margin-top: $space-5;
-  margin-bottom: $space-4;
-  margin-left: $space-4;
 }
 
 .certificates__course {
   @include link("gray");
+
+  font-size: $fs-sm;
+}
+
+@media (min-width: $wt) {
+  .certificates__resourse {
+    grid-template-columns: $wt-certificates__resourse-title auto;
+  }
+
+  .certificates__resourse-list {
+    margin-top: $space-5;
+  }
+}
+
+@media (min-width: $wd) {
+  .certificates__resourse:not(:last-child) {
+    border-bottom: none;
+  }
 }

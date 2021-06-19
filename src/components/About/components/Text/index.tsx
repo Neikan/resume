@@ -29,7 +29,7 @@ export const Text: FC = () => {
         <span className='about__text--through'>
           {t('about:intro.name-2')}
         </span>
-        {t('about:intro.name-3')}
+        {t('about:intro.name-3-1')}&#8209;{t('about:intro.name-3-2')}
       </span>
 
       <span className='about__text'>

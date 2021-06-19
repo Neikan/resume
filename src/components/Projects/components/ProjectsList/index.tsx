@@ -15,7 +15,9 @@ export const ProjectsList: FC = () => {
           <span>
             <a className='projects__item-link' href={url}>{name}</a>
           </span>
-          <ProjectType text={t(ProjectTypeTranslation[type])} type={type} />
+          <span>
+            <ProjectType text={t(ProjectTypeTranslation[type])} type={type} />
+          </span>
           <span>{t(description)}</span>
           <span>{technologies}</span>
         </li>
