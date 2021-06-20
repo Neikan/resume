@@ -25,7 +25,7 @@
   width: 20px;
   height: 20px;
 
-  border: 1px solid var(--gray-100);
+  border: 1px solid transparent;
   border-radius: 50%;
 
   transition: right ease var(--transition-time-base);
@@ -34,10 +34,31 @@
 
 .toggle--on::before {
   right: 0;
-  background-image: url(../img/icons/icon-flag-en.svg);
+  background-color: var(--primary-500);
 }
 
 .toggle--off::before {
   right: calc(34px - 20px);
+  background-color: var(--gray-500);
+}
+
+.toggle--type::before {
+  border-color: var(--gray-100);
+  background-color: #FFFFFF;
+}
+
+.toggle--on-language::before {
+  background-image: url(../img/icons/icon-flag-en.svg);
+}
+
+.toggle--off-language::before {
   background-image: url(../img/icons/icon-flag-ru.svg);
+}
+
+.toggle--on-theme::before {
+  background-image: url(../img/icons/icon-theme-light.svg);
+}
+
+.toggle--off-theme::before {
+  background-image: url(../img/icons/icon-theme-dark.svg);
 }

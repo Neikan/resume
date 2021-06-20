@@ -9,11 +9,14 @@ export const Toggle: FC<IProps> = ({
   iconOff,
   name,
   onChange,
+  type,
   value
 }) => {
   const toggleClasses = cn(
     'toggle',
-    value ? 'toggle--on' : 'toggle--off',
+    value
+      ? [{ [`toggle--type toggle--on-${String(type)}`]: type }, 'toggle--on']
+      : [{ [`toggle--type toggle--off-${String(type)}`]: type }, 'toggle--off'],
     classes
   )
 

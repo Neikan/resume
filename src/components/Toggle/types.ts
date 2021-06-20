@@ -6,5 +6,6 @@ export interface IToggleProps {
   iconOff?: ReactNode
   name: string
   onChange: (e: ChangeEvent<HTMLInputElement>) => void
+  type?: string
   value: boolean
 }

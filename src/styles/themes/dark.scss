@@ -1,70 +1,6 @@
 @import "../mixins/themes";
 
-$light: #FFFFFF;
-$grey: #333333;
-$dark: #000000;
-
-$primary-100: #E4F0FB;
-$primary-200: #CDE3F9;
-$primary-300: #9EC6EC;
-$primary-400: #5898D1;
-$primary-500: #3780C2;
-$primary-600: #125999;
-$primary-700: #043763;
-$primary-800: #00203D;
-$primary-900: #011224;
-
-$success-100: #EFF6EF;
-$success-200: #CEE6CE;
-$success-300: #93CF93;
-$success-400: #6AAE6A;
-$success-500: #4C994C;
-$success-600: #2C7D2C;
-$success-700: #156015;
-$success-800: #034003;
-$success-900: #002500;
-
-$info-100: #F1E9F3;
-$info-200: #DFD0E9;
-$info-300: #CDB2E1;
-$info-400: #A982C5;
-$info-500: #8253A4;
-$info-600: #69368D;
-$info-700: #542079;
-$info-800: #400F63;
-$info-900: #26023F;
-
-$warning-100: #FFF0DD;
-$warning-200: #FFD8A8;
-$warning-300: #FFC175;
-$warning-400: #FFAE4C;
-$warning-500: #FF9C22;
-$warning-600: #BA6A08;
-$warning-700: #985400;
-$warning-800: #6D3C00;
-$warning-900: #492800;
-
-$danger-100: #FFE1E1;
-$danger-200: #FFC1C1;
-$danger-300: #FF8585;
-$danger-400: #E65858;
-$danger-500: #CE3232;
-$danger-600: #A91818;
-$danger-700: #820101;
-$danger-800: #5C0000;
-$danger-900: #390000;
-
-$gray-100: #EAEAEA;
-$gray-200: #DFDFDF;
-$gray-300: #D0D0D0;
-$gray-400: #B0B0B0;
-$gray-500: #8B8B8B;
-$gray-600: #6C6C6C;
-$gray-700: #4D4D4D;
-$gray-800: #2E2E2E;
-$gray-900: #1E1E1E;
-
-$theme-default: (
+$theme--dark: (
   "primary-100": $primary-100,
   "primary-200": $primary-200,
   "primary-300": $primary-300,
@@ -130,4 +66,4 @@ $theme-default: (
   "grey": $grey
 );
 
-@include make-theme($theme-default, default);
+@include make-theme($theme--dark, "dark");
