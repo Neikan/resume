@@ -13,20 +13,13 @@ body {
   margin: 0;
   padding: 0;
 
+  background-color: var(--light);
+  color: var(--grey);
+
   font-family: $font-main;
   font-size: $fs-base;
   font-weight: normal;
   line-height: 1.25rem;
-}
-
-.body-light {
-  background-color: var(--light);
-  color: var(--grey);
-}
-
-.body-dark {
-  background-color: var(--grey);
-  color: var(--light);
 }
 
 img {
