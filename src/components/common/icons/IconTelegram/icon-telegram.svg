@@ -4,11 +4,11 @@
   <path d="M6.53333 11.6666C6.73334 11.6666 6.82001 11.5733 6.93334 11.4666C7.10668 11.2999 9.33339 9.13333 9.33339 9.13333L7.9667 8.8L6.7 9.59999L6.53333 11.5999V11.6666Z" fill="#A9C9DD"/>
   <path d="M6.66664 9.6267L9.89328 12.0067C10.2599 12.2067 10.5266 12.1067 10.6199 11.6667L11.9333 5.48C12.0666 4.94 11.7266 4.7 11.3733 4.86L3.66666 7.83336C3.14 8.04669 3.14666 8.34003 3.57333 8.46669L5.55331 9.0867L10.1333 6.20001C10.3466 6.06667 10.5466 6.14001 10.3866 6.28668L6.66664 9.6267Z" fill="url(#telegram_g2)"/>
   <linearGradient id="telegram_g1" x1="10.3447" y1="2.52867" x2="6.34467" y2="11.8619" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#37AEE2"/>
+    <stop offset="0" stop-color="#37AEE2"/>
     <stop offset="1" stop-color="#1E96C8"/>
   </linearGradient>
   <linearGradient id="telegram_g2" x1="8.59936" y1="8.25036" x2="10.2661" y2="10.917" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#EFF7FC"/>
+    <stop offset="0" stop-color="#EFF7FC"/>
     <stop offset="1" stop-color="white"/>
   </linearGradient>
 </svg>

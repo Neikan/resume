@@ -22,32 +22,32 @@
   <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5154 5.22656H3.48534Z" fill="white"/>
   <path d="M12.5154 5.22656H3.48534" stroke="white" stroke-width="0.161633"/>
   <linearGradient id="cordova_g1" x1="5292.99" y1="3295.4" x2="2384.42" y2="119.463" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#ACACAC"/>
+    <stop offset="0" stop-color="#ACACAC"/>
     <stop offset="1" stop-color="#E9E9E9"/>
   </linearGradient>
   <radialGradient id="cordova_g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(15624 -4119.05) rotate(-85.4139) scale(250.1 745.108)">
-    <stop stop-color="#25303B"/>
+    <stop offset="0" stop-color="#25303B"/>
     <stop offset="1" stop-color="#25303B" stop-opacity="0"/>
   </radialGradient>
   <linearGradient id="cordova_g3" x1="445.123" y1="2420.45" x2="-129.419" y2="1255.34" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#24303A"/>
+    <stop offset="0" stop-color="#24303A"/>
     <stop offset="1" stop-color="#394958"/>
   </linearGradient>
   <linearGradient id="cordova_g4" x1="184.39" y1="2415.22" x2="755.132" y2="1249.33" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#24303A"/>
+    <stop offset="0" stop-color="#24303A"/>
     <stop offset="1" stop-color="#394958"/>
   </linearGradient>
   <linearGradient id="cordova_g5" x1="5023.88" y1="558.091" x2="1537.27" y2="1514.23" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#E5E5E5"/>
+    <stop offset="0" stop-color="#E5E5E5"/>
     <stop offset="1" stop-color="white"/>
   </linearGradient>
   <linearGradient id="cordova_g6" x1="1100.22" y1="987.009" x2="1100.22" y2="1646.44" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
+    <stop offset="0" stop-color="white"/>
     <stop offset="0.5" stop-color="white" stop-opacity="0.532"/>
     <stop offset="1" stop-color="white" stop-opacity="0"/>
   </linearGradient>
   <linearGradient id="cordova_g7" x1="1171.03" y1="493.315" x2="1171.03" y2="328.608" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
+    <stop offset="0" stop-color="white"/>
     <stop offset="1" stop-color="white" stop-opacity="0"/>
   </linearGradient>
 </svg>
