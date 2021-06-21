@@ -1,4 +1,4 @@
-import { IIconProps } from '@components/Icon/types'
+import { IIconProps } from '@components/common/Icon/types'
 
 export enum StorageKey {
   LANGUAGE = 'i18nextLng',

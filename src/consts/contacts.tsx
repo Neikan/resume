@@ -8,10 +8,10 @@ import {
   IconPhone,
   IconTelegram,
   IconWakatime
-} from '@components/icons'
+} from '@components/common/icons'
 
-import { IIconProps } from '@components/Icon/types'
-import { IContact } from '../components/Contacts/types'
+import { IIconProps } from '@components/common/Icon/types'
+import { IContact } from '../components/sections/Contacts/types'
 
 export enum ContactType {
   ADDITIONAL = 'ADDITIONAL',
