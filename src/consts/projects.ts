@@ -10,7 +10,7 @@ export const HEADINGS = [
 export enum ProjectType {
   COMMERCIAL = 'commercial',
   PRIVATE = 'private',
-  TRAINING = 'training',
+  TRAINING = 'training'
 }
 
 export const PROJECTS: IProject[] = [

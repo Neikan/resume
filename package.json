@@ -19,13 +19,12 @@
     "not dead"
   ],
   "scripts": {
-    "build": "webpack --config webpack/webpack.prod.js",
-    "start": "webpack serve --config webpack/webpack.dev.js",
+    "build": "webpack --config config/webpack/webpack.prod.js",
+    "start": "webpack serve --config config/webpack/webpack.dev.js",
     "lint": "eslint --ext=ts,tsx src",
-    "format": "prettier-standard 'src/**/*.{ts,tsx}' --write"
+    "format": "prettier-standard src/**/*.{ts,tsx} --write"
   },
   "dependencies": {
-    "@neikan/rc-lib": "0.0.17",
     "classnames": "2.2.6",
     "i18next": "^19.9.2",
     "i18next-browser-languagedetector": "6.0.1",
@@ -86,8 +85,8 @@
     "typescript": "4.1.5",
     "url-loader": "^4.1.1",
     "uuid": "8.3.2",
-    "webpack": "5.26.2",
-    "webpack-cli": "4.5.0",
+    "webpack": "5.39.1",
+    "webpack-cli": "4.7.2",
     "webpack-dev-server": "3.11.2"
   },
   "lint-staged": {

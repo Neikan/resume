@@ -36,16 +36,12 @@
       "@components/*": ["components/*"],
       "@consts": ["consts"],
       "@consts/*": ["consts/*"],
-      "@types":  ["types"],
-      "@utils": ["utils/*"],
-      "@utils/*": ["utils/*"],
-      "@views": ["views/*"],
-      "@views/*": ["views/*"]
+      "@types":  ["types"]
     }
   },
   "exclude": [
     "node_modules",
-    "webpack",
+    "config/webpack",
     "dist"
   ],
   "include": [

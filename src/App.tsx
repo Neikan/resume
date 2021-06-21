@@ -1,7 +1,5 @@
 import React, { Component, ReactElement } from 'react'
 
-import '@neikan/rc-lib/dist/styles/styles.min.css'
-
 import {
   About,
   Certificates,
@@ -28,9 +26,9 @@ export default class App extends Component {
             <div className='content__details--right'>
               <ProfessionalExperience />
               <Projects />
+              <Certificates />
             </div>
           </div>
-          <Certificates />
         </div>
         <Switches />
       </div>

@@ -1,5 +1,10 @@
 .switches {
+  display: flex;
   position: fixed;
   top: $space-2;
   right: $space-4;
+}
+
+.switches__theme {
+  margin-right: $space-5;
 }

@@ -1,7 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   min-width: $wm;
   margin: 0;
   padding: 0;
+
+  background-color: var(--body-color);
+  color: var(--grey);
 
   font-family: $font-main;
   font-size: $fs-base;
@@ -9,14 +22,16 @@ body {
   line-height: 1.25rem;
 }
 
-.body-light {
-  background-color: var(--light);
-  color: var(--grey);
+img {
+  max-width: 100%;
 }
 
-.body-dark {
-  background-color: var(--grey);
-  color: var(--light);
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
 :root {

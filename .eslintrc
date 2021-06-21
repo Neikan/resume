@@ -29,7 +29,7 @@
     "@typescript-eslint",
     "prettier"
   ],
-  "ignorePatterns": ["webpack/", "babel.config.js"],
+  "ignorePatterns": ["config/", "babel.config.js"],
   "rules": {
     "camelcase": ["off"],
     "jsx-quotes": ["error", "prefer-single"],

@@ -8,10 +8,10 @@ import {
   IconPhone,
   IconTelegram,
   IconWakatime
-} from '@components/icons'
+} from '@components/common/icons'
 
-import { IIconProps } from '@components/Icon/types'
-import { IContact } from '../components/Contacts/types'
+import { IIconProps } from '@components/common/Icon/types'
+import { IContact } from '../components/sections/Contacts/types'
 
 export enum ContactType {
   ADDITIONAL = 'ADDITIONAL',
@@ -19,22 +19,22 @@ export enum ContactType {
 }
 
 const mainContactIconProps: IIconProps = {
-   classes: 'contacts__item-icon'
+  classes: 'contacts__item-icon'
 }
 
 export const MAIN_CONTACTS: IContact[] = [
   {
-    icon: <IconMail { ...mainContactIconProps } />,
+    icon: <IconMail {...mainContactIconProps} />,
     title: 'sladkov.e.m@outlook.com',
     url: 'mailto:sladkov.e.m@outlook.com?subject="Job invitation"'
   },
   {
-    icon: <IconPhone { ...mainContactIconProps } />,
+    icon: <IconPhone {...mainContactIconProps} />,
     title: '+7 (918) 890-00-75',
     url: 'tel:+79188900075'
   },
   {
-    icon: <IconTelegram { ...mainContactIconProps } />,
+    icon: <IconTelegram {...mainContactIconProps} />,
     title: '@NeikaN_N',
     url: 'tg:https://t.me/NeikaN_N'
   }
