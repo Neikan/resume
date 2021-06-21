@@ -41,7 +41,7 @@
   },
   "exclude": [
     "node_modules",
-    "webpack",
+    "config/webpack",
     "dist"
   ],
   "include": [

@@ -1,8 +1,8 @@
 const path = require('path');
 
-const { babel, css, miniCss, postCss, sass, svg, ts } = require('./loaders');
-const alias = require('./alias');
-const plugins = require('./plugins');
+const { babel, css, miniCss, postCss, sass, svg } = require('../utils/loaders');
+const alias = require('../utils/alias');
+const plugins = require('../utils/plugins');
 
 const TerserPlugin = require('terser-webpack-plugin');
 
@@ -16,7 +16,7 @@ const config = {
   },
   output: {
     filename: 'bundle.[name].js',
-    path: path.resolve(__dirname, '../dist')
+    path: path.resolve(__dirname, '../../dist')
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],

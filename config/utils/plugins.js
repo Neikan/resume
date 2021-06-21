@@ -11,7 +11,7 @@ const plugins = [
     filename: 'css/styles.min.css',
   }),
   new HtmlWebpackPlugin({
-    template: path.join(__dirname, '../res', 'index.html')
+    template: path.join(__dirname, '../../res', 'index.html')
   }),
   new CopyWebpackPlugin({
     patterns: [

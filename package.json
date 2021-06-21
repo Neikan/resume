@@ -19,10 +19,10 @@
     "not dead"
   ],
   "scripts": {
-    "build": "webpack --config webpack/webpack.prod.js",
-    "start": "webpack serve --config webpack/webpack.dev.js",
+    "build": "webpack --config config/webpack/webpack.prod.js",
+    "start": "webpack serve --config config/webpack/webpack.dev.js",
     "lint": "eslint --ext=ts,tsx src",
-    "format": "prettier-standard 'src/**/*.{ts,tsx}' --write"
+    "format": "prettier-standard src/**/*.{ts,tsx} --write"
   },
   "dependencies": {
     "classnames": "2.2.6",

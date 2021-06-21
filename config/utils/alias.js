@@ -1,6 +1,6 @@
 const path = require('path');
 
-const defaultPath = path.resolve(__dirname, '../src');
+const defaultPath = path.resolve(__dirname, '../../src');
 
 const paths = {
   '@components': path.resolve(defaultPath, 'components'),
