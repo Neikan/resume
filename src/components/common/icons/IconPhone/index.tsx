@@ -6,7 +6,7 @@ import { ReactComponent as IconPhoneSVG } from './icon-phone.svg'
 import { IIconProps as IProps } from '@components/common/Icon/types'
 
 export const IconPhone: FC<IProps> = ({ ...restProps }) => (
-  <Icon {...restProps} >
+  <Icon {...restProps}>
     <IconPhoneSVG />
   </Icon>
 )

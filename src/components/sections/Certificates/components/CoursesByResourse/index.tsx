@@ -9,11 +9,14 @@ import { ICoursesByResourseProps as IProps } from './types'
 export const CoursesByResourse: FC<IProps> = ({ course: { coursesByYear, resourse } }) => {
   return (
     <li key={resourse} className='certificates__resourse'>
-      <h4 className='certificates__resourse-title'>{resourse}{':'}</h4>
+      <h4 className='certificates__resourse-title'>
+        {resourse}
+        {':'}
+      </h4>
       <ul className='certificates__resourse-list'>
-        {coursesByYear.map((course: ICourseByYear) =>
+        {coursesByYear.map((course: ICourseByYear) => (
           <CourseByYear key={uuidv4()} course={course} />
-        )}
+        ))}
       </ul>
     </li>
   )

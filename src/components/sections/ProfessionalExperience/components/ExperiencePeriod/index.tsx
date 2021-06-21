@@ -11,12 +11,7 @@ const getClasses = (side = ExperienceBlockSide.LEFT): string => {
     side === ExperienceBlockSide.LEFT
       ? 'professional-experience__period--left'
       : 'professional-experience__period--right'
-
   )
 }
 
-export const ExperiencePeriod: FC<IProps> = ({ period, side }) => (
-  <span className={getClasses(side)}>
-    {period}
-  </span>
-)
+export const ExperiencePeriod: FC<IProps> = ({ period, side }) => <span className={getClasses(side)}>{period}</span>

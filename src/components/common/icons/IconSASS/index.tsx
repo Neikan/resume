@@ -8,7 +8,7 @@ import { ReactComponent as IconSASSSVG } from './icon-sass.svg'
 import { IIconProps as IProps } from '@components/common/Icon/types'
 
 export const IconSASS: FC<IProps> = ({ ...restProps }) => (
-  <Icon title={Technology.SASS} {...restProps} >
+  <Icon title={Technology.SASS} {...restProps}>
     <IconSASSSVG />
   </Icon>
 )

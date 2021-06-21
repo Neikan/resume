@@ -11,15 +11,7 @@ export const AdditionalContacts: FC = () => (
     {ADDITIONAL_CONTACTS.map((contact, index) => {
       const target = `${LinkTarget.CONTACTS}${index}`
 
-      return (
-        <Contact
-          key={uuidv4()}
-          contact={contact}
-          target={target}
-          type={ContactType.ADDITIONAL}
-        />
-      )
-    }
-    )}
+      return <Contact key={uuidv4()} contact={contact} target={target} type={ContactType.ADDITIONAL} />
+    })}
   </li>
 )

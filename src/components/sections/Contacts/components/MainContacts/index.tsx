@@ -7,8 +7,8 @@ import { Contact } from '../Contact'
 
 export const MainContacts: FC = () => (
   <>
-    {MAIN_CONTACTS.map((contact) =>
+    {MAIN_CONTACTS.map((contact) => (
       <Contact key={uuidv4()} contact={contact} type={ContactType.MAIN} />
-    )}
+    ))}
   </>
 )

@@ -13,18 +13,13 @@ export const Course: FC<IProps> = ({ course: { title, url }, index }) => {
 
   return (
     <li key={uuidv4()}>
-      {url
-        ? (
-            <a className='certificates__course' href={url} target={target}>
-              {translatedTitle}
-            </a>
-          )
-        : (
-            <span className='certificates__course'>
-              {translatedTitle}
-            </span>
-          )
-      }
+      {url ? (
+        <a className='certificates__course' href={url} target={target}>
+          {translatedTitle}
+        </a>
+      ) : (
+        <span className='certificates__course'>{translatedTitle}</span>
+      )}
     </li>
   )
 }

@@ -10,13 +10,9 @@ export const Texts: FC = () => {
 
   return (
     <p>
-      <span className='about__welcome'>
-        {t('about:intro.welcome')}
-      </span>
+      <span className='about__welcome'>{t('about:intro.welcome')}</span>
       <Name />
-      <span className='about__text'>
-        {t('about:intro.path')}
-      </span>
+      <span className='about__text'>{t('about:intro.path')}</span>
 
       <MainStack />
       <FutureInterests />

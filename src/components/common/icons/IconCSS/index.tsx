@@ -8,7 +8,7 @@ import { ReactComponent as IconCSSSVG } from './icon-css.svg'
 import { IIconProps as IProps } from '@components/common/Icon/types'
 
 export const IconCSS: FC<IProps> = ({ ...restProps }) => (
-  <Icon title={Technology.CSS} {...restProps} >
+  <Icon title={Technology.CSS} {...restProps}>
     <IconCSSSVG />
   </Icon>
 )

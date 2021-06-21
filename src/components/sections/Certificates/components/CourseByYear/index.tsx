@@ -11,7 +11,9 @@ export const CourseByYear: FC<IProps> = ({ course: { year, courses } }) => {
     <li key={year} className='certificates__year'>
       <span>{year}:</span>
       <ul className='certificates__year-list'>
-        {courses.map((course: ICourse, index: number) => <Course key={uuidv4()} course={course} index={index} />)}
+        {courses.map((course: ICourse, index: number) => (
+          <Course key={uuidv4()} course={course} index={index} />
+        ))}
       </ul>
     </li>
   )

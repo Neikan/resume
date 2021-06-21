@@ -16,9 +16,7 @@ export const FutureInterests: FC = () => {
 
   return (
     <>
-      <span className='about__text'>
-        {t('about:intro.future')}
-      </span>
+      <span className='about__text'>{t('about:intro.future')}</span>
 
       <span className='about__text'>
         {t('about:intro.interests')}

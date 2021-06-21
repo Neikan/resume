@@ -20,19 +20,12 @@ export enum ToggleType {
   THEME = 'theme'
 }
 
-export const NS = [
-  'about',
-  'certificates',
-  'common',
-  'education',
-  'experience',
-  'projects'
-]
+export const NS = ['about', 'certificates', 'common', 'education', 'experience', 'projects']
 
 export enum LinkTarget {
   CERTIFICATES = 'blank10',
   CONTACTS = 'blank20',
-  PROJECTS = 'blank30',
+  PROJECTS = 'blank30'
 }
 
 export const commonIconProps: IIconProps = {

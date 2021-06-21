@@ -8,8 +8,9 @@ import { ExperienceBlock } from './components/ExperienceBlock'
 
 import { IExperienceBlock, IExperienceBlockExtended } from '@types'
 
-const renderExperienceBlock = (experience: IExperienceBlockExtended): ReactElement =>
+const renderExperienceBlock = (experience: IExperienceBlockExtended): ReactElement => (
   <ExperienceBlock key={uuidv4()} experience={experience} />
+)
 
 const getBranch = (
   array: IExperienceBlockExtended[],
@@ -35,12 +36,8 @@ export const ProfessionalExperience: FC = () => {
     <section className='professional-experience'>
       <h3 className='professional-experience__title'>{t('experience:title')}</h3>
       <div className='professional-experience__branches'>
-        <div>
-          {LEFT_BRANCHES.map(renderExperienceBlock)}
-        </div>
-        <div>
-          {RIGHT_BRANCHES.map(renderExperienceBlock)}
-        </div>
+        <div>{LEFT_BRANCHES.map(renderExperienceBlock)}</div>
+        <div>{RIGHT_BRANCHES.map(renderExperienceBlock)}</div>
       </div>
     </section>
   )

@@ -8,7 +8,7 @@ import { ReactComponent as IconSvelteSVG } from './icon-svelte.svg'
 import { IIconProps as IProps } from '@components/common/Icon/types'
 
 export const IconSvelte: FC<IProps> = ({ ...restProps }) => (
-  <Icon title={Technology.SVELTE} {...restProps} >
+  <Icon title={Technology.SVELTE} {...restProps}>
     <IconSvelteSVG />
   </Icon>
 )

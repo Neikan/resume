@@ -13,9 +13,15 @@ const renderProject = ({ name, description, technologies, type, url }: IProject,
 
   const target = `${LinkTarget.CERTIFICATES}${index}`
 
-  const projectName = url
-    ? <span><a className='projects__item-link' href={url} target={target}>{name}</a></span>
-    : <span className='projects__item-link'>{name}</span>
+  const projectName = url ? (
+    <span>
+      <a className='projects__item-link' href={url} target={target}>
+        {name}
+      </a>
+    </span>
+  ) : (
+    <span className='projects__item-link'>{name}</span>
+  )
 
   return (
     <li key={uuidv4()} className='projects__item projects__item--info'>

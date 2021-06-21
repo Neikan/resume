@@ -10,12 +10,12 @@ const renderHeading = (heading: string): ReactElement => {
   const translatedHeading = t(heading)
 
   return (
-    <span key={uuidv4()} title={translatedHeading}>{translatedHeading}</span>
+    <span key={uuidv4()} title={translatedHeading}>
+      {translatedHeading}
+    </span>
   )
 }
 
 export const ProjectsHeadings: FC = () => (
-  <li className='projects__item projects__item--headings'>
-    {HEADINGS.map(renderHeading)}
-  </li>
+  <li className='projects__item projects__item--headings'>{HEADINGS.map(renderHeading)}</li>
 )

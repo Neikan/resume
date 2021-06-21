@@ -8,7 +8,7 @@ import { ReactComponent as IconGitSVG } from './icon-git.svg'
 import { IIconProps as IProps } from '@components/common/Icon/types'
 
 export const IconGit: FC<IProps> = ({ ...restProps }) => (
-  <Icon title={Technology.GIT} {...restProps} >
+  <Icon title={Technology.GIT} {...restProps}>
     <IconGitSVG />
   </Icon>
 )

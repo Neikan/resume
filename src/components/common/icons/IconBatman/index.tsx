@@ -8,7 +8,7 @@ import { ReactComponent as IconBatmanSVG } from './icon-batman.svg'
 import { IIconProps as IProps } from '@components/common/Icon/types'
 
 export const IconBatman: FC<IProps> = ({ ...restProps }) => (
-  <Icon title={CommonTitles.BATMAN} {...restProps} >
+  <Icon title={CommonTitles.BATMAN} {...restProps}>
     <IconBatmanSVG />
   </Icon>
 )

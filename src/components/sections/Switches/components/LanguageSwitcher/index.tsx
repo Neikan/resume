@@ -11,8 +11,8 @@ export const LanguageSwitcher: FC = () => {
   const isEn = i18n.language === Language.EN
   const newLanguage = isEn ? Language.RU : Language.EN
 
-  const handleChangeLanguage = (langKey: string) => (): Promise<void> => i18n.changeLanguage(langKey)
-    .then(() => window.localStorage.setItem(StorageKey.LANGUAGE, langKey))
+  const handleChangeLanguage = (langKey: string) => (): Promise<void> =>
+    i18n.changeLanguage(langKey).then(() => window.localStorage.setItem(StorageKey.LANGUAGE, langKey))
 
   return (
     <Toggle

@@ -8,7 +8,7 @@ import { ReactComponent as IconWebpackSVG } from './icon-webpack.svg'
 import { IIconProps as IProps } from '@components/common/Icon/types'
 
 export const IconWebpack: FC<IProps> = ({ ...restProps }) => (
-  <Icon title={Technology.WEBPACK} {...restProps} >
+  <Icon title={Technology.WEBPACK} {...restProps}>
     <IconWebpackSVG />
   </Icon>
 )

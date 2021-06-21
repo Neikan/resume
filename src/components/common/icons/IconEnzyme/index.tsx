@@ -8,7 +8,7 @@ import { ReactComponent as IconEnzymeSVG } from './icon-enzyme.svg'
 import { IIconProps as IProps } from '@components/common/Icon/types'
 
 export const IconEnzyme: FC<IProps> = ({ ...restProps }) => (
-  <Icon title={Technology.ENZYME} {...restProps} >
+  <Icon title={Technology.ENZYME} {...restProps}>
     <IconEnzymeSVG />
   </Icon>
 )

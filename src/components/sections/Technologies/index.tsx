@@ -42,31 +42,31 @@ export const Technologies: FC = () => {
     <section className='technologies'>
       <h3 className='technologies__title'>{t('common:technologies')}</h3>
       <div className='technologies__block'>
-        <IconTS { ...iconProps } />
-        <IconJS { ...iconProps } />
-        <IconJava { ...iconProps } />
-        <IconReact { ...iconProps } />
-        <IconReactRouter { ...iconProps } />
-        <IconRedux { ...iconProps } />
-        <IconCordova { ...iconProps } />
-        <IconGit { ...iconProps } />
-        <IconSQL { ...iconProps } />
-        <IconHTML { ...iconProps } />
-        <IconCSS { ...iconProps } />
-        <IconLess { ...iconProps } />
-        <IconSASS { ...iconProps } />
-        <IconFigma { ...iconProps } />
-        <IconPhotoshop { ...iconProps } />
-        <IconZeplin { ...iconProps } />
-        <IconSwagger { ...iconProps } />
-        <IconPostman { ...iconProps } />
-        <IconEnzyme { ...iconProps } />
-        <IconJest { ...iconProps } />
-        <IconWebpack { ...iconProps } />
-        <IconGulp { ...iconProps } />
-        <IconBabel { ...iconProps } />
-        <IconStorybook { ...iconProps } />
-        <IconStyleguidist { ...iconProps } />
+        <IconTS {...iconProps} />
+        <IconJS {...iconProps} />
+        <IconJava {...iconProps} />
+        <IconReact {...iconProps} />
+        <IconReactRouter {...iconProps} />
+        <IconRedux {...iconProps} />
+        <IconCordova {...iconProps} />
+        <IconGit {...iconProps} />
+        <IconSQL {...iconProps} />
+        <IconHTML {...iconProps} />
+        <IconCSS {...iconProps} />
+        <IconLess {...iconProps} />
+        <IconSASS {...iconProps} />
+        <IconFigma {...iconProps} />
+        <IconPhotoshop {...iconProps} />
+        <IconZeplin {...iconProps} />
+        <IconSwagger {...iconProps} />
+        <IconPostman {...iconProps} />
+        <IconEnzyme {...iconProps} />
+        <IconJest {...iconProps} />
+        <IconWebpack {...iconProps} />
+        <IconGulp {...iconProps} />
+        <IconBabel {...iconProps} />
+        <IconStorybook {...iconProps} />
+        <IconStyleguidist {...iconProps} />
       </div>
     </section>
   )

@@ -8,7 +8,7 @@ import { ReactComponent as IconAngularSVG } from './icon-angular.svg'
 import { IIconProps as IProps } from '@components/common/Icon/types'
 
 export const IconAngular: FC<IProps> = ({ ...restProps }) => (
-  <Icon title={Technology.ANGULAR} {...restProps} >
+  <Icon title={Technology.ANGULAR} {...restProps}>
     <IconAngularSVG />
   </Icon>
 )
