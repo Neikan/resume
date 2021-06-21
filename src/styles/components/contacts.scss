@@ -2,11 +2,11 @@
 
 .constacts {
   width: $wt-container-left;
-  margin-bottom: $space-6;
+  margin-bottom: var(--space-6);
 }
 
 .contact__title {
-  margin-bottom: $space-4;
+  margin-bottom: var(--space-4);
 }
 
 .contacts__list {
@@ -16,7 +16,7 @@
 }
 
 .contacts__item {
-  margin-bottom: $space-4;
+  margin-bottom: var(--space-4);
 }
 
 
@@ -33,15 +33,15 @@
 
 
 .contacts__item-link--additional {
-  margin-right: $space-4;
+  margin-right: var(--space-4);
 }
 
 .contacts__item-icon {
-  margin-right: $space-4;
+  margin-right: var(--space-4);
 }
 
 @media (min-width: $wd) {
   .constacts {
-    margin-bottom: $space-6;
+    margin-bottom: var(--space-6);
   }
 }

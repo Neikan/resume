@@ -2,8 +2,8 @@
   position: relative;
   min-width: $wm;
   max-width: $wt;
-  margin: $space-6 auto;
-  padding: $space-6;
+  margin: var(--space-6) auto;
+  padding: var(--space-6);
   box-shadow:
     0 8px 16px rgba(110, 120, 130, 0.12),
     0 -8px 16px rgba(110, 120, 130, 0.12);
@@ -34,7 +34,7 @@
 
   .content__details--left {
     display: grid;
-    grid-column-gap: $space-6;
+    grid-column-gap: var(--space-6);
     grid-template-columns: $wt-container-left auto;
   }
 
@@ -57,6 +57,6 @@
   }
 
   .content__details--right {
-    margin-left: $space-6;
+    margin-left: var(--space-6);
   }
 }

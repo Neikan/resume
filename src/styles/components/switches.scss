@@ -1,10 +1,10 @@
 .switches {
   display: flex;
   position: fixed;
-  top: $space-2;
-  right: $space-4;
+  top: var(--space-2);
+  right: var(--space-4);
 }
 
 .switches__theme {
-  margin-right: $space-5;
+  margin-right: var(--space-5);
 }
