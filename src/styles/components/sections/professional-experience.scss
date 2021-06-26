@@ -1,5 +1,7 @@
 .professional-experience {
+  margin-right: var(--space-6);
   margin-bottom: var(--space-6);
+  margin-left: var(--space-6);
 }
 
 .professional-experience__title {
@@ -107,5 +109,11 @@
   .professional-experience__period--right {
     padding-left: var(--space-4);
     padding-right: 0;
+  }
+}
+
+@media (min-width: $wd) {
+  .professional-experience {
+    margin-left: 0;
   }
 }

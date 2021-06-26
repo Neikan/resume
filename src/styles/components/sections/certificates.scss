@@ -1,5 +1,10 @@
 @import "../../mixins/decorations";
 
+.certificates {
+  margin-right: var(--space-6);
+  margin-left: var(--space-6);
+}
+
 .certificates__title {
   margin-bottom: var(--space-4);
 }
@@ -62,6 +67,10 @@
 }
 
 @media (min-width: $wd) {
+  .certificates {
+    margin-left: 0;
+  }
+
   .certificates__resourse:not(:last-child) {
     border-bottom: none;
   }

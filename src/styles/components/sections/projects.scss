@@ -1,5 +1,7 @@
 .projects {
+  margin-right: var(--space-6);
   margin-bottom: var(--space-6);
+  margin-left: var(--space-6);
 }
 
 .projects__title {
@@ -109,5 +111,11 @@
     @include link("gray");
 
     font-weight: 400;
+  }
+}
+
+@media (min-width: $wd) {
+  .projects {
+    margin-left: 0;
   }
 }

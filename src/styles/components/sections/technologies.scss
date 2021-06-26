@@ -1,5 +1,7 @@
 .technologies {
+  margin-right: var(--space-6);
   margin-bottom: var(--space-6);
+  margin-left: var(--space-6);
 }
 
 .technologies__title {
@@ -22,6 +24,6 @@
   .technologies {
     width: $wt-container-left;
     margin-bottom: var(--space-6);
-    margin-left: 0;
+    margin-right: 0;
   }
 }

@@ -2,7 +2,9 @@
 
 .constacts {
   width: $wt-container-left;
+  margin-right: var(--space-6);
   margin-bottom: var(--space-6);
+  margin-left: var(--space-6);
 }
 
 .contact__title {
@@ -43,5 +45,6 @@
 @media (min-width: $wd) {
   .constacts {
     margin-bottom: var(--space-6);
+    margin-right: 0;
   }
 }

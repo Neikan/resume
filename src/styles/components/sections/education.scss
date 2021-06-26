@@ -1,6 +1,8 @@
 .education {
   width: 100%;
+  margin-right: var(--space-6);
   margin-bottom: var(--space-6);
+  margin-left: var(--space-6);
 }
 
 .education__title {
@@ -33,6 +35,7 @@
   .education {
     width: $wt-container-left;
     margin-bottom: var(--space-6);
+    margin-right: 0;
   }
 
   .education__info {
