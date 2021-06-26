@@ -5,6 +5,10 @@
 @import "scaffolding/global";
 @import "scaffolding/visually-hidden";
 
+@import "themes/colors";
+@import "themes/dark";
+@import "themes/light";
+
 @import "common/decorations";
 @import "common/displays";
 
@@ -21,7 +25,3 @@
 @import "components/sections/projects";
 @import "components/sections/switches";
 @import "components/sections/technologies";
-
-@import "themes/colors";
-@import "themes/dark";
-@import "themes/light";
