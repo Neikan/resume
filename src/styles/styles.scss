@@ -8,17 +8,18 @@
 @import "common/decorations";
 @import "common/displays";
 
-@import "components/about";
-@import "components/certificates";
-@import "components/contacts";
-@import "components/content";
-@import "components/education";
-@import "components/icon";
-@import "components/professional-experience";
-@import "components/projects";
-@import "components/switches";
-@import "components/technologies";
-@import "components/toggle";
+@import "components/common/content";
+@import "components/common/icon";
+@import "components/common/toggle";
+
+@import "components/sections/about";
+@import "components/sections/certificates";
+@import "components/sections/contacts";
+@import "components/sections/education";
+@import "components/sections/professional-experience";
+@import "components/sections/projects";
+@import "components/sections/switches";
+@import "components/sections/technologies";
 
 @import "themes/colors";
 @import "themes/dark";
