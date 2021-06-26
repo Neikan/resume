@@ -1,0 +1,23 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltip__title {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  top: calc(100% + var(--space-1));
+  color: var(--gray-900);
+  text-align: center;
+  font-size: $fs-sm;
+  background-color: var(--primary-100);
+  border-radius: var(--space-2);
+  padding: 0 var(--space-2);
+  transition: opacity var(--transition-time-base);
+}
+
+.tooltip:hover .tooltip__title {
+  visibility: visible;
+  opacity: 1;
+}

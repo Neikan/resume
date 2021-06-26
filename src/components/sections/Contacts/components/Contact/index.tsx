@@ -3,6 +3,8 @@ import { v4 as uuidv4 } from 'uuid'
 
 import { ContactType } from '@consts/contacts'
 
+import { Tooltip } from '@components/common/Tooltip'
+
 import { IContactProps as IProps } from './types'
 
 export const Contact: FC<IProps> = ({ contact: { icon, title, url }, target, type }) => {
@@ -18,8 +20,9 @@ export const Contact: FC<IProps> = ({ contact: { icon, title, url }, target, typ
   )
 
   const renderAdditionalContact = (): ReactElement => (
-    <a key={key} className='contacts__item-link--additional' href={url} target={target} title={title}>
+    <a key={key} className='contacts__item-link--additional tooltip' href={url} target={target}>
       {icon}
+      <Tooltip title={title} />
     </a>
   )
 
