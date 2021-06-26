@@ -5,7 +5,7 @@ import { StorageKey, Theme, ToggleType } from '@consts/common'
 import { Toggle } from '@components'
 
 export const ThemeSwitcher: FC = () => {
-  const themeFromStorage = window.localStorage.getItem(StorageKey.THEME) ?? Theme.LIGHT
+  const themeFromStorage = window.localStorage.getItem(StorageKey.THEME) ?? Theme.DARK
 
   document.body.classList.add(themeFromStorage)
 
