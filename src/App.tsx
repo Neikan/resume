@@ -1,4 +1,4 @@
-import React, { Component, ReactElement } from 'react'
+import React, { FC, Suspense } from 'react'
 
 import {
   About,
@@ -11,27 +11,27 @@ import {
   Technologies
 } from '@components'
 
-export default class App extends Component {
-  public render (): ReactElement {
-    return (
-      <div className='content'>
-        <div className='content__info'>
-          <About />
-          <div className='content__details'>
-            <div className='content__details--left'>
-              <Contacts />
-              <Technologies />
-              <Education />
-            </div>
-            <div className='content__details--right'>
-              <ProfessionalExperience />
-              <Projects />
-              <Certificates />
-            </div>
+const App: FC = () => (
+  <Suspense fallback={null}>
+    <div className='content'>
+      <div className='content__info'>
+        <About />
+        <div className='content__details'>
+          <div className='content__details--left'>
+            <Contacts />
+            <Technologies />
+            <Education />
+          </div>
+          <div className='content__details--right'>
+            <ProfessionalExperience />
+            <Projects />
+            <Certificates />
           </div>
         </div>
-        <Switches />
       </div>
-    )
-  }
-}
+      <Switches />
+    </div>
+  </Suspense>
+)
+
+export default App

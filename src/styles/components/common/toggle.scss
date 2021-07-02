@@ -43,8 +43,8 @@
 }
 
 .toggle--type::before {
-  border-color: var(--gray-100);
-  background-color: #FFFFFF;
+  border-color: $white;
+  background-color: $white;
 }
 
 .toggle--on-language::before {

@@ -1,10 +1,12 @@
 .education {
   width: 100%;
-  margin-bottom: $space-6;
+  margin-right: var(--space-6);
+  margin-bottom: var(--space-6);
+  margin-left: var(--space-6);
 }
 
 .education__title {
-  margin-bottom: $space-4;
+  margin-bottom: var(--space-4);
 }
 
 .education__info {
@@ -25,14 +27,15 @@
 @media (min-width: $wt) {
   .education__info {
     grid-template-columns: $wt-container-left auto $wt-container-left;
-    grid-column-gap: $space-6;
+    grid-column-gap: var(--space-6);
   }
 }
 
 @media (min-width: $wd) {
   .education {
     width: $wt-container-left;
-    margin-bottom: $space-6;
+    margin-bottom: var(--space-6);
+    margin-right: 0;
   }
 
   .education__info {

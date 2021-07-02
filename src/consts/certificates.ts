@@ -99,28 +99,5 @@ export const CERTIFICATES: ICertificate[] = [
         ]
       }
     ]
-  },
-
-  {
-    resourse: 'SoloLearn',
-    coursesByYear: [
-      {
-        year: 2017,
-        courses: [
-          {
-            title: 'certificates:courses.sl-c#',
-            url: 'https://www.sololearn.com/Certificate/1080-3359650/pdf/'
-          },
-          {
-            title: 'certificates:courses.sl-js',
-            url: 'https://www.sololearn.com/Certificate/1024-3359650/pdf/'
-          },
-          {
-            title: 'certificates:courses.sl-sql',
-            url: 'https://www.sololearn.com/Certificate/1060-3359650/pdf/'
-          }
-        ]
-      }
-    ]
   }
 ]

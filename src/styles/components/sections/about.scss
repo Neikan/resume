@@ -1,13 +1,15 @@
 .about {
-  margin-bottom: $space-6;
+  margin-right: var(--space-6);
+  margin-bottom: var(--space-6);
+  margin-left: var(--space-6);
 }
 
 .about__photo {
   width: 8rem;
   height: 8rem;
   float: left;
-  margin-right: $space-4;
-  margin-bottom: $space-4;
+  margin-right: var(--space-4);
+  margin-bottom: var(--space-4);
 }
 
 .about__welcome {
@@ -17,7 +19,7 @@
 
 .about__text {
   display: block;
-  margin-top: $space-4;
+  margin-top: var(--space-4);
 }
 
 .about__text--primary {
@@ -38,14 +40,14 @@
   @extend .grid;
 
   grid-template-columns: repeat(auto-fill, minmax($all-icon__size--x1h, 1fr));
-  margin-top: $space-4;
+  margin-top: var(--space-4);
 }
 
 .about__interests {
   @extend .grid;
 
   grid-template-columns: repeat(auto-fill, minmax($all-icon__size--x1h, 1fr));
-  margin-top: $space-4;
+  margin-top: var(--space-4);
 }
 
 @media (min-width: $wt) {
@@ -57,7 +59,7 @@
     min-width: $wt-container-left;
     height: $ht-photo;
     float: none;
-    margin-right: $space-6;
-    margin-bottom: $space-6;
+    margin-right: var(--space-6);
+    margin-bottom: var(--space-6);
   }
 }

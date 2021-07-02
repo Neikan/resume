@@ -1,14 +1,16 @@
 .professional-experience {
-  margin-bottom: $space-6;
+  margin-right: var(--space-6);
+  margin-bottom: var(--space-6);
+  margin-left: var(--space-6);
 }
 
 .professional-experience__title {
-  margin-bottom: $space-4;
+  margin-bottom: var(--space-4);
 }
 
 .professional-experience__branches {
   position: relative;
-  padding-right: $space-2;
+  padding-right: var(--space-2);
 }
 
 .professional-experience__branches::after {
@@ -24,7 +26,7 @@
 
 .professional-experience__block--left,
 .professional-experience__block--right {
-  margin-bottom: $space-4;
+  margin-bottom: var(--space-4);
   text-align: right;
 }
 
@@ -39,12 +41,12 @@
 .professional-experience__info {
   display: flex;
   flex-direction: column;
-  margin-top: $space-3;
+  margin-top: var(--space-3);
 }
 
 .professional-experience__info--left,
 .professional-experience__info--right {
-  padding-right: $space-4;
+  padding-right: var(--space-4);
 }
 
 .professional-experience__period {
@@ -55,7 +57,7 @@
 
 .professional-experience__period--left,
 .professional-experience__period--right {
-  padding-right: $space-4;
+  padding-right: var(--space-4);
 }
 
 .professional-experience__position {
@@ -88,24 +90,30 @@
   .professional-experience__info {
     display: flex;
     flex-direction: column;
-    margin-top: $space-3;
+    margin-top: var(--space-3);
   }
 
   .professional-experience__info--left {
-    padding-right: $space-4;
+    padding-right: var(--space-4);
   }
 
   .professional-experience__info--right {
-    padding-left: $space-4;
+    padding-left: var(--space-4);
     padding-right: 0;
   }
 
   .professional-experience__period--left {
-    padding-right: $space-4;
+    padding-right: var(--space-4);
   }
 
   .professional-experience__period--right {
-    padding-left: $space-4;
+    padding-left: var(--space-4);
     padding-right: 0;
+  }
+}
+
+@media (min-width: $wd) {
+  .professional-experience {
+    margin-left: 0;
   }
 }

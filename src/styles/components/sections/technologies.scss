@@ -1,9 +1,11 @@
 .technologies {
-  margin-bottom: $space-6;
+  margin-right: var(--space-6);
+  margin-bottom: var(--space-6);
+  margin-left: var(--space-6);
 }
 
 .technologies__title {
-  margin-bottom: $space-4;
+  margin-bottom: var(--space-4);
 }
 
 .technologies__block {
@@ -21,7 +23,7 @@
 @media (min-width: $wd) {
   .technologies {
     width: $wt-container-left;
-    margin-bottom: $space-6;
-    margin-left: 0;
+    margin-bottom: var(--space-6);
+    margin-right: 0;
   }
 }

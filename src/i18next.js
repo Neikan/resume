@@ -23,7 +23,7 @@ i18n
     debug: false,
 
     react: {
-      useSuspense: false,
+      useSuspense: true,
       wait: true
     },
 
