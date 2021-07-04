@@ -8,8 +8,8 @@ import { Toggle } from '@components'
 export const LanguageSwitcher: FC = () => {
   const { i18n } = useTranslation()
 
-  const isEn = i18n.language === Language.EN
-  const newLanguage = isEn ? Language.RU : Language.EN
+  const isRu = i18n.language === Language.RU
+  const newLanguage = isRu ? Language.EN : Language.RU
 
   const handleChangeLanguage = (langKey: string) => (): Promise<void> =>
     i18n.changeLanguage(langKey).then(() => window.localStorage.setItem(StorageKey.LANGUAGE, langKey))
@@ -20,7 +20,7 @@ export const LanguageSwitcher: FC = () => {
       name='languageSwitcher'
       onChange={handleChangeLanguage(newLanguage)}
       type={ToggleType.LANGUAGE}
-      value={isEn}
+      value={isRu}
     />
   )
 }
