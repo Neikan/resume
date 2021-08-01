@@ -7,8 +7,7 @@ import {
   IconIonic,
   IconKotlin,
   IconNextJS,
-  IconSvelte,
-  IconVue
+  IconSvelte
 } from '@components/common/icons'
 
 export const FutureInterests: FC = () => {
@@ -22,7 +21,6 @@ export const FutureInterests: FC = () => {
         {t('about:intro.interests')}
         <span className='about__interests'>
           <IconNextJS />
-          <IconVue />
           <IconAngular />
           <IconSvelte />
           <IconGraphQL />
