@@ -25,7 +25,8 @@ export const PROJECTS: IProject[] = [
     name: 'docuForce Mobile',
     description: 'projects:description:dFM',
     technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
-    type: ProjectType.COMMERCIAL
+    type: ProjectType.COMMERCIAL,
+    url: 'https://play.google.com/store/apps/details?id=ru.infologistics.docuforce&hl=ru'
   },
   {
     name: 'RM-Keeper',
