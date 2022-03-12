@@ -1,0 +1,13 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9.95811 0L2 7.95811L4.46309 10.4212L14.8843 0H9.95811Z" fill="#47C5FB"/>
+  <path d="M9.9026 7.33881L5.64165 11.5998L8.11383 14.1088L10.5724 11.6502L14.8843 7.33881H9.9026Z" fill="#47C5FB"/>
+  <path d="M8.11382 14.1088L9.98536 15.9803H14.8843L10.5724 11.6502L8.11382 14.1088Z" fill="#00569E"/>
+  <path d="M5.61388 11.627L8.07697 9.16391L10.5724 11.6502L8.11381 14.1088L5.61388 11.627Z" fill="#00B5F8"/>
+  <path d="M8.11382 14.1088L10.161 13.4294L10.3644 11.8582L8.11382 14.1088Z" fill="url(#flutter1)" fill-opacity="0.8"/>
+  <defs>
+    <linearGradient id="flutter1" x1="8.15551" y1="12.5955" x2="9.77479" y2="13.1791" gradientUnits="userSpaceOnUse">
+      <stop/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

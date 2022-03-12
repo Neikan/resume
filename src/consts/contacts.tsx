@@ -36,7 +36,7 @@ export const MAIN_CONTACTS: IContact[] = [
   {
     icon: <IconTelegram {...mainContactIconProps} />,
     title: '@NeikaN_N',
-    url: 'tg:https://t.me/NeikaN_N'
+    url: 'https://t.me/NeikaN_N'
   }
 ]
 
