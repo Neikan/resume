@@ -2,12 +2,9 @@ import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import {
-  IconAngular,
-  IconGraphQL,
-  IconIonic,
-  IconKotlin,
-  IconNextJS,
-  IconSvelte
+  IconDart,
+  IconFlutter,
+  IconKotlin
 } from '@components/common/icons'
 
 export const FutureInterests: FC = () => {
@@ -20,11 +17,8 @@ export const FutureInterests: FC = () => {
       <span className='about__text'>
         {t('about:intro.interests')}
         <span className='about__interests'>
-          <IconNextJS />
-          <IconAngular />
-          <IconSvelte />
-          <IconGraphQL />
-          <IconIonic />
+          <IconFlutter />
+          <IconDart />
           <IconKotlin />
         </span>
       </span>
