@@ -22,11 +22,18 @@ export const PROJECTS: IProject[] = [
     url: 'https://docuforce.infologistics.ru/'
   },
   {
-    name: 'docuForce Mobile',
+    name: 'docuForce Mobile [Android]',
     description: 'projects:description:dFM',
     technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
     type: ProjectType.COMMERCIAL,
-    url: 'https://play.google.com/store/apps/details?id=ru.infologistics.docuforce&hl=ru'
+    url: 'https://play.google.com/store/apps/details?id=ru.infologistics.docuforce'
+  },
+  {
+    name: 'docuForce Mobile [iOS]',
+    description: 'projects:description:dFM',
+    technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
+    type: ProjectType.COMMERCIAL,
+    url: 'https://apps.apple.com/ru/app/docuforce/id1583931741'
   },
   {
     name: 'RM-Keeper',
