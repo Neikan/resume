@@ -2,6 +2,21 @@ import { ICertificate } from '@types'
 
 export const CERTIFICATES: ICertificate[] = [
   {
+    resourse: 'Udemy',
+    coursesByYear: [
+      {
+        year: 2021,
+        courses: [
+          {
+            title: 'certificates:courses.ud-rm',
+            url: 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-e3248191-075d-47fa-8d71-30c251c668da.pdf'
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     resourse: 'HTML Academy',
     coursesByYear: [
       {
