@@ -2,7 +2,8 @@
   "title": "Projects",
   "description": {
     "dF": "Legally significant Electronic document management system",
-    "dFM": "Mobile client for docuForce",
+    "dFM1": "Previous version of mobile client for docuForce",
+    "dFM2": "Current version of mobile client for docuForce",
     "rmk": "Electronic Storage System",
     "fl": "Library for common frontend components",
     "rclib": "My pet-project: library for common frontend components",
