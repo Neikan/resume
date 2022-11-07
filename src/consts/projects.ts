@@ -15,6 +15,20 @@ export enum ProjectType {
 
 export const PROJECTS: IProject[] = [
   {
+    name: 'docuForce Mobile [Android][v2]',
+    description: 'projects:description:dFM2',
+    technologies: 'Flutter, Dart',
+    type: ProjectType.COMMERCIAL,
+    url: 'https://play.google.com/store/apps/details?id=ru.infologistics.docuforce'
+  },
+  {
+    name: 'docuForce Mobile [iOS][v2]',
+    description: 'projects:description:dFM2',
+    technologies: 'Flutter, Dart',
+    type: ProjectType.COMMERCIAL,
+    url: 'https://apps.apple.com/ru/app/docuforce/id1583931741'
+  },
+  {
     name: 'docuForce',
     description: 'projects:description:dF',
     technologies: 'TypeScript, React, Redux, Jest, SASS/SCSS, Webpack',
@@ -22,18 +36,16 @@ export const PROJECTS: IProject[] = [
     url: 'https://docuforce.infologistics.ru/'
   },
   {
-    name: 'docuForce Mobile [Android]',
-    description: 'projects:description:dFM',
+    name: 'docuForce Mobile [Android][v1]',
+    description: 'projects:description:dFM1',
     technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
-    type: ProjectType.COMMERCIAL,
-    url: 'https://play.google.com/store/apps/details?id=ru.infologistics.docuforce'
+    type: ProjectType.COMMERCIAL
   },
   {
-    name: 'docuForce Mobile [iOS]',
-    description: 'projects:description:dFM',
+    name: 'docuForce Mobile [iOS][v1]',
+    description: 'projects:description:dFM1',
     technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
-    type: ProjectType.COMMERCIAL,
-    url: 'https://apps.apple.com/ru/app/docuforce/id1583931741'
+    type: ProjectType.COMMERCIAL
   },
   {
     name: 'RM-Keeper',

@@ -26,7 +26,9 @@ import {
   IconSwagger,
   IconTS,
   IconWebpack,
-  IconZeplin
+  IconZeplin,
+  IconFlutter,
+  IconDart
 } from '@components/common/icons'
 
 import { IIconProps } from '@components/common/Icon/types'
@@ -42,6 +44,8 @@ export const Technologies: FC = () => {
     <section className='technologies'>
       <h3 className='technologies__title'>{t('common:technologies')}</h3>
       <div className='technologies__block'>
+        <IconFlutter {...iconProps} />
+        <IconDart {...iconProps} />
         <IconTS {...iconProps} />
         <IconJS {...iconProps} />
         <IconJava {...iconProps} />

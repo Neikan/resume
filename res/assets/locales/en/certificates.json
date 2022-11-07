@@ -1,6 +1,7 @@
 {
   "title": "Courses, trainings and certificates",
   "courses": {
+    "ud-rm": "React Native 2020. JavaScript Mobile Apps",
     "ha-js3": "React. Development of Complex Front-end Applications",
     "ha-js2": "JavaScript. Client Application Architecture (prev: Professional JavaScript, Level 2)",
     "ha-html2": "HTML & CSS. Responsive layout and automation (prev: Professional HTML & CSS, Level 2)",

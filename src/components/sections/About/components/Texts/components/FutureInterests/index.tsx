@@ -2,8 +2,7 @@ import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import {
-  IconDart,
-  IconFlutter,
+  IconJava,
   IconKotlin
 } from '@components/common/icons'
 
@@ -17,9 +16,8 @@ export const FutureInterests: FC = () => {
       <span className='about__text'>
         {t('about:intro.interests')}
         <span className='about__interests'>
-          <IconFlutter />
-          <IconDart />
           <IconKotlin />
+          <IconJava />
         </span>
       </span>
     </>
