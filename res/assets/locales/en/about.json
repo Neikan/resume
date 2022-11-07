@@ -1,15 +1,13 @@
 {
   "intro": {
-    "welcome": "<Hello, world! />",
+    "welcome": "<Hey, world! />",
     "is": "My name is",
     "name": " Eugene",
     "and": " and I'm ",
     "batman": "Batman!",
     "smile": " :)",
-    "f-dev": " frontend-developer",
-    "city-1": " from Saint",
-    "city-2": "Perersburg!",
-    "path": "My path to frontend development was very long and thorny, but I did it!",
+    "f-dev": " flutter-developer",
+    "path": "My path to development was very long and thorny, but I did it!",
     "stack": "The main stack of technologies I use:",
     "future": "And now I try not to dwell on what I've already achieved, therefore I'm constantly learning something new in order to further develop in the chosen path.",
     "interests": "At the moment I'm interested in:"

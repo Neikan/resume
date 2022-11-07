@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { IconReact, IconRedux, IconSASS, IconTS } from '@components/common/icons'
+import { IconDart, IconFlutter } from '@components/common/icons'
 
 export const MainStack: FC = () => {
   const { t } = useTranslation()
@@ -10,10 +10,8 @@ export const MainStack: FC = () => {
     <span className='about__text'>
       {t('about:intro.stack')}
       <span className='about__stack'>
-        <IconTS />
-        <IconReact />
-        <IconRedux />
-        <IconSASS />
+        <IconFlutter />
+        <IconDart />
       </span>
     </span>
   )
