@@ -1,10 +1,7 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import {
-  IconJava,
-  IconKotlin
-} from '@components/common/icons'
+import { IconJava, IconKotlin } from '@components/common/icons'
 
 export const FutureInterests: FC = () => {
   const { t } = useTranslation()

@@ -16,96 +16,138 @@ export enum ProjectType {
 export const PROJECTS: IProject[] = [
   {
     name: 'docuForce Mobile [Android][v2]',
-    description: 'projects:description:dFM2',
-    technologies: 'Flutter, Dart',
+    description: 'projects:description.dFM2',
+    technologies: 'Flutter, Dart (Flutter Riverpod, Dio, i18n, Firebase, GetIt, Freezed, etc.)',
     type: ProjectType.COMMERCIAL,
     url: 'https://play.google.com/store/apps/details?id=ru.infologistics.docuforce'
   },
   {
     name: 'docuForce Mobile [iOS][v2]',
-    description: 'projects:description:dFM2',
-    technologies: 'Flutter, Dart',
+    description: 'projects:description.dFM2',
+    technologies: 'Flutter, Dart (Flutter Riverpod, Dio, i18n, Firebase, GetIt, Freezed, etc.)',
     type: ProjectType.COMMERCIAL,
     url: 'https://apps.apple.com/ru/app/docuforce/id1583931741'
   },
   {
     name: 'docuForce',
-    description: 'projects:description:dF',
+    description: 'projects:description.dF',
     technologies: 'TypeScript, React, Redux, Jest, SASS/SCSS, Webpack',
     type: ProjectType.COMMERCIAL,
     url: 'https://docuforce.infologistics.ru/'
   },
   {
     name: 'docuForce Mobile [Android][v1]',
-    description: 'projects:description:dFM1',
+    description: 'projects:description.dFM1',
     technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
     type: ProjectType.COMMERCIAL
   },
   {
     name: 'docuForce Mobile [iOS][v1]',
-    description: 'projects:description:dFM1',
+    description: 'projects:description.dFM1',
     technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
     type: ProjectType.COMMERCIAL
   },
   {
     name: 'RM-Keeper',
-    description: 'projects:description:rmk',
+    description: 'projects:description.rmk',
     technologies: 'TypeScript, React, Redux, Jest, SASS/SCSS, Webpack',
     type: ProjectType.COMMERCIAL,
     url: 'https://rm-keeper.infologistics.ru'
   },
   {
     name: 'Frontend Libraries',
-    description: 'projects:description:fl',
+    description: 'projects:description.fl',
     technologies: 'TypeScript, React, SCSS, Webpack/Rollup, Styleguidist',
     type: ProjectType.COMMERCIAL,
     url: 'https://www.npmjs.com/package/@infologistics/frontend-libraries'
   },
   {
-    name: 'RC-Lib',
-    description: 'projects:description:rclib',
-    technologies: 'TypeScript, React, SASS/SCSS, Webpack, Storybook',
-    type: ProjectType.PRIVATE,
-    url: 'https://www.npmjs.com/package/@neikan/rc-lib'
-  },
-  {
     name: 'Resume',
-    description: 'projects:description:resume',
+    description: 'projects:description.resume',
     technologies: 'TypeScript, React, SASS/SCSS, Webpack',
     type: ProjectType.PRIVATE,
     url: 'https://neikan.pro'
   },
   {
+    name: 'Bloc',
+    description: 'projects:description.bloc',
+    technologies: 'Flutter, Dart (Flutter Bloc, Dio, GetIt, Freezed)',
+    type: ProjectType.TRAINING,
+    url: 'https://github.com/Neikan/sb13-flutter_bloc'
+  },
+  {
+    name: 'Cubit',
+    description: 'projects:description.cubit',
+    technologies: 'Flutter, Dart (Flutter Bloc, Dio, GetIt, Freezed)',
+    type: ProjectType.TRAINING,
+    url: 'https://github.com/Neikan/sb13-cubit'
+  },
+  {
+    name: 'Redux',
+    description: 'projects:description.redux',
+    technologies: 'Flutter, Dart (Flutter Redux, Redux, Dio, GetIt, Freezed)',
+    type: ProjectType.TRAINING,
+    url: 'https://github.com/Neikan/sb13-redux'
+  },
+  {
+    name: 'Riverpod',
+    description: 'projects:description.riverpod',
+    technologies: 'Flutter, Dart (Flutter Riverpod, Dio, GetIt, Freezed)',
+    type: ProjectType.TRAINING,
+    url: 'https://github.com/Neikan/sb13-riverpod'
+  },
+  {
+    name: 'Riverpod with hooks',
+    description: 'projects:description.riverpodHooks',
+    technologies: 'Flutter, Dart (Flutter Riverpod, Flutter Hooks, Dio, GetIt, Freezed)',
+    type: ProjectType.TRAINING,
+    url: 'https://github.com/Neikan/sb13-riverpod-hooks'
+  },
+  {
+    name: 'Stream Bloc',
+    description: 'projects:description.streamBloc',
+    technologies: 'Flutter, Dart (Dio, GetIt, Freezed)',
+    type: ProjectType.TRAINING,
+    url: 'https://github.com/Neikan/sb13-stream-bloc'
+  },
+  {
+    name: 'SSM',
+    description: 'projects:description.ssm',
+    technologies: 'Flutter, Dart (Provider, Dio, GetIt, Freezed)',
+    type: ProjectType.TRAINING,
+    url: 'https://github.com/Neikan/sb13-ssm'
+  },
+  {
     name: 'What To Watch',
-    description: 'projects:description:whatToWatch',
+    description: 'projects:description.whatToWatch',
     technologies: 'JavaScript, React, Redux, Jest, Enzyme, Webpack',
     type: ProjectType.TRAINING,
     url: 'https://github.com/Neikan/htmlacademy-what-to-watch'
   },
   {
     name: 'Cinemaddict',
-    description: 'projects:description:cinemaddict',
+    description: 'projects:description.cinemaddict',
     technologies: 'JavaScript (ES6), Webpack',
     type: ProjectType.TRAINING,
     url: 'https://github.com/Neikan/htmlacademy-cinemaddict'
   },
   {
     name: 'Keksobooking',
-    description: 'projects:description:keksobooking',
+    description: 'projects:description.keksobooking',
     technologies: 'JavaScript (ES5)',
     type: ProjectType.TRAINING,
     url: 'https://github.com/Neikan/htmlacademy-keksobooking'
   },
   {
     name: 'Cat Energy',
-    description: 'projects:description:catEnergy',
+    description: 'projects:description.catEnergy',
     technologies: 'HTML, CSS, LESS, Gulp',
     type: ProjectType.TRAINING,
     url: 'https://github.com/Neikan/htmlacademy-cat-energy'
   },
   {
     name: 'Sedona',
-    description: 'projects:description:sedona',
+    description: 'projects:description.sedona',
     technologies: 'HTML, CSS',
     type: ProjectType.TRAINING,
     url: 'https://github.com/Neikan/htmlacademy-sedona'

@@ -2,6 +2,21 @@ import { ICertificate } from '@types'
 
 export const CERTIFICATES: ICertificate[] = [
   {
+    resourse: 'Skillbox',
+    coursesByYear: [
+      {
+        year: 2022,
+        courses: [
+          {
+            title: 'certificates:courses.sb-flutter',
+            url: 'https://skillbox.ru/course/flutter-upsale/'
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     resourse: 'Udemy',
     coursesByYear: [
       {

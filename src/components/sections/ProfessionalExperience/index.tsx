@@ -16,17 +16,14 @@ export const ProfessionalExperience: FC = () => {
   const { t } = useTranslation()
 
   const experincesBySides: IExperienceBlockExtended[] = EXPERIENCES.map((experience, index) => ({
-      ...experience,
-      side: index % 2 ? ExperienceBlockSide.RIGHT : ExperienceBlockSide.LEFT
-    }
-  ))
+    ...experience,
+    side: index % 2 ? ExperienceBlockSide.RIGHT : ExperienceBlockSide.LEFT
+  }))
 
   return (
     <section className='professional-experience'>
       <h3 className='professional-experience__title'>{t('experience:title')}</h3>
-      <div className='professional-experience__branches'>
-        {experincesBySides.map(renderExperienceBlock)}
-      </div>
+      <div className='professional-experience__branches'>{experincesBySides.map(renderExperienceBlock)}</div>
     </section>
   )
 }
