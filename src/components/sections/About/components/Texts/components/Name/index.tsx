@@ -11,8 +11,7 @@ export const Name: FC = () => {
       {t('about:intro.and')}
       <span className='about__text--through'>{t('about:intro.batman')}</span>
       {t('about:intro.smile')}
-      <span className='about__text--primary'>{t('about:intro.f-dev')}</span>
-      !
+      <span className='about__text--primary'>{t('about:intro.f-dev')}</span>!
     </span>
   )
 }
