@@ -17,14 +17,14 @@ export const PROJECTS: IProject[] = [
   {
     name: 'docuForce Mobile [Android][v2]',
     description: 'projects:description.dFM2',
-    technologies: 'Flutter, Dart (Flutter Riverpod, Dio, i18n, Firebase, GetIt, Freezed, etc.)',
+    technologies: 'Flutter, Dart (Flutter Bloc, Dio, i18n, Firebase, Freezed, etc.)',
     type: ProjectType.COMMERCIAL,
     url: 'https://play.google.com/store/apps/details?id=ru.infologistics.docuforce'
   },
   {
     name: 'docuForce Mobile [iOS][v2]',
     description: 'projects:description.dFM2',
-    technologies: 'Flutter, Dart (Flutter Riverpod, Dio, i18n, Firebase, GetIt, Freezed, etc.)',
+    technologies: 'Flutter, Dart (Flutter Bloc, Dio, i18n, Firebase, Freezed, etc.)',
     type: ProjectType.COMMERCIAL,
     url: 'https://apps.apple.com/ru/app/docuforce/id1583931741'
   },
@@ -116,41 +116,6 @@ export const PROJECTS: IProject[] = [
     technologies: 'Flutter, Dart (Provider, Dio, GetIt, Freezed)',
     type: ProjectType.TRAINING,
     url: 'https://github.com/Neikan/sb13-ssm'
-  },
-  {
-    name: 'What To Watch',
-    description: 'projects:description.whatToWatch',
-    technologies: 'JavaScript, React, Redux, Jest, Enzyme, Webpack',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/htmlacademy-what-to-watch'
-  },
-  {
-    name: 'Cinemaddict',
-    description: 'projects:description.cinemaddict',
-    technologies: 'JavaScript (ES6), Webpack',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/htmlacademy-cinemaddict'
-  },
-  {
-    name: 'Keksobooking',
-    description: 'projects:description.keksobooking',
-    technologies: 'JavaScript (ES5)',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/htmlacademy-keksobooking'
-  },
-  {
-    name: 'Cat Energy',
-    description: 'projects:description.catEnergy',
-    technologies: 'HTML, CSS, LESS, Gulp',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/htmlacademy-cat-energy'
-  },
-  {
-    name: 'Sedona',
-    description: 'projects:description.sedona',
-    technologies: 'HTML, CSS',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/htmlacademy-sedona'
   }
 ]
 
