@@ -1,6 +1,10 @@
 {
   "title": "Projects",
   "description": {
+    "MLife": "Personal assistant for employees",
+    "TerraLife": "Information application about company life",
+    "Zeus": "Cloud file storage",
+    "YGroup": "Application for real estate agents and developers",
     "dF": "Legally significant Electronic document management system",
     "dFM1": "Previous version of mobile client for docuForce",
     "dFM2": "Current version of mobile client for docuForce",
@@ -23,6 +27,7 @@
   },
   "headings": {
     "title": "Title",
+    "platform": "Urls",
     "type": "Type",
     "description": "Description",
     "technologies": "Technologies"

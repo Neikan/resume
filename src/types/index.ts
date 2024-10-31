@@ -31,5 +31,10 @@ export interface IProject {
   description: string
   technologies: string
   type: ProjectType
+  urls: IProjectPlatformUrl[]
+}
+
+export interface IProjectPlatformUrl {
+  title: string
   url?: string
 }

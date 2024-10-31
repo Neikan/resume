@@ -2,6 +2,7 @@ import { IProject } from '@types'
 
 export const HEADINGS = [
   'projects:headings.title',
+  'projects:headings.platform',
   'projects:headings.type',
   'projects:headings.description',
   'projects:headings.technologies'
@@ -15,107 +16,146 @@ export enum ProjectType {
 
 export const PROJECTS: IProject[] = [
   {
-    name: 'docuForce Mobile [Android][v2]',
-    description: 'projects:description.dFM2',
+    name: 'M.Life',
+    description: 'projects:description.MLife',
     technologies: 'Flutter, Dart (Flutter Bloc, Dio, i18n, Firebase, Freezed, etc.)',
     type: ProjectType.COMMERCIAL,
-    url: 'https://play.google.com/store/apps/details?id=ru.infologistics.docuforce'
+    urls: [
+      {
+        title: 'iOS',
+        url: 'https://apps.apple.com/app/m-life/id6636485194'
+      },
+      {
+        title: 'Android',
+        url: 'https://play.google.com/store/apps/details?id=com.mlife.mtgagro.app'
+      }
+    ]
   },
   {
-    name: 'docuForce Mobile [iOS][v2]',
+    name: 'TerraLife',
+    description: 'projects:description.TerraLife',
+    technologies: 'Flutter, Dart (Flutter Bloc, Dio, i18n, Firebase, Freezed, etc.)',
+    type: ProjectType.COMMERCIAL,
+    urls: [
+      {
+        title: 'iOS',
+        url: 'https://apps.apple.com/ru/app/terralife/id6444009593'
+      },
+      {
+        title: 'Android',
+        url: 'https://www.rustore.ru/catalog/app/com.terralink.app'
+      }
+    ]
+  },
+  {
+    name: 'YGroup',
+    description: 'projects:description.YGroup',
+    technologies: 'Flutter, Dart (Flutter Bloc, Dio, i18n, Firebase, Freezed, Google Maps, Yandex Maps etc.)',
+    type: ProjectType.COMMERCIAL,
+    urls: [
+      {
+        title: 'iOS',
+        url: 'https://apps.apple.com/ru/app/ygroup/id6446233387'
+      },
+      {
+        title: 'Android',
+        url: 'https://play.google.com/store/apps/details?id=com.ygroupcompany.app&hl=ru'
+      }
+    ]
+  },
+  {
+    name: 'Zeus File Manager',
+    description: 'projects:description.Zeus',
+    technologies: 'Flutter, Dart (Flutter Bloc, Dio, i18n, Firebase, Freezed, etc.)',
+    type: ProjectType.COMMERCIAL,
+    urls: [
+      {
+        title: 'iOS',
+        url: 'https://apps.apple.com/ru/app/zeus-file-manager/id6449832116?l=en-GB'
+      },
+      {
+        title: 'Android',
+        url: 'https://play.google.com/store/apps/details?id=com.zeus.file'
+      }
+    ]
+  },
+  {
+    name: 'docuForce Mobile [v2]',
     description: 'projects:description.dFM2',
     technologies: 'Flutter, Dart (Flutter Bloc, Dio, i18n, Firebase, Freezed, etc.)',
     type: ProjectType.COMMERCIAL,
-    url: 'https://apps.apple.com/ru/app/docuforce/id1583931741'
+    urls: [
+      {
+        title: 'iOS',
+        url: 'https://apps.apple.com/ru/app/docuforce/id1583931741'
+      },
+      {
+        title: 'Android',
+        url: 'https://play.google.com/store/apps/details?id=ru.infologistics.docuforce'
+      }
+    ]
+  },
+  {
+    name: 'docuForce Mobile [v1]',
+    description: 'projects:description.dFM1',
+    technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
+    type: ProjectType.COMMERCIAL,
+    urls: [
+      {
+        title: 'iOS'
+      },
+      {
+        title: 'Android'
+      }
+    ]
   },
   {
     name: 'docuForce',
     description: 'projects:description.dF',
     technologies: 'TypeScript, React, Redux, Jest, SASS/SCSS, Webpack',
     type: ProjectType.COMMERCIAL,
-    url: 'https://docuforce.infologistics.ru/'
-  },
-  {
-    name: 'docuForce Mobile [Android][v1]',
-    description: 'projects:description.dFM1',
-    technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
-    type: ProjectType.COMMERCIAL
-  },
-  {
-    name: 'docuForce Mobile [iOS][v1]',
-    description: 'projects:description.dFM1',
-    technologies: 'Cordova, TypeScript, React, Redux, SASS/SCSS, Webpack',
-    type: ProjectType.COMMERCIAL
+    urls: [
+      {
+        title: 'Web',
+        url: 'https://docuforce.infologistics.ru/'
+      }
+    ]
   },
   {
     name: 'RM-Keeper',
     description: 'projects:description.rmk',
     technologies: 'TypeScript, React, Redux, Jest, SASS/SCSS, Webpack',
     type: ProjectType.COMMERCIAL,
-    url: 'https://rm-keeper.infologistics.ru'
+    urls: [
+      {
+        title: 'Web',
+        url: 'https://rm-keeper.infologistics.ru'
+      }
+    ]
   },
   {
     name: 'Frontend Libraries',
     description: 'projects:description.fl',
     technologies: 'TypeScript, React, SCSS, Webpack/Rollup, Styleguidist',
     type: ProjectType.COMMERCIAL,
-    url: 'https://www.npmjs.com/package/@infologistics/frontend-libraries'
+    urls: [
+      {
+        title: 'Web',
+        url: 'https://www.npmjs.com/package/@infologistics/frontend-libraries'
+      }
+    ]
   },
   {
     name: 'Resume',
     description: 'projects:description.resume',
     technologies: 'TypeScript, React, SASS/SCSS, Webpack',
     type: ProjectType.PRIVATE,
-    url: 'https://neikan.pro'
-  },
-  {
-    name: 'Bloc',
-    description: 'projects:description.bloc',
-    technologies: 'Flutter, Dart (Flutter Bloc, Dio, GetIt, Freezed)',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/sb13-flutter_bloc'
-  },
-  {
-    name: 'Cubit',
-    description: 'projects:description.cubit',
-    technologies: 'Flutter, Dart (Flutter Bloc, Dio, GetIt, Freezed)',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/sb13-cubit'
-  },
-  {
-    name: 'Redux',
-    description: 'projects:description.redux',
-    technologies: 'Flutter, Dart (Flutter Redux, Redux, Dio, GetIt, Freezed)',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/sb13-redux'
-  },
-  {
-    name: 'Riverpod',
-    description: 'projects:description.riverpod',
-    technologies: 'Flutter, Dart (Flutter Riverpod, Dio, GetIt, Freezed)',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/sb13-riverpod'
-  },
-  {
-    name: 'Riverpod with hooks',
-    description: 'projects:description.riverpodHooks',
-    technologies: 'Flutter, Dart (Flutter Riverpod, Flutter Hooks, Dio, GetIt, Freezed)',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/sb13-riverpod-hooks'
-  },
-  {
-    name: 'Stream Bloc',
-    description: 'projects:description.streamBloc',
-    technologies: 'Flutter, Dart (Dio, GetIt, Freezed)',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/sb13-stream-bloc'
-  },
-  {
-    name: 'SSM',
-    description: 'projects:description.ssm',
-    technologies: 'Flutter, Dart (Provider, Dio, GetIt, Freezed)',
-    type: ProjectType.TRAINING,
-    url: 'https://github.com/Neikan/sb13-ssm'
+    urls: [
+      {
+        title: 'Web',
+        url: 'https://neikan.pro'
+      }
+    ]
   }
 ]
 
