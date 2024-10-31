@@ -7,6 +7,11 @@ export enum ExperienceBlockSide {
 
 export const EXPERIENCES: IExperienceBlock[] = [
   {
+    period: 'experience:experience.tl_dev.period',
+    company: 'experience:experience.tl_dev.company',
+    position: 'experience:experience.tl_dev.position'
+  },
+  {
     period: 'experience:experience.free.period',
     company: 'experience:experience.free.company',
     position: 'experience:experience.free.position'

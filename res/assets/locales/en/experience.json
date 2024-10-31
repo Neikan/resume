@@ -1,14 +1,19 @@
 {
   "title": "Professional experience",
   "experience": {
+    "tl_dev" : {
+      "period": "August 2023 - present",
+      "company": "TerraLink",
+      "position": "Flutter-developer"
+    },
     "free" : {
-      "period": "March 2020 – present",
-      "company": "Project development for InfoLogistics as Individual Entrepreneur",
+      "period": "March 2020 – August 2023",
+      "company": "Project development as Individual Entrepreneur",
       "position": "Flutter-developer"
     },
     "tl": {
       "period": "April 2016 – March 2020",
-      "company": "LLC “TerraLink Development”",
+      "company": "TerraLink",
       "position": "QA"
     },
     "gc": {
